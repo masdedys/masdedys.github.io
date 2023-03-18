@@ -119,10 +119,13 @@ footer ul li a:hover {
   font-size: 20px;
 }
 /* Credit */
-.credit a {
+.credit p a {
   list-style: none;
   text-decoration: none;
   color: #000;
+}
+.credit p a:hover {
+  color: blue;
 }
 /* Media queries */
 /* Laptop */
