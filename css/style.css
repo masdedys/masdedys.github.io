@@ -127,6 +127,7 @@ footer ul li a:hover {
 .credit p a:hover {
   color: blue;
 }
+
 /* Media queries */
 /* Laptop */
 @media (max-width: 1366px) {
