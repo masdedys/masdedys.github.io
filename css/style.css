@@ -128,6 +128,9 @@ footer ul li a:hover {
   color: blue;
 }
 
+.foto .card .card-body .card-text .text-body-secondary a:hover {
+  color: black;
+}
 /* Media queries */
 /* Laptop */
 @media (max-width: 1366px) {
