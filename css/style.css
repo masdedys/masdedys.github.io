@@ -11,6 +11,39 @@ html {
 .feather-35 {
   width: 35px;
   height: 35px;
+  color: white;
+  margin: 0 auto;
+}
+.contact .circle-pertama,
+.contact .circle-kelima {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.contact .circle-kedua {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.contact .circle-ketiga {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.contact .circle-keempat {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.contact .circle-pertama:hover,
+.contact .circle-kedua:hover,
+.contact .circle-ketiga:hover,
+.contact .circle-keempat:hover,
+.contact .circle-kelima:hover {
+  background-color: red;
+}
+.circle a {
+  color: white;
 }
 /* Navbar */
 nav {
@@ -64,7 +97,7 @@ nav {
 }
 
 .a {
-  background-image: url("assets/img/a.jpg");
+  background-image: url("assets/img/gundam.jpg");
 }
 /* Contact */
 .contact p {
@@ -131,6 +164,13 @@ footer ul li a:hover {
 .foto .card .card-body .card-text .text-body-secondary a:hover {
   color: black;
 }
+.footer-icon {
+  font-size: 30px;
+}
+.footer-icon:hover {
+  color: red;
+  font-size: 30px;
+}
 /* Media queries */
 /* Laptop */
 @media (max-width: 1366px) {
@@ -140,4 +180,7 @@ footer ul li a:hover {
 }
 /* Smartphone */
 @media (max-width: 450px) {
+  .hero-content {
+    margin-top: 70px;
+  }
 }
