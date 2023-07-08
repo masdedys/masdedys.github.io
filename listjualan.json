@@ -1,0 +1,28 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "kategori": "information technology",
+      "nama": "Buku Belajar JS Dasar",
+      "deskripsi": "Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam.",
+      "harga": 49500,
+      "gambar": "ai-character.jpg"
+    },
+    {
+      "id": "1",
+      "kategori": "motivation",
+      "nama": "Buku Belajar JS Dasar",
+      "deskripsi": "Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam.",
+      "harga": 49500,
+      "gambar": "ai-character.jpg"
+    },
+    {
+      "id": "1",
+      "kategori": "information technology",
+      "nama": "Buku Belajar JS Dasar",
+      "deskripsi": "Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam.",
+      "harga": 49500,
+      "gambar": "ai-character.jpg"
+    }
+  ]
+}
