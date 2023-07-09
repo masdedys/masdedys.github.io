@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>shop - mas_dedys</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="assets/img/logo.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../assets/img/logo.png" />
     <!-- daisyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.2.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -30,8 +30,7 @@
               </svg>
             </label>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="#navbar">Home</a></li>
-              <li><a href="#menus">Menu</a></li>
+              <li><a href="../shop.html">Back to Shop</a></li>
               <li><a href="#footer">Info</a></li>
             </ul>
           </div>
@@ -41,8 +40,7 @@
         </div>
         <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a href="#navbar">Home</a></li>
-            <li><a href="#menus">Menu</a></li>
+            <li><a href="../shop.html">Back to Shop</a></li>
             <li><a href="#footer">Info</a></li>
           </ul>
         </div>
@@ -54,30 +52,40 @@
     <section class="profile" id="profile">
       <div class="hero min-h-screen bg-base-200 p-5">
         <div class="hero-content flex-col lg:flex-row p-5">
-          <img src="assets/img/shop.png" class="max-w-xs shadow-2xl" />
+          <img src="../assets/jualan/Pemrograman Android untuk Pemula.jpg" class="max-w-xs shadow-2xl" />
           <div class="px-10">
-            <h1 class="text-5xl font-bold">Hi...</h1>
-            <p class="py-6">Assalamu'alaykum. Selamat datang di toko saya, disini saya menjual beberapa barang. Untuk info lebih lanjut bisa chat saya di instagram saya di mas_dedys. Terima Kasih</p>
-            <a href="#menus"><button class="btn btn-primary">Cari Produk</button></a>
+            <h1 class="text-3xl font-bold">Pemrograman Android untuk Pemula</h1>
+            <p class="py-6">
+              Buku ini mengupas pemrograman android dari nol, mulai dari instalasi Java, Eclipse, hingga menulis baris - baris pemrograman yang singkat namun jelas. Tujuannya untuk membantu anda memahami bagaimana cara menulis kode - kode
+              dibalik aplikasi android.
+            </p>
+            <h2>Price: 20k</h2>
+            <br />
+            <div class="card-actions justify-end py-5">
+              <div class="badge badge-outline">Information Technology</div>
+            </div>
+            <button class="btn btn-primary" onclick="my_modal_1.showModal()">Buy Now</button>
+            <dialog id="my_modal_1" class="modal">
+              <form method="dialog" class="modal-box">
+                <h3 class="font-bold text-lg">Hello!</h3>
+                <p class="py-4">
+                  Mohon maaf atas ketidaknyamanannya, pemesanan masih dilakukan secara manual. Kamu bisa DM saya di Instagram saya di mas_dedys. Atau klik tombol ini, <br /><br />
+                  <button class="btn btn-primary">
+                    <a href="https://www.instagram.com/mas_dedys/" target="_blank"> <i class="bi bi-instagram" style="font-size: 25px"></i></a>
+                  </button>
+                </p>
+                <div class="modal-action">
+                  <button class="btn">Close</button>
+                </div>
+              </form>
+            </dialog>
           </div>
         </div>
       </div>
     </section>
-    <section class="menus py-20" id="menus">
-      <h2 class="text-5xl font-bold text-center py-6">Menu</h2>
-      <div class="flex flex-wrap gap-4 justify-center content-center my-3">
-        <a href="#product" class="btn btn-primary my-3 menu-info">Information Technology</a>
-        <a href="#product" class="btn btn-primary my-3 menu-info">Motivation</a>
-        <a href="#product" class="btn btn-primary my-3 menu-info">Business</a>
-      </div>
-    </section>
-    <section class="product py-20" id="product">
-      <h1 class="text-5xl font-bold text-center py-6">All Product</h1>
-      <div class="card-photoshop flex flex-wrap justify-center gap-4" id="daftar-menu"></div>
-    </section>
     <footer id="footer" class="footer p-10 bg-neutral text-neutral-content mt-5">
       <div>
-        <img src="assets/img/logo.png" width="70px" height="70px" class="rounded-xl m-3" alt="" />
+        <img src="../assets/img/logo.png" width="70px" height="70px" class="rounded-xl m-3" alt="" />
         <p>
           mas_dedys © 2023<br />
           Toko online sederhana dari mas_dedys.
@@ -85,20 +93,18 @@
       </div>
       <div>
         <span class="footer-title">Product</span>
-        <a href="#product" class="link link-hover menu-info">Information Technology</a>
-        <a href="#product" class="link link-hover menu-info">Motivation</a>
-        <a href="#product" class="link link-hover menu-info">Business</a>
+        <a href="../shop.html#product" class="link link-hover menu-info">All Product</a>
       </div>
       <div>
         <span class="footer-title">Payment</span>
         <div class="grid grid-flow-col gap-4">
-          <img src="assets/img/bca.webp" class="w-14 rounded" alt="" />
-          <img src="assets/img/bri.webp" class="w-14 rounded" alt="" />
-          <img src="assets/img/brimo.webp" class="w-14 rounded" alt="" />
+          <img src="../assets/img/bca.webp" class="w-14 rounded" alt="" />
+          <img src="../assets/img/bri.webp" class="w-14 rounded" alt="" />
+          <img src="../assets/img/brimo.webp" class="w-14 rounded" alt="" />
         </div>
         <span class="footer-title">Delivery</span>
         <div class="grid grid-flow-col gap-4">
-          <img src="assets/img/JNE.webp" class="w-14 rounded" alt="" />
+          <img src="../assets/img/JNE.webp" class="w-14 rounded" alt="" />
         </div>
       </div>
       <div>
@@ -109,7 +115,7 @@
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 
     <!-- AOS  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
