@@ -1,0 +1,12 @@
+nav {
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.sosmed > .row > .col-md > span > .circle-pertama {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.sosmed > .row > .col-md > span > .circle-pertama > .size-35 {
+  color: grey;
+  margin: 0 auto;
+}
