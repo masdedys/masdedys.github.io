@@ -70,9 +70,10 @@
       text-decoration: none;
       color: black;
     }
-    @media (max-width: 320px) {
+    @media only screen and (max-width: 320px) {
       .header > .jumbotron > h1 {
         font-size: 60px;
+        margin: auto 0px;
       }
       .header > .jumbotron > p {
         font-size: 20px;
@@ -109,8 +110,8 @@
     </nav>
     <!--header-->
     <section class="header my-5 py-5 my-md-5 py-md-5">
-      <div class="jumbotron container">
-        <h1 class="display-4 my-4 pt-4 my-md-2 py-md-2" data-aos="fade-up">Hello, bro!</h1>
+      <div class="jumbotron container my-5 my-sm-0 py-sm-0">
+        <h1 class="display-4 my-4 pt-4" data-aos="fade-up">Hello, bro!</h1>
         <p class="lead">This is my simple website, in here I want to share all about my computer experiences and my life.</p>
         <hr class="mb-2" />
         <p>Like UI Design, Illustration, Coding, etc.</p>
