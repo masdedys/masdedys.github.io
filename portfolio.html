@@ -6,6 +6,11 @@
     <title>portfolio - mas_dedys</title>
     <!--favicon-->
     <link rel="shortcut icon" href="assets/img/logo.png" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+
     <!--daisyui-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -17,6 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,200&display=swap" rel="stylesheet" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--pace js-->
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="stylesheet" href="css/barber-shop.css" />
   </head>
   <body>
     <!--navbar-->
@@ -177,46 +185,70 @@
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-koki-with-orange.png" alt="" data-aos="flip-left"/>
+            <a href="assets/portofolio/portfolio-koki-with-orange.png" data-fancybox="gallery" data-caption="Photoshop - Fish on Orange">
+              <figure><img src="assets/portofolio/portfolio-koki-with-orange.png" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="100" /></figure>
+            </a>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-effect.jpg" alt="" data-aos="flip-left" data-aos-delay="100" />
+            <a href="assets/portofolio/portfolio-effect.jpg" data-fancybox="gallery" data-caption="Photoshop - Duetone Effect">
+              <figure><img src="assets/portofolio/portfolio-effect.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="200" /></figure>
+            </a>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-payment-apps-design.jpg" data-aos="flip-left" alt="" data-aos-delay="200" />
-          </div>
-        </div>
-        <div class="grid gap-4">
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-nature-hill.jpg" alt="" data-aos="flip-left" data-aos-delay="100" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-robot_rx-78-2.jpg" alt="" data-aos="flip-left" />
-          </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-logo-kawahputih.jpg" alt="" data-aos="flip-left" data-aos-delay="200" />
+            <a href="assets/portofolio/portfolio-payment-apps-design.jpg" data-fancybox="gallery" data-caption="Figma - Payment Apps Design">
+              <figure><img src="assets/portofolio/portfolio-payment-apps-design.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="300" /></figure>
+            </a>
           </div>
         </div>
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-ads-ponari-sweat.jpg" alt="" data-aos="flip-left" data-aos-delay="200" />
+            <a href="assets/portofolio/portfolio-nature-hill.jpg" data-fancybox="gallery" data-caption="Illustrator - Happy Pokemons">
+              <figure><img src="assets/portofolio/portfolio-nature-hill.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="100" /></figure>
+            </a>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-publication.jpg" alt="" data-aos="flip-left" data-aos-delay="100" />
+            <a href="assets/portofolio/portfolio-robot_rx-78-2.jpg" data-fancybox="gallery" data-caption="Illustrator - Gundam RX-78-2">
+              <figure><img src="assets/portofolio/portfolio-robot_rx-78-2.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="200" /></figure>
+            </a>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-warung.jpg" alt="" data-aos="flip-left" />
+            <a href="assets/portofolio/portfolio-logo-kawahputih.jpg" data-fancybox="gallery" data-caption="Illustrator - Kawah Putih's Logo Design">
+              <figure><img src="assets/portofolio/portfolio-logo-kawahputih.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="300" /></figure>
+            </a>
           </div>
         </div>
         <div class="grid gap-4">
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-shaping-domba.jpg" alt="" data-aos="flip-left"/>
+            <a href="assets/portofolio/portfolio-ads-ponari-sweat.jpg" data-fancybox="gallery" data-caption="Photoshop - Ponari Sweat">
+              <figure><img src="assets/portofolio/portfolio-ads-ponari-sweat.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="100" /></figure>
+            </a>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-product.jpg" alt="" data-aos="flip-left" data-aos-delay="100" />
+            <a href="assets/portofolio/portfolio-publication.jpg" data-fancybox="gallery" data-caption="Photoshop - Inaya Canteen's Banner">
+              <figure><img src="assets/portofolio/portfolio-publication.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="200" /></figure>
+            </a>
           </div>
           <div>
-            <img class="h-auto max-w-full rounded-lg" src="assets/portofolio/portfolio-silhouette_kepintu.jpg" alt="" data-aos="flip-left" data-aos-delay="200" />
+            <a href="assets/portofolio/portfolio-warung.jpg" data-fancybox="gallery" data-caption="3dmax - Warung Mas Dedys">
+              <figure><img src="assets/portofolio/portfolio-warung.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="300" /></figure>
+            </a>
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div>
+            <a href="assets/portofolio/portfolio-shaping-domba.jpg" data-fancybox="gallery" data-caption="Illustrator - Shaping sheep">
+              <figure><img src="assets/portofolio/portfolio-shaping-domba.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="100" /></figure>
+            </a>
+          </div>
+          <div>
+            <a href="assets/portofolio/portfolio-product.jpg" data-fancybox="gallery" data-caption="Illustrator - Box Packaging">
+              <figure><img src="assets/portofolio/portfolio-product.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="200" /></figure>
+            </a>
+          </div>
+          <div>
+            <a href="assets/portofolio/portfolio-silhouette_kepintu.jpg" data-fancybox="gallery" data-caption="Illustrator - Sufi's Silhouette">
+              <figure><img src="assets/portofolio/portfolio-silhouette_kepintu.jpg" class="h-auto max-w-full rounded-lg" alt="Shoes" data-aos="flip-left" data-aos-delay="300" /></figure>
+            </a>
           </div>
         </div>
       </div>
@@ -334,7 +366,8 @@
     </section>
     <!--/copyright-->
 
-    
+    <script src="js/script.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <!-- AOS  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
