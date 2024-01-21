@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>mas_dedys's Personal Website - masdedys.github.io</title>
+    <title>mas_dedys's little shop - masdedys.github.io</title>
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/barber-shop.css" />
     <style>
       body {
-        padding-top: 80px;
+        padding-top: 70px;
         font-family: "Poppins", sans-serif;
       }
       nav {
@@ -31,16 +31,22 @@
       nav .nav-link:hover {
         color: #f8e559;
       }
-      .aboutme {
-        padding-top: 150px;
+      .header > .jumbotron > h1 {
+      font-size: 100px;
       }
-      .aboutme p {
+      .header > .jumbotron > p {
+        font-size: 36px;
+      }
+      .category {
+        margin-top: 70px;
+      }
+      .menus p {
         font-size: 24px;
       }
-      .portfolio {
+      .faq {
         padding-top: 150px;
       }
-      .portfolio p {
+      .faq p {
         font-size: 24px;
         margin-top: 48px;
       }
@@ -120,10 +126,23 @@
         body {
           padding-top: 10px;
         }
+        .header{
+          margin-bottom: 20px;
+        }
+        .header>.jumbotron > .display-4{
+          font-size: 42px;
+          margin-left: 16px;
+        }
+        .header>.jumbotron > .btn{
+          margin-left: 16px;
+        }
+        .header>.jumbotron > .lead{
+          font-size: 24px;
+        }
         h1,p,.btnletsgo{
           margin-left: 16px;
         }
-        .aboutme{
+        .category{
           padding-top: 50px;
         }
         .carousel {
@@ -137,9 +156,9 @@
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="home">
       <!--navbar-->
-      <nav class="navbar fixed-top navbar-expand-lg mb-5 mb-sm-2" style="background-color: #3b3486">
+      <nav class="navbar fixed-top navbar-expand-lg mb-5 mb-sm-2" style="background-color: #ff7f00">
         <div class="container py-3">
           <a class="navbar-brand" href="https://masdedys.github.io/">
             <img src="assets/img/logo.png" alt="" />
@@ -150,16 +169,16 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#aboutme">About me</a>
+                <a class="nav-link" href="#category">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#faq">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#kontak">Kontak</a>
               </li>
             </ul>
           </div>
@@ -167,75 +186,85 @@
       </nav>
       <!--/navbar-->
     </div>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!--jumbotron-->
+    <section class="header my-3 py-3 my-sm-2 py-sm-2" id="header">
+      <div class="jumbotron container my-3 my-sm-0 py-sm-0">
+        <h2 class="display-4 my-4 pt-4" data-aos="fade-up">Hello</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="300">Assalamu'alaykum.. Selamat datang di toko saya, disini saya menjual beberapa barang. Untuk info lebih lanjut bisa chat saya di instagram saya di mas_dedys. Terima Kasih</p>
+        <hr class="mb-2" />
+        <a class="btn btn-primary btn-lg" href="#category" role="button" data-aos="fade-up" data-aos-delay="700">Cari Produk</a>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="1000">
-          <img src="https://placehold.co/600x250" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block text-dark text-start">
-            <h1>Terima pasang iklan 1</h1>
-            <p>Hubungi @mas_dedys</p>
-            <p><button type="button" class="btn btn-primary btn-lg">Button</button></p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="https://placehold.co/600x250" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block text-dark">
-            <h1>Terima pasang iklan 2</h1>
-            <p>Hubungi @mas_dedys</p>
-            <p><button type="button" class="btn btn-primary btn-lg">Button</button></p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img src="https://placehold.co/600x250" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block text-dark">
-            <h5>Terima pasang iklan 3</h5>
-            <p>Hubungi @mas_dedys</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </section>
+    <!--/jumbotron-->
     <div class="container">
-      <!--aboutme-->
-      <section id="aboutme" class="aboutme">
-        <div class="row mt-4 py-5 mt-sm-2 pt-sm-2">
-          <div class="col-sm-6 d-flex justify-content-center">
-            <p><img src="assets/img/ku.jpg" class="img-fluid img-thumbnail justify-content-center" width="300px" height="300px" alt="..." /></p>
-          </div>
-          <div class="col-sm-6">
-            <h1 data-aos="fade-up">Hello my name is Dedy, you can call me Dedy.</h1>
-            <br />
-            <p data-aos="flip-left" data-aos-delay="200">My Hobby is learning about computer, reading books, assemble gunpla, ect. I hope what I sharing for you can help you. ^_^</p>
-          </div>
-        </div>
-      </section>
-      <!--/aboutme-->
-      <!--portfolio-->
-      <section id="portfolio" class="portfolio mt-sm-2 mb-sm-2 pb-5">
-        <div class="row d-flex justify-content-between text-center">
-          <div class="col-sm py-4 galeri"><img src="assets/img/portfoliooo.png" width="100%" alt="" srcset="" /><br /></div>
-          <div class="col-sm py-4 galeri text-start">
-            <h1 data-aos="fade-up">Hello, Welcome to <br />My Portfolio</h1>
-            <p data-aos="flip-left" data-aos-delay="200">Let's see my portfolio</p>
-            <a href="https://masdedys.github.io/portfolio.html"><button type="button" class="btn btn-outline-primary btn-lg mb-2 mt-2 btnletsgo">Let's Go</button></a>
+      <!--kategori-->
+      <section class="category py-5 my-3 my-sm-2 py-sm-2" id="category">
+        <div class="row mt-5 py-5 mt-sm-2 pt-sm-2">
+          <h2 class="py-5">Kategori</h2>
+          <div class="col-sm-8 justify-content-between">
+            <button type="button" class="btn btn-primary btn-lg menu-info my-3">All Product</button>
+            <button type="button" class="btn btn-primary btn-lg menu-info my-3">Information Technology</button>
+            <button type="button" class="btn btn-secondary btn-lg menu-info my-3">Motivation</button>
+            <button type="button" class="btn btn-secondary btn-lg menu-info my-3">Business</button>
           </div>
         </div>
       </section>
-      <!--/portfolio-->
+      <!--/kategori-->
+      <!--product-->
+      <section id="product" class="product">
+        <h1>All Product</h1>
+        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-menu">
+          
+        </div>
+      </section>
+      <!--/product-->
+      <!--faq-->
+      <section id="faq" class="faq mt-sm-2 mb-sm-2 pb-5">
+        <h2>F.A.Q</h2>
+        <div class="row d-flex justify-content-between">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Bagaimana cara pesan produk yang diminati?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Caranya</strong> Kamu bisa langsung aja DM saya di instagram saya <a href="https://www.instagram.com/mas_dedys/">@mas_dedys</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Pembayarannya bisa pakai apa aja?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Buat Pembayaran</strong> Insya Alloh saya bisa kasih kamu langsung produknya setelah itu kamu bayar, atau bisa juga transfer di BRI atau BCA. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Ready terus ga barangnya?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Ketersediaan barang</strong> tergantung dari jumlah yang ada, sebelum pesan kamu tanya-tanya saya dulu yah di instagram saya di <a href="https://www.instagram.com/mas_dedys/">@mas_dedys</a>
+                    </div> . 
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </section>
+      <!--/faq-->
       <!--contact-->
-      <section id="contact" class="contact">
+      <section id="kontak" class="contact">
         <div class="row py-5">
           <div class="col-md text-center">
             <img src="assets/img/social media.jpg" class="img-thumbnail rounded-circle m-4" alt="" width="24%" srcset="" data-aos="flip-left" />
@@ -243,7 +272,7 @@
         </div>
         <div class="row d-flex justify-content-between pb-5">
           <div class="col-md text-center">
-            <h1 data-aos="flip-left">My Social Media</h1>
+            <h2 data-aos="flip-left">My Social Media</h2>
             <span class="my-1 justify-content-center text-center">
               <a class="btn btn-lg circle-pertama text-center" href="https://www.instagram.com/mas_dedys/" role="button" title="Instagram"><i class="bi bi-instagram size-35"></i></a>
               <a class="btn btn-lg circle-pertama text-center" href="https://www.youtube.com/channel/UCsZygXjR6iZgNSMz2rwiujw" role="button" title="Youtube"><i class="bi bi-youtube size-35"></i></a>
@@ -276,7 +305,7 @@
           <div class="col-sm-4 py-5">
             <ul class="listinfo">
               <li><h3>Other</h3></li>
-              <li><a href="https://masdedys.github.io/masdedyshop.html">My Little Shop</a></li></li>
+              <li><a href="https://masdedys.github.io/masdedyshop.html">My Little Store</a></li></li>
               <li><a href="https://masdedys.github.io/portfolio.html">My Portfolio Gallery</a></li>
               <li><a href="https://masdedys.github.io/simple-code.html">Simply Code</a></li>
               <li><a href="">Download</a></li>
@@ -311,6 +340,8 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <script>
       Fancybox.bind("[data-fancybox]", {
         // Your custom options
