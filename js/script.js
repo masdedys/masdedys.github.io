@@ -19,7 +19,7 @@ function TampilkanSemuaMenu() {
           data.nama +
           '</h5><p style="font-size: 16px;"></p><a href="detail-jualan/' +
           data.detail +
-          '" class="btn btn-primary">Detail</a></div></div>'
+          '" class="btn">Detail</a></div></div>'
       );
     });
   });
@@ -53,7 +53,7 @@ $(".menu-info").on("click", function () {
           data.nama +
           '</h5><p style="font-size: 16px;"></p><a href="detail-jualan/' +
           data.detail +
-          '" class="btn btn-primary">Detail</a></div></div>';
+          '" class="btn">Detail</a></div></div>';
       }
     });
 
