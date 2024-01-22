@@ -17,7 +17,9 @@ function TampilkanSemuaMenu() {
           data.gambar +
           '"><div class="card-body"><h5 class="card-title">' +
           data.nama +
-          '</h5><p style="font-size: 16px;"></p><a href="detail-jualan/' +
+          "</h5><p>Rp." +
+          data.harga +
+          '</p><p style="font-size: 16px;"></p><a href="detail-jualan/' +
           data.detail +
           '" class="btn">Detail</a></div></div>'
       );
@@ -51,7 +53,9 @@ $(".menu-info").on("click", function () {
           data.gambar +
           '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' +
           data.nama +
-          '</h5><p style="font-size: 16px;"></p><a href="detail-jualan/' +
+          "</h5><p>Rp." +
+          data.harga +
+          '</p><p style="font-size: 16px;"></p><a href="detail-jualan/' +
           data.detail +
           '" class="btn">Detail</a></div></div>';
       }

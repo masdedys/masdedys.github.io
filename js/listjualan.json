@@ -4,7 +4,7 @@
       "id": "1",
       "kategori": "information technology",
       "nama": "Android Development for Rookies with Database",
-      "harga": "50 k",
+      "harga": "50,000",
       "gambar": "Android Application Development for Rookies with Database.jpg",
       "detail": "Android-Application-Development-for-Rookies-with-Database.html"
     },
@@ -12,7 +12,7 @@
       "id": "2",
       "kategori": "information technology",
       "nama": "Dasar Pemrograman JavaScript",
-      "harga": "40 k",
+      "harga": "40,000",
       "gambar": "Dasar Pemrograman JavaScript.jpg",
       "detail": "Dasar-Pemrograman-JavaScript.html"
     },
@@ -20,7 +20,7 @@
       "id": "3",
       "kategori": "information technology",
       "nama": "Panduan Praktis Menguasai Vuejs",
-      "harga": "25 k",
+      "harga": "25,000",
       "gambar": "Panduan Praktis Menguasai Vuejs.jpg",
       "detail": "Panduan-Praktis-Menguasai-Vuejs.html"
     },
@@ -28,7 +28,7 @@
       "id": "4",
       "kategori": "business",
       "nama": "Make It Happen!",
-      "harga": "50 k",
+      "harga": "50,000",
       "gambar": "Make It Happen!.jpg",
       "detail": "Make-It-Happen.html"
     },
@@ -36,7 +36,7 @@
       "id": "5",
       "kategori": "motivation",
       "nama": "The Body Language",
-      "harga": "50 k",
+      "harga": "50,000",
       "gambar": "The Body Language.jpg",
       "detail": "The-Body-Language.html"
     },
@@ -44,7 +44,7 @@
       "id": "6",
       "kategori": "information technology",
       "nama": "Pemrograman Android untuk Pemula",
-      "harga": "20 k",
+      "harga": "20,000",
       "gambar": "Pemrograman Android untuk Pemula.jpg",
       "detail": "Pemrograman-Android-untuk-Pemula.html"
     }
