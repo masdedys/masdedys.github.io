@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>mas_dedys's movie - masdedys.github.io</title>
+    <!--title icon-->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <!--fancybox-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <!--aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <!--pace js-->
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="stylesheet" href="css/barber-shop.css" />
+    <style>
+      body {
+        padding-top: 70px;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      }
+      nav .nav-link {
+        color: white;
+      }
+      nav .nav-link:hover {
+        color: #ffd700;
+      }
+      .header > .jumbotron > h2 {
+      font-size: 84px;
+      }
+      .header > .jumbotron > p {
+        font-size: 36px;
+      }
+      .header > .jumbotron > p>strong {
+        font-weight: bold;
+      }
+      .header > .jumbotron > p>strong>a {
+        color: #030637;
+      }
+      .header > .jumbotron > p>strong>a:hover {
+        color: #f08200;
+      }
+      .header > .jumbotron > a,
+      .category .menu-info,
+      .card a {
+        background-color:#555; 
+        color: white;
+      }
+      .header > .jumbotron > a:hover,
+      .category .menu-info:hover,
+      .card a:hover{
+        background-color:#030637; 
+        color: #f8e559;
+      }
+      .menus p {
+        font-size: 24px;
+      }
+      .faq {
+        padding-top: 150px;
+      }
+      .faq p {
+        font-size: 24px;
+        margin-top: 48px;
+      }
+      footer {
+        .col-sm-4 h3 {
+          font-weight: 600;
+          font-size: 20px;
+        }
+        .col-sm-4 > ul > li > a {
+          color: white;
+          text-decoration: none;
+        }
+        .col-sm-4 > ul > li > a:hover {
+          color: #f8e559;
+          text-decoration: none;
+        }
+        .col-sm-4 > ul > li {
+          list-style: none;
+          font-size: 14px;
+          padding: 5px;
+        }
+        .col-sm-4 > .listinfo > li > a::before {
+          content: ">";
+          font-family: "Poppins", sans-serif;
+          font-size: 12px;
+          color: #f08200;
+          margin-right: 10px;
+        }
+        .col-sm-4 > ul > li > i {
+          font-size: 15px !important;
+          color: #f08200 !important;
+          margin-right: 10px !important;
+        }
+        .social.circle li a {
+          display: block;
+          width: 30px;
+          height: 30px;
+          font-size: 14px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 30px;
+          color: #ffffff;
+          background-color: #1d67af;
+          padding-top: 2px;
+          padding-left: 1px;
+        }
+        .social > li {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 5px;
+        }
+        .social > li > a {
+          margin-right: 10px;
+        }
+        .social a {
+          float: left;
+        }
+      }
+      @media (max-width: 767px) {
+        .header>.jumbotron > .display-4{
+          font-size: 42px;
+          margin-left: 16px;
+        }
+        .header>.jumbotron > .lead{
+          font-size: 24px;
+        }
+        h1,p{
+          margin-left: 16px;
+        }
+        .contact img{
+          width: 200px;
+          height: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body id="home">
+    <div class="container">
+      <!--navbar-->
+      <nav class="navbar fixed-top navbar-expand-lg mb-5 mb-sm-2" style="background-color: #555">
+        <div class="container py-3">
+          <a class="navbar-brand" href="https://masdedys.github.io/">
+            <img src="assets/img/logo.png" alt="" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#category">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#databasefilm">Search</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--/navbar-->
+    </div>
+    <!--jumbotron-->
+    <div class="container mb-5">
+      <section class="header my-5 py-5 my-sm-2 py-sm-2" id="header">
+        <div class="jumbotron container my-5 my-sm-0 py-sm-0">
+          <h2 class="display-4 my-4 pt-5" data-aos="fade-up">Hello</h1>
+          <p class="lead" data-aos="fade-up" data-aos-delay="300">Assalamu'alaykum.. Selamat datang di toko saya, disini saya menjual beberapa file film. Untuk info lebih lanjut bisa chat saya di instagram saya di <strong><a href="https://www.instagram.com/mas_dedys/" title="Lanjutkan ke ig saya">mas_dedys</a></strong>. Terima Kasih</p>
+          <a class="btn btn-lg float-end mb-5" href="#category" role="button">Cari Film</a>
+        </div>
+      </section>
+    </div>
+    <!--/jumbotron-->
+    <div class="container mt-5">
+      <!--kategori-->
+      <section class="category py-5 my-5 my-sm-2 py-sm-2" id="category">
+        <div class="row mt-5 py-5 mt-sm-2 pt-sm-2">
+          <h2 class="py-5 mt-5">Kategori</h2>
+          <div class="col-sm justify-content-between">
+            <a href="movie-kartun.html" target="_blank" class="btn btn-lg menu-info my-3">Kartun</a>
+            <a href="#" type="button" class="btn btn-lg menu-info my-3" data-bs-toggle="modal" data-bs-target="#belumtersedia">Fantasi</a>
+            <a href="#" type="button" class="btn btn-lg menu-info my-3" data-bs-toggle="modal" data-bs-target="#belumtersedia">Laga/Hero</a>
+            <a href="#" type="button" class="btn btn-lg menu-info my-3" data-bs-toggle="modal" data-bs-target="#belumtersedia">Indo</a>
+          </div>
+        </div>
+      </section>
+      <!--/kategori-->
+      <!--newentry-->
+      <section id="newentry" class="newentry">
+        <h1>New Entry</h1>
+        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-menu">
+            <div class="card col-sm-3 m-3"><img src="assets/film/howlmovingcastle.jpg" width="18rem" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Howl Moving Castle</h5>
+                    <p>Rp. 15.000,-</p>
+                    <p style="font-size: 16px;"></p>
+                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
+                </div>
+            </div>
+            <div class="card col-sm-3 m-3"><img src="assets/film/kikisdeliveryservice.jpg" width="18rem" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Kikis Delivery Service</h5>
+                    <p>Rp. 15.000,-</p>
+                    <p style="font-size: 16px;"></p>
+                    <a href="#" class="btn">Get File</a>
+                </div>
+            </div>
+            <div class="card col-sm-3 m-3"><img src="assets/film/ponyo.png" width="18rem" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ponyo</h5>
+                    <p>Rp. 15.000,-</p>
+                    <p style="font-size: 16px;"></p>
+                    <a href="#" class="btn">Get File</a>
+                </div>
+            </div>
+            <div class="card col-sm-3 m-3"><img src="assets/film/porcorosso.jpg" width="18rem" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Porco Rosso</h5>
+                    <p>Rp. 15.000,-</p>
+                    <p style="font-size: 16px;"></p>
+                    <a href="#" class="btn">Get File</a>
+                </div>
+            </div>
+            <div class="card col-sm-3 m-3"><img src="assets/film/spiritedaway.jpg" width="18rem" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Spirited Away</h5>
+                    <p>Rp. 15.000,-</p>
+                    <p style="font-size: 16px;"></p>
+                    <a href="#" class="btn">Get File</a>
+                </div>
+            </div>
+            <div class="card col-sm-3 m-3"><img src="assets/film/totoro.jpg" width="18rem" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">My Neighbor Totoro</h5>
+                    <p>Rp. 15.000,-</p>
+                    <p style="font-size: 16px;"></p>
+                    <a href="#" class="btn">Get File</a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--/newentry-->
+      <!--faq-->
+      <section id="faq" class="faq mt-sm-2 mb-sm-2 pb-5">
+        <h2 class="py-5">F.A.Q</h2>
+        <div class="row d-flex justify-content-between">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Bagaimana cara pesan filenya?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Caranya</strong> Kamu bisa langsung aja DM saya di instagram saya <a href="https://www.instagram.com/mas_dedys/">@mas_dedys</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Pembayarannya bisa pakai apa aja?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Buat Pembayaran</strong> Insya Alloh saya bisa kasih kamu langsung filenya setelah itu kamu bayar, atau bisa juga transfer di BRI atau BCA. 
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--/faq-->
+      <!--database film-->
+      <section class="databasefilm" id="databasefilm">
+        <h1 class="mt-5 py-5"></h1>
+        <div class="row py-5 justify-content-center text-center" id="search">
+            <div class="col-md-12">
+              <table id="table-demo" class="table table-striped" style="width: 100%">
+                <thead>
+                  <tr>
+                    <th>Judul</th>
+                    <th>Genre</th>
+                    <th>Harga</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Howl Moving Castle</td>
+                    <td>Kartun</td>
+                    <td>Rp. 15.000,-</td>
+                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></td>
+                  </tr>
+                  <tr>
+                    <td>Kikis Delivery Service</td>
+                    <td>Kartun</td>
+                    <td>Rp. 15.000,-</td>
+                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></td>
+                  </tr>
+                  <tr>
+                    <td>Ponyo</td>
+                    <td>Kartun</td>
+                    <td>Rp. 15.000,-</td>
+                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></td>
+                  </tr>
+                  <tr>
+                    <td>Porco Rosso</td>
+                    <td>Kartun</td>
+                    <td>Rp. 15.000,-</td>
+                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></td>
+                  </tr>
+                  <tr>
+                    <td>Spirited Away</td>
+                    <td>Kartun</td>
+                    <td>Rp. 15.000,-</td>
+                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></td>
+                  </tr>
+                  <tr>
+                    <td>My Neighbor Totoro</td>
+                    <td>Kartun</td>
+                    <td>Rp. 15.000,-</td>
+                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+      </section>
+      <!--/database film-->
+      <!--ketentuan-->
+      <section class="ketentuan" id="ketentuan">
+        <div class="row py-5 my-5 justify-content-center text-center" id="search">
+          <div class="col-md-12">
+            <h2>Ketentuan</h2>
+            <p class="pt-5">Isi konten dari film diluar dari tanggung jawab kami. Segala bentuk dosa tolong jangan bawa - bawa kami nanti diakhirat. File yang sudah diterima tidak dapat ditukar kembali.</p>
+            <p>Terima Kasih</p>
+          </div>
+      </div>
+      </section>
+      <!--/ketentuan-->
+    </div>
+    <!--footer-->
+    <div class="container-fluid" id="footer">
+      <footer>
+        <div class="row text-light" style="background-color: #030637">
+          <div class="col-sm-4 py-5">
+            <ul>
+              <li>
+                <p><img src="assets/img/logo.png" class="img-fluid justify-content-center" alt="..." /></p>
+              </li>
+              <li><h3>Follow me also at</h3></li>
+            </ul>
+            <ul class="social circle">
+              <li>
+                <a href="https://github.com/masdedys"><i class="bi bi-github"></i></a>
+                <a href="https://dribbble.com/masdedys"><i class="bi bi-dribbble"></i></a>
+                <a href="http://masdedys.blogspot.com/"><i class="bi bi-type-bold"></i></a>
+                <a href="https://play.google.com/store/apps/developer?id=Dedy+Setiawan&hl=id"><i class="bi bi-google-play"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4 py-5">
+            <ul class="listinfo">
+              <li><h3>Other</h3></li>
+              <li><a href="https://masdedys.github.io/masdedyshop.html">My Little Store</a></li></li>
+              <li><a href="https://masdedys.github.io/download.html">Download</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 py-5">
+            <ul>
+              <li><h3>Payment</h3></li>
+              <li>
+                <img src="assets/img/bca.webp" class="rounded-1" width="20%" height="20%" alt="" />
+                <img src="assets/img/bri.webp" class="rounded-1" width="20%" height="20%" alt="" />
+                <img src="assets/img/brimo.webp" class="rounded-1" width="20%" height="20%" alt="" />
+              </li>
+              <li><h3>Delivery</h3></li>
+              <li class="py-2">
+                <img src="assets/img/JNE.webp" class="rounded-1" width="20%" height="20%" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--/footer-->
+    <div class="container-fluid" style="background-color: #3b3486">
+      <!--copyright-->
+      <div class="container">
+        <section class="copyright py-2 text-white d-flex justify-content-center">
+          <p>© 2023 masdedys.github.io, All Rights Reserved</p>
+        </section>
+      </div>
+      <!--/copyright-->
+    </div>
+    <!-- Modal maaf belum tersedia-->
+    <div class="modal fade" id="belumtersedia" tabindex="-1" aria-labelledby="belumtersedia" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="belumtersedia">Maaf yah </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <span style='font-size:100px;'>&#128532;</span>
+            <p>Konten yang kamu minta belum tersedia, silahkan cek yang lain. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal maaf belum tersedia-->
+    <!-- Modal silahkan hubungi kami-->
+    <div class="modal fade" id="hubungikamidiig" tabindex="-1" aria-labelledby="hubungikamidiig" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="hubungikamidiig">Terima kasih</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <span style='font-size:100px;'>&#128522;</span>
+            <p>Terima kasih, kamu bisa langsung hubungi saya di instagram saya di 
+              <a href="https://www.instagram.com/mas_dedys/" target="_blank">@mas_dedys</a> atau klik link dibawah, Terima kasih 
+            </p>
+            <a href="https://www.instagram.com/mas_dedys/" target="_blank" type="button" class="btn btn-primary">Instagram ku</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal silahkan hubungi kami-->
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--aos-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <!--javascript include-->
+    <!-- datatables -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js "></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#table-demo").DataTable({
+          lengthMenu: [
+              [3, 25, 50, -1],
+              [3, 25, 50, 'All']
+          ],
+          dom: "Bfrtip",
+          buttons: [
+            // "colvis",
+            // {
+            //   extends: "print",
+            //   text: '<i class="bi bi-printer-fill"></i>',
+            // },
+            // {
+            //   extends: "copy",
+            //   text: '<i class="bi bi-clipboard-fill"></i>',
+            // },
+            // {
+            //   extends: "excelHtml5",
+            //   text: '<i class="bi bi-file-excel-fill"></i>',
+            // },
+            // {
+            //   extends: "pdf",
+            //   text: '<i class="bi bi-filetype-pdf"></i>',
+            // },
+            // {
+            //   extends: "csv",
+            //   text: '<i class="bi bi-filetype-csv"></i>',
+            // },
+          ],
+        });
+      });
+    </script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+      AOS.init();
+    </script>
+
+    
+  </body>
+</html>
