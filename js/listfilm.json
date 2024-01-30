@@ -1,0 +1,68 @@
+{
+  "DaftarFilm": [
+    {
+      "id": "8",
+      "judul": "Aquaman and the lost kingdom ",
+      "genre": "Laga/Hero",
+      "harga": "22,000",
+      "gambar": "aquaman and the lost kingdom.jpg",
+      "detail": "Aquaman and the lost kingdom"
+    },
+    {
+      "id": "7",
+      "judul": "Gundala",
+      "genre": "Laga/Hero",
+      "harga": "15,000",
+      "gambar": "gundala.jpg",
+      "detail": "Gundala"
+    },
+    {
+      "id": "6",
+      "judul": "Howl Moving Castle",
+      "genre": "Kartun",
+      "harga": "15,000",
+      "gambar": "howlmovingcastle.jpg",
+      "detail": "Howl Moving Castle"
+    },
+    {
+      "id": "5",
+      "judul": "Kikis Delivery Service",
+      "genre": "Kartun",
+      "harga": "15,000",
+      "gambar": "kikisdeliveryservice.jpg",
+      "detail": "Kikis Delivery Service"
+    },
+    {
+      "id": "4",
+      "judul": "Ponyo",
+      "genre": "Kartun",
+      "harga": "15,000",
+      "gambar": "ponyo.png",
+      "detail": "Ponyo"
+    },
+    {
+      "id": "3",
+      "judul": "Porco Rosso",
+      "genre": "Kartun",
+      "harga": "15,000",
+      "gambar": "porcorosso.jpg",
+      "detail": "Porco Rosso"
+    },
+    {
+      "id": "2",
+      "judul": "Spirited Away",
+      "genre": "Kartun",
+      "harga": "15,000",
+      "gambar": "spiritedaway.jpg",
+      "detail": "Spirited Away"
+    },
+    {
+      "id": "1",
+      "judul": "My Neighbor Totoro",
+      "genre": "Kartun",
+      "harga": "15,000",
+      "gambar": "totoro.jpg",
+      "detail": "My Neighbor Totoro"
+    }
+  ]
+}

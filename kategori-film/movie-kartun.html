@@ -159,16 +159,16 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" aria-current="page" href="https://masdedys.github.io/movie.html">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Kategori
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://masdedys.github.io/movie-kartun.html">Kartun</a></li>
+                  <li><a class="dropdown-item" href="https://masdedys.github.io/kategori-film/movie-kartun.html">Kartun</a></li>
                   <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#belumtersedia">Fantasy</a></li>
-                  <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#belumtersedia">Laga/Hero</a></li>
+                  <li><a class="dropdown-item" href="https://masdedys.github.io/kategori-film/movie-laga-hero.html" data-bs-toggle="modal" data-bs-target="#belumtersedia">Laga/Hero</a></li>
                   <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#belumtersedia">Indo</a></li>
                 </ul>
               </li>
@@ -185,61 +185,14 @@
       <!--/navbar-->
     </div>
     <div class="container mt-5">
-      <!--newentry-->
-      <section id="newentry" class="newentry">
+      <!--kartun-->
+      <section id="kartun" class="kartun">
         <h1>Kartun</h1>
-        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-menu">
-            <div class="card col-sm-3 m-3"><img src="assets/film/howlmovingcastle.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Howl Moving Castle</h5>
-                    <p>Rp. 15.000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/kikisdeliveryservice.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Kikis Delivery Service</h5>
-                    <p>Rp. 15.000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/ponyo.png" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ponyo</h5>
-                    <p>Rp. 15.000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/porcorosso.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Porco Rosso</h5>
-                    <p>Rp. 15.000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/spiritedaway.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Spirited Away</h5>
-                    <p>Rp. 15.000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/totoro.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">My Neighbor Totoro</h5>
-                    <p>Rp. 15.000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn">Get File</a>
-                </div>
-            </div>
+        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-film">
+            
         </div>
       </section>
-      <!--/newentry-->
+      <!--/kartun-->
       <!--faq-->
       <section id="faq" class="faq mt-sm-2 mb-sm-2 pb-5">
         <h2 class="py-5">F.A.Q</h2>
@@ -275,7 +228,7 @@
       <!--/faq-->
       <!--database film-->
       <section class="databasefilm" id="databasefilm">
-        <h1 class="mt-5 py-5"></h1>
+        <h2 class="mt-5 py-5"></h2>
         <div class="row py-5 justify-content-center text-center" id="search">
             <div class="col-md-12">
               <table id="table-demo" class="table table-striped" style="width: 100%">
@@ -287,7 +240,7 @@
                     <th></th>
                   </tr>
                 </thead>
-                <tbody>
+                <!-- <tbody>
                   <tr>
                     <td>Howl Moving Castle</td>
                     <td>Kartun</td>
@@ -324,7 +277,7 @@
                     <td>Rp. 15.000,-</td>
                     <td><a href="#" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></td>
                   </tr>
-                </tbody>
+                </tbody> -->
               </table>
             </div>
         </div>
@@ -438,21 +391,24 @@
     <!--jquery-->
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <!--javascript include-->
-    <!-- datatables -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js "></script>
-    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
     <script>
       $(document).ready(function () {
-        $("#table-demo").DataTable({
+        var xmlhttp=new XMLHttpRequest();
+        var url="../js/listfilm.json";
+        xmlhttp.open("GET",url,true);
+        xmlhttp.send();
+        xmlhttp.onreadystatechange=function(){
+          if(this.readyState==4&&this.status==200){
+            var data=JSON.parse(this.responseText);
+            console.log(data);
+            $("#table-demo").DataTable({
+          // "ajax":data/object.txt,
+          "data":data.DaftarFilm,
+          "columns":[
+            {"data":"judul"},
+            {"data":"genre"},
+            {"data":"harga"}
+          ],
           lengthMenu: [
               [3, 25, 50, -1],
               [3, 25, 50, 'All']
@@ -482,7 +438,11 @@
             // },
           ],
         });
+          }
+        }
+        
       });
+
     </script>
     <script>
       Fancybox.bind("[data-fancybox]", {
@@ -490,7 +450,38 @@
       });
       AOS.init();
     </script>
+    <script>
+      $.getJSON("../js/listfilm.json", function (data) {
+      let DaftarFilm = data.DaftarFilm;
+      let content = "";
 
+      $.each(DaftarFilm, function (i, data) {
+        if (data.genre == "Kartun") {
+          content +=
+            '<div class="card col-sm-3 m-3"><img src="../assets/film/'+
+              data.gambar+
+              '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+
+                      data.judul+
+                      '</h5><p>'+
+                        data.harga+'</p><p style="font-size: 16px;"></p><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></div></div>';
+        }
+      });
+
+      $("#daftar-film").html(content);
+  });
+    </script>
+    <!-- datatables -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js "></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
     
   </body>
 </html>
