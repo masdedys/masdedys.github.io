@@ -1,8 +1,32 @@
 {
   "DaftarFilm": [
     {
+      "id": "11",
+      "judul": "Pengabdi Setan 2",
+      "genre": "Indo",
+      "harga": "15,000",
+      "gambar": "Pengabdi Setan 2.jpeg",
+      "detail": "Pengabdi Setan 2"
+    },
+    {
+      "id": "10",
+      "judul": "Mencuri Raden Saleh",
+      "genre": "Indo",
+      "harga": "15,000",
+      "gambar": "Mencuri Raden Saleh.jpg",
+      "detail": "Mencuri Raden Saleh"
+    },
+    {
+      "id": "9",
+      "judul": "Avatar The Way of Water",
+      "genre": "Fantasy",
+      "harga": "22,000",
+      "gambar": "Avatar The Way of Water.jpg",
+      "detail": "Avatar The Way of Water"
+    },
+    {
       "id": "8",
-      "judul": "Aquaman and the lost kingdom ",
+      "judul": "Aquaman and the lost kingdom",
       "genre": "Laga/Hero",
       "harga": "22,000",
       "gambar": "aquaman and the lost kingdom.jpg",
