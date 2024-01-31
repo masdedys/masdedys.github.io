@@ -6,7 +6,7 @@
       "genre": "Kartun",
       "harga": "Rp. 15,000,-",
       "gambar": "Suzume.jpg",
-      "detail": "Suzume"
+      "detail": "awesome"
     },
     {
       "id": "19",
@@ -62,7 +62,7 @@
       "genre": "Laga/Hero",
       "harga": "Rp. 22,000,-",
       "gambar": "AntMan and the Wasp Quantumania.jpg",
-      "detail": "AntMan and the Wasp Quantumania"
+      "detail": "awesome"
     },
     {
       "id": "12",
@@ -92,17 +92,17 @@
       "id": "9",
       "judul": "Avatar The Way of Water",
       "genre": "Fantasy",
-      "harga": "22,000",
+      "harga": "Rp. 22,000",
       "gambar": "Avatar The Way of Water.jpg",
-      "detail": "Avatar The Way of Water"
+      "detail": "awesome"
     },
     {
       "id": "8",
       "judul": "Aquaman and the lost kingdom",
       "genre": "Laga/Hero",
-      "harga": "22,000",
+      "harga": "Rp. 22,000",
       "gambar": "aquaman and the lost kingdom.jpg",
-      "detail": "Aquaman and the lost kingdom"
+      "detail": "awesome"
     },
     {
       "id": "7",
@@ -150,7 +150,7 @@
       "genre": "Kartun",
       "harga": "Rp. 15,000,-",
       "gambar": "spiritedaway.jpg",
-      "detail": "Spirited Away"
+      "detail": "awesome"
     },
     {
       "id": "1",

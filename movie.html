@@ -134,8 +134,6 @@
         }
         .header>.jumbotron > .lead{
           font-size: 24px;
-        }
-        h1{
           margin-left: 16px;
         }
         .contact img{
@@ -204,8 +202,8 @@
       <!--newentry-->
       <section id="newentry" class="newentry">
         <h1>Awesome Movies</h1>
-        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-menu">
-            <div class="card col-sm-3 m-3"><img src="assets/film/aquaman and the lost kingdom.jpg" width="18rem" class="card-img-top" alt="...">
+        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-film">
+            <!-- <div class="card col-sm-3 m-3"><img src="assets/film/aquaman and the lost kingdom.jpg" width="18rem" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Aquaman and the lost kingdom</h5>
                     <p>Rp. 22,000,-</p>
@@ -252,7 +250,7 @@
                     <p style="font-size: 16px;"></p>
                     <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
                 </div>
-            </div>
+            </div> -->
         </div>
       </section>
       <!--/newentry-->
@@ -487,7 +485,26 @@
       });
       AOS.init();
     </script>
+    <script>
+      $.getJSON("../js/listfilm.json", function (data) {
+      let DaftarFilm = data.DaftarFilm;
+      let content = "";
 
+      $.each(DaftarFilm, function (i, data) {
+        if (data.detail == "awesome") {
+          content +=
+            '<div class="card col-sm-3 m-3"><img src="../assets/film/'+
+              data.gambar+
+              '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+
+                      data.judul+
+                      '</h5><p>'+
+                        data.harga+'</p><p style="font-size: 16px;"></p><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a></div></div>';
+        }
+      });
+
+      $("#daftar-film").html(content);
+  });
+    </script>
     
   </body>
 </html>
