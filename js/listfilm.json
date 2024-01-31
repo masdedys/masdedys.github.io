@@ -1,6 +1,78 @@
 {
   "DaftarFilm": [
     {
+      "id": "20",
+      "judul": "Suzume",
+      "genre": "Kartun",
+      "harga": "Rp. 15,000,-",
+      "gambar": "Suzume.jpg",
+      "detail": "Suzume"
+    },
+    {
+      "id": "19",
+      "judul": "Sri Asih",
+      "genre": "Laga/Hero",
+      "harga": "Rp. 15,000,-",
+      "gambar": "Sri Asih.jpg",
+      "detail": "Sri Asih"
+    },
+    {
+      "id": "18",
+      "judul": "Satria Dewa Gatotkaca",
+      "genre": "Laga/Hero",
+      "harga": "Rp. 15,000,-",
+      "gambar": "Satria Dewa Gatotkaca.jpg",
+      "detail": "Satria Dewa Gatotkaca"
+    },
+    {
+      "id": "17",
+      "judul": "Pirates of the Caribbean Dead Men Tell No Tales",
+      "genre": "Fantasy",
+      "harga": "Rp. 22,000,-",
+      "gambar": "Pirates of the Caribbean Dead Men Tell No Tales.jpg",
+      "detail": "Pirates of the Caribbean Dead Men Tell No Tales"
+    },
+    {
+      "id": "16",
+      "judul": "Murder Orient Express",
+      "genre": "Fantasy",
+      "harga": "Rp. 20,000,-",
+      "gambar": "murder orient express.jpg",
+      "detail": "Murder Orient Express"
+    },
+    {
+      "id": "15",
+      "judul": "Meg 2 The Trench",
+      "genre": "Laga/Hero",
+      "harga": "Rp. 22,000,-",
+      "gambar": "meg 2 the trench.jpg",
+      "detail": "Meg 2 The Trench"
+    },
+    {
+      "id": "14",
+      "judul": "Civil War Captain America",
+      "genre": "Laga/Hero",
+      "harga": "Rp. 15,000,-",
+      "gambar": "Civil War Captain America.jpg",
+      "detail": "Civil War Captain America"
+    },
+    {
+      "id": "13",
+      "judul": "AntMan and the Wasp Quantumania",
+      "genre": "Laga/Hero",
+      "harga": "Rp. 22,000,-",
+      "gambar": "AntMan and the Wasp Quantumania.jpg",
+      "detail": "AntMan and the Wasp Quantumania"
+    },
+    {
+      "id": "12",
+      "judul": "A Haunting in Venice",
+      "genre": "Fantasy",
+      "harga": "Rp. 20,000,-",
+      "gambar": "a haunting in venice.jpg",
+      "detail": "A Haunting in Venice"
+    },
+    {
       "id": "11",
       "judul": "Pengabdi Setan 2",
       "genre": "Indo",
