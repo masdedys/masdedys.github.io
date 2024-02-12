@@ -1,10 +1,58 @@
 {
   "DaftarFilm": [
     {
+      "id": "26",
+      "judul": "Weathering with You",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Weathering with You.jpg",
+      "detail": "Weathering with You"
+    },
+    {
+      "id": "25",
+      "judul": "Pussy Boots",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Pussy Boots.jpg",
+      "detail": "Pussy Boots"
+    },
+    {
+      "id": "24",
+      "judul": "Mummies",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Mummies.jpg",
+      "detail": "Mummies"
+    },
+    {
+      "id": "23",
+      "judul": "Gridman Universe",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Gridman Universe.jpg",
+      "detail": "Gridman Universe"
+    },
+    {
+      "id": "22",
+      "judul": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto.jpg",
+      "detail": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto"
+    },
+    {
+      "id": "21",
+      "judul": "Detective Conan Black Iron Submarine",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Detective Conan Black Iron Submarine.jpg",
+      "detail": "Detective Conan Black Iron Submarine"
+    },
+    {
       "id": "20",
       "judul": "Suzume",
       "genre": "Kartun",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "Suzume.jpg",
       "detail": "awesome"
     },
@@ -12,7 +60,7 @@
       "id": "19",
       "judul": "Sri Asih",
       "genre": "Laga/Hero",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "Sri Asih.jpg",
       "detail": "Sri Asih"
     },
@@ -20,7 +68,7 @@
       "id": "18",
       "judul": "Satria Dewa Gatotkaca",
       "genre": "Laga/Hero",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "Satria Dewa Gatotkaca.jpg",
       "detail": "Satria Dewa Gatotkaca"
     },
@@ -28,7 +76,7 @@
       "id": "17",
       "judul": "Pirates of the Caribbean Dead Men Tell No Tales",
       "genre": "Fantasy",
-      "harga": "Rp. 22,000,-",
+      "harga": "Rp. 25,000,-",
       "gambar": "Pirates of the Caribbean Dead Men Tell No Tales.jpg",
       "detail": "Pirates of the Caribbean Dead Men Tell No Tales"
     },
@@ -36,7 +84,7 @@
       "id": "16",
       "judul": "Murder Orient Express",
       "genre": "Fantasy",
-      "harga": "Rp. 20,000,-",
+      "harga": "Rp. 25,000,-",
       "gambar": "murder orient express.jpg",
       "detail": "Murder Orient Express"
     },
@@ -44,7 +92,7 @@
       "id": "15",
       "judul": "Meg 2 The Trench",
       "genre": "Laga/Hero",
-      "harga": "Rp. 22,000,-",
+      "harga": "Rp. 25,000,-",
       "gambar": "meg 2 the trench.jpg",
       "detail": "Meg 2 The Trench"
     },
@@ -52,7 +100,7 @@
       "id": "14",
       "judul": "Civil War Captain America",
       "genre": "Laga/Hero",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 25,000,-",
       "gambar": "Civil War Captain America.jpg",
       "detail": "Civil War Captain America"
     },
@@ -60,7 +108,7 @@
       "id": "13",
       "judul": "AntMan and the Wasp Quantumania",
       "genre": "Laga/Hero",
-      "harga": "Rp. 22,000,-",
+      "harga": "Rp. 25,000,-",
       "gambar": "AntMan and the Wasp Quantumania.jpg",
       "detail": "awesome"
     },
@@ -68,7 +116,7 @@
       "id": "12",
       "judul": "A Haunting in Venice",
       "genre": "Fantasy",
-      "harga": "Rp. 20,000,-",
+      "harga": "Rp. 25,000,-",
       "gambar": "a haunting in venice.jpg",
       "detail": "A Haunting in Venice"
     },
@@ -76,7 +124,7 @@
       "id": "11",
       "judul": "Pengabdi Setan 2",
       "genre": "Indo",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "Pengabdi Setan 2.jpeg",
       "detail": "Pengabdi Setan 2"
     },
@@ -84,7 +132,7 @@
       "id": "10",
       "judul": "Mencuri Raden Saleh",
       "genre": "Indo",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "Mencuri Raden Saleh.jpg",
       "detail": "Mencuri Raden Saleh"
     },
@@ -92,7 +140,7 @@
       "id": "9",
       "judul": "Avatar The Way of Water",
       "genre": "Fantasy",
-      "harga": "Rp. 22,000",
+      "harga": "Rp. 25,000",
       "gambar": "Avatar The Way of Water.jpg",
       "detail": "awesome"
     },
@@ -100,7 +148,7 @@
       "id": "8",
       "judul": "Aquaman and the lost kingdom",
       "genre": "Laga/Hero",
-      "harga": "Rp. 22,000",
+      "harga": "Rp. 25,000",
       "gambar": "aquaman and the lost kingdom.jpg",
       "detail": "awesome"
     },
@@ -108,7 +156,7 @@
       "id": "7",
       "judul": "Gundala",
       "genre": "Laga/Hero",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "gundala.jpg",
       "detail": "Gundala"
     },
@@ -116,7 +164,7 @@
       "id": "6",
       "judul": "Howl Moving Castle",
       "genre": "Kartun",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "howlmovingcastle.jpg",
       "detail": "Howl Moving Castle"
     },
@@ -124,7 +172,7 @@
       "id": "5",
       "judul": "Kikis Delivery Service",
       "genre": "Kartun",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "kikisdeliveryservice.jpg",
       "detail": "Kikis Delivery Service"
     },
@@ -132,7 +180,7 @@
       "id": "4",
       "judul": "Ponyo",
       "genre": "Kartun",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "ponyo.png",
       "detail": "Ponyo"
     },
@@ -140,7 +188,7 @@
       "id": "3",
       "judul": "Porco Rosso",
       "genre": "Kartun",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "porcorosso.jpg",
       "detail": "Porco Rosso"
     },
@@ -148,7 +196,7 @@
       "id": "2",
       "judul": "Spirited Away",
       "genre": "Kartun",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "spiritedaway.jpg",
       "detail": "awesome"
     },
@@ -156,7 +204,7 @@
       "id": "1",
       "judul": "My Neighbor Totoro",
       "genre": "Kartun",
-      "harga": "Rp. 15,000,-",
+      "harga": "Rp. 20,000,-",
       "gambar": "totoro.jpg",
       "detail": "My Neighbor Totoro"
     }
