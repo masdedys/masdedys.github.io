@@ -34,19 +34,19 @@
     },
     {
       "id": "22",
-      "judul": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto",
-      "genre": "Kartun",
-      "harga": "Rp. 20,000,-",
-      "gambar": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto.jpg",
-      "detail": "newentry"
-    },
-    {
-      "id": "21",
       "judul": "Detective Conan Black Iron Submarine",
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Detective Conan Black Iron Submarine.jpg",
-      "detail": "Detective Conan Black Iron Submarine"
+      "detail": "newentry"
+    },
+    {
+      "id": "22",
+      "judul": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto.jpg",
+      "detail": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto"
     },
     {
       "id": "20",
