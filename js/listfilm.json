@@ -1,6 +1,30 @@
 {
   "DaftarFilm": [
     {
+      "id": "29",
+      "judul": "Leo",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Leo.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "28",
+      "judul": "Hotel Transylvania Transformania",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Hotel Transylvania Transformania.png",
+      "detail": "newentry"
+    },
+    {
+      "id": "27",
+      "judul": "The Super Mario Bros",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "The Super Mario Bros.jpg",
+      "detail": "newentry"
+    },
+    {
       "id": "26",
       "judul": "Weathering with You",
       "genre": "Kartun",
@@ -22,7 +46,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Mummies.jpg",
-      "detail": "newentry"
+      "detail": "Mummies"
     },
     {
       "id": "23",
@@ -30,7 +54,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Gridman Universe.jpg",
-      "detail": "newentry"
+      "detail": "Gridman Universe"
     },
     {
       "id": "22",
@@ -38,10 +62,10 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Detective Conan Black Iron Submarine.jpg",
-      "detail": "newentry"
+      "detail": "Detective Conan Black Iron Submarine"
     },
     {
-      "id": "22",
+      "id": "21",
       "judul": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto",
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
