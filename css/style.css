@@ -1,64 +1,73 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+:root {
+  --color-orange: #ff7f00;
+  --nav-text-color-hover-for-orange: #f8e559;
+  --nav-bg-color-for-dark: #555;
+}
 html {
   scroll-behavior: smooth;
 }
 body {
-  padding-top: 70px;
+  padding-top: 78px;
 }
-.feather-48 {
-  width: 48px;
-  height: 48px;
-}
-.feather-35 {
-  width: 35px;
-  height: 35px;
-  color: white;
-  margin: 0 auto;
-}
-.contact .circle-pertama,
-.contact .circle-kelima {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-.contact .circle-kedua {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-.contact .circle-ketiga {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-.contact .circle-keempat {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-.contact .circle-pertama:hover,
-.contact .circle-kedua:hover,
-.contact .circle-ketiga:hover,
-.contact .circle-keempat:hover,
-.contact .circle-kelima:hover {
-  background-color: red;
-}
-.circle a {
-  color: white;
-}
-/* Navbar */
-nav {
+/* ----------Navbar---------- */
+/* Navbar orange */
+html[data-color-mode="orange"] nav {
   box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--color-orange);
 }
-nav .nav-link {
+html[data-color-mode="orange"] nav .nav-link {
   color: white;
 }
-nav .nav-link:hover {
+html[data-color-mode="orange"] nav .nav-link:hover {
+  color: var(--nav-text-color-hover-for-orange);
+}
+
+/* Navbar dark */
+html[data-color-mode="dark"] nav {
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--nav-bg-color-for-dark);
+}
+html[data-color-mode="dark"] nav .nav-link {
+  color: white;
+}
+html[data-color-mode="dark"] nav .nav-link:hover {
+  color: #ffd700;
+}
+
+/* Navbar blue */
+html[data-color-mode="blue"] nav {
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--nav-bg-color-for-blue);
+}
+html[data-color-mode="blue"] nav .nav-link {
+  color: white;
+}
+html[data-color-mode="blue"] nav .nav-link:hover {
   color: #f8e559;
 }
-/* header */
+
+/* Navbar black */
+html[data-color-mode="black"] nav {
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #000000;
+}
+html[data-color-mode="black"] nav .nav-link {
+  color: white;
+}
+html[data-color-mode="black"] nav .nav-link:hover {
+  color: #f8e559;
+}
+
+/* ----------Header---------- */
+.header {
+  padding-bottom: 100px;
+}
+.header > .jumbotron > h1 {
+  font-size: 100px;
+}
 .header > .jumbotron > h2 {
   font-size: 84px;
 }
@@ -75,31 +84,56 @@ nav .nav-link:hover {
   color: #f08200;
 }
 
-.header > .jumbotron > a,
-.category .menu-info,
-.card a {
+/* Header orange */
+html[data-color-mode="orange"] .header > .jumbotron > a,
+html[data-color-mode="orange"] .category .menu-info,
+html[data-color-mode="orange"] .card a {
   background-color: #ff7f00;
   color: white;
 }
-.header > .jumbotron > a:hover,
-.category .menu-info:hover,
-.card a:hover {
+html[data-color-mode="orange"] .header > .jumbotron > a:hover,
+html[data-color-mode="orange"] .category .menu-info:hover,
+html[data-color-mode="orange"] .card a:hover {
   background-color: #030637;
   color: #f8e559;
 }
 
-.menus p {
-  font-size: 24px;
+/* Header dark */
+html[data-color-mode="dark"] .header > .jumbotron > a,
+html[data-color-mode="dark"] .category .menu-info,
+html[data-color-mode="dark"] .card a {
+  background-color: #555;
+  color: white;
 }
-.faq {
+html[data-color-mode="dark"] .header > .jumbotron > a:hover,
+html[data-color-mode="dark"] .category .menu-info:hover,
+html[data-color-mode="dark"] .card a:hover {
+  background-color: #030637;
+  color: #f8e559;
+}
+
+/* -----------Aboutme---------- */
+.aboutme {
   padding-top: 150px;
 }
-.faq p {
+.aboutme p {
+  font-size: 24px;
+}
+.aboutme .fotoku,
+.aboutme h1 {
+  padding-top: 100px;
+}
+
+/* ----------Portfolio---------- */
+.portfolio {
+  padding-top: 150px;
+}
+.portfolio p {
   font-size: 24px;
   margin-top: 48px;
 }
 
-/* Contact */
+/* ----------Contact---------- */
 .contact {
   padding-top: 50px;
 }
@@ -117,7 +151,8 @@ nav .nav-link:hover {
   line-height: 30px;
   color: #ffffff;
 }
-/* Footer */
+
+/* ----------Footer---------- */
 footer {
   .col-sm-4 h3 {
     font-weight: 600;
@@ -173,32 +208,23 @@ footer {
     float: left;
   }
 }
-/* Credit */
-.credit p a {
-  list-style: none;
-  text-decoration: none;
-  color: #000;
-}
-.credit p a:hover {
-  color: blue;
-}
 
-.foto .card .card-body .card-text .text-body-secondary a:hover {
-  color: black;
-}
-.footer-icon {
-  font-size: 30px;
-}
-.footer-icon:hover {
-  color: red;
-  font-size: 30px;
-}
-/* Media queries */
+/* ----------Media Queries---------- */
 /* Laptop */
 @media (max-width: 1366px) {
 }
 /* Tablet */
 @media (max-width: 767px) {
+  body {
+    padding-top: 10px;
+  }
+
+  /* ----------Carousel---------- */
+  .carousel {
+    display: none;
+  }
+
+  /* ----------Header---------- */
   .header > .jumbotron > .display-4 {
     font-size: 42px;
     margin-left: 16px;
@@ -206,13 +232,19 @@ footer {
   .header > .jumbotron > .lead {
     font-size: 24px;
   }
-  h1,
-  p {
-    margin-left: 16px;
-  }
+
+  /* ----------Contact---------- */
   .contact img {
     width: 200px;
     height: 200px;
+  }
+  h1,
+  p,
+  .btnletsgo {
+    margin-left: 16px;
+  }
+  .aboutme {
+    padding-top: 50px;
   }
 }
 /* Smartphone */
