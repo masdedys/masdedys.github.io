@@ -1,6 +1,14 @@
 {
   "DaftarFilm": [
     {
+      "id": "30",
+      "judul": "Migration",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "migration.jpg",
+      "detail": "newentry"
+    },
+    {
       "id": "29",
       "judul": "Leo",
       "genre": "Kartun",
@@ -38,7 +46,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Pussy Boots.jpg",
-      "detail": "newentry"
+      "detail": "Pussy Boots"
     },
     {
       "id": "24",

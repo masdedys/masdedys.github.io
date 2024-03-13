@@ -1,8 +1,12 @@
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 :root {
   --color-orange: #ff7f00;
+  --color-blue: #3b3486;
+  --color-donker-blue: #030637;
   --nav-text-color-hover-for-orange: #f8e559;
   --nav-bg-color-for-dark: #555;
 }
@@ -40,7 +44,7 @@ html[data-color-mode="dark"] nav .nav-link:hover {
 /* Navbar blue */
 html[data-color-mode="blue"] nav {
   box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
-  background-color: var(--nav-bg-color-for-blue);
+  background-color: var(--color-blue);
 }
 html[data-color-mode="blue"] nav .nav-link {
   color: white;
@@ -154,6 +158,9 @@ html[data-color-mode="dark"] .card a:hover {
 
 /* ----------Footer---------- */
 footer {
+  .row {
+    background-color: var(--color-donker-blue);
+  }
   .col-sm-4 h3 {
     font-weight: 600;
     font-size: 20px;
@@ -207,6 +214,17 @@ footer {
   .social a {
     float: left;
   }
+}
+.copyright {
+  background-color: var(--color-blue);
+}
+.copyright-item small {
+  display: flex;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* ----------Media Queries---------- */
