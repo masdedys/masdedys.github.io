@@ -86,13 +86,13 @@ html[data-color-mode="black"] nav .nav-link:hover {
 
 /* Header orange */
 html[data-color-mode="orange"] .header > .jumbotron > a,
-html[data-color-mode="orange"] .category .menu-info,
+html[data-color-mode="orange"] .category .produk-kategori,
 html[data-color-mode="orange"] .card a {
   background-color: #ff7f00;
   color: white;
 }
 html[data-color-mode="orange"] .header > .jumbotron > a:hover,
-html[data-color-mode="orange"] .category .menu-info:hover,
+html[data-color-mode="orange"] .category .produk-kategori:hover,
 html[data-color-mode="orange"] .card a:hover {
   background-color: #030637;
   color: #f8e559;
@@ -100,13 +100,13 @@ html[data-color-mode="orange"] .card a:hover {
 
 /* Header dark */
 html[data-color-mode="dark"] .header > .jumbotron > a,
-html[data-color-mode="dark"] .category .menu-info,
+html[data-color-mode="dark"] .category .film-kategori,
 html[data-color-mode="dark"] .card a {
   background-color: #555;
   color: white;
 }
 html[data-color-mode="dark"] .header > .jumbotron > a:hover,
-html[data-color-mode="dark"] .category .menu-info:hover,
+html[data-color-mode="dark"] .category .film-kategori:hover,
 html[data-color-mode="dark"] .card a:hover {
   background-color: #030637;
   color: #f8e559;

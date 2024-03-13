@@ -69,10 +69,10 @@
         <div class="row mt-5 py-5 mt-sm-2 pt-sm-2">
           <h2 class="py-5 mt-5">Kategori</h2>
           <div class="col-sm justify-content-between">
-            <a href="kategori-film/movie-kartun.html" target="_blank" class="btn btn-lg menu-info my-3">Kartun</a>
-            <a href="kategori-film/movie-fantasy.html" type="button" class="btn btn-lg menu-info my-3">Fantasi</a>
-            <a href="kategori-film/movie-laga-hero.html" type="button" class="btn btn-lg menu-info my-3">Laga/Hero</a>
-            <a href="kategori-film/movie-indo.html" type="button" class="btn btn-lg menu-info my-3">Indo</a>
+            <a href="kategori-film/movie-kartun.html" target="_blank" class="btn btn-lg film-kategori my-3">Kartun</a>
+            <a href="kategori-film/movie-fantasy.html" type="button" class="btn btn-lg film-kategori my-3">Fantasi</a>
+            <a href="kategori-film/movie-laga-hero.html" type="button" class="btn btn-lg film-kategori my-3">Laga/Hero</a>
+            <a href="kategori-film/movie-indo.html" type="button" class="btn btn-lg film-kategori my-3">Indo</a>
           </div>
         </div>
       </section>
@@ -80,64 +80,13 @@
       <!--newentry-->
       <section id="newentry" class="newentry">
         <h1>Rekomendasi</h1>
-        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-film">
-            <!-- <div class="card col-sm-3 m-3"><img src="assets/film/aquaman and the lost kingdom.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Aquaman and the lost kingdom</h5>
-                    <p>Rp. 22,000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/Pengabdi Setan 2.jpeg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Pengabdi Setan 2</h5>
-                    <p>Rp. 15,000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/Avatar The Way of Water.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Avatar The Way of Water</h5>
-                    <p>Rp. 22,000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/porcorosso.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Porco Rosso</h5>
-                    <p>Rp. 15,000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/spiritedaway.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Spirited Away</h5>
-                    <p>Rp. 15,000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 m-3"><img src="assets/film/totoro.jpg" width="18rem" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">My Neighbor Totoro</h5>
-                    <p>Rp. 15,000,-</p>
-                    <p style="font-size: 16px;"></p>
-                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</a>
-                </div>
-            </div> -->
-        </div>
+        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-film"></div>
       </section>
       <!--/newentry-->
       <!--newentry-->
       <section id="newentry" class="newentry">
         <h1>Baru</h1>
-        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-film-baru">
-            
-        </div>
+        <div class="row mt-1 py-2 mt-sm-2 pt-sm-2 justify-content-center" id="daftar-film-baru"></div>
       </section>
       <!--/newentry-->
       <!--database film-->
@@ -271,100 +220,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js "></script>
     <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        var xmlhttp=new XMLHttpRequest();
-        var url="js/listfilm.json";
-        xmlhttp.open("GET",url,true);
-        xmlhttp.send();
-        xmlhttp.onreadystatechange=function(){
-          if(this.readyState==4&&this.status==200){
-            var data=JSON.parse(this.responseText);
-            console.log(data);
-            $("#table-demo").DataTable({
-          // "ajax":data/object.txt,
-          "data":data.DaftarFilm,
-          "columns":[
-            {"data":"judul"},
-            {"data":"genre"},
-            {"data":"harga"}
-            //{"defaultContent": "<button data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Get File</button>"}
-          ],
-          lengthMenu: [
-              [5, 25, 50, -1],
-              [5, 25, 50, 'All']
-          ],
-          dom: "Bfrtip",
-          buttons: [
-            // "colvis",
-            // {
-            //   extends: "print",
-            //   text: '<i class="bi bi-printer-fill"></i>',
-            // },
-            // {
-            //   extends: "copy",
-            //   text: '<i class="bi bi-clipboard-fill"></i>',
-            // },
-            // {
-            //   extends: "excelHtml5",
-            //   text: '<i class="bi bi-file-excel-fill"></i>',
-            // },
-            // {
-            //   extends: "pdf",
-            //   text: '<i class="bi bi-filetype-pdf"></i>',
-            // },
-            // {
-            //   extends: "csv",
-            //   text: '<i class="bi bi-filetype-csv"></i>',
-            // },
-          ],
-        });
-          }
-        }
-        
-      });
-
-    </script>
-    <script>
-      Fancybox.bind("[data-fancybox]", {
-        // Your custom options
-      });
-      AOS.init();
-    </script>
-    <script>
-      $.getJSON("../js/listfilm.json", function (data) {
-      let DaftarFilm = data.DaftarFilm;
-      let content = "";
-      let contents="";
-
-      $.each(DaftarFilm, function (i, data) {
-        if (data.detail == "awesome") {
-          content +=
-            '<div class="card col-sm-3 m-3"><img src="../assets/film/'+
-              data.gambar+
-              '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+
-                      data.judul+
-                      '</h5><p>'+
-                        data.harga+'</p><p style="font-size: 16px;"></p><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>';
-        }
-      });
-
-      $.each(DaftarFilm, function (i, data) {
-        if (data.detail == "newentry") {
-          contents +=
-            '<div class="card col-sm-3 m-3"><img src="../assets/film/'+
-              data.gambar+
-              '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+
-                      data.judul+
-                      '</h5><p>'+
-                        data.harga+'</p><p style="font-size: 16px;"></p><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>';
-        }
-      });
-
-      $("#daftar-film").html(content);
-      $("#daftar-film-baru").html(contents);
-  });
-    </script>
-    
+    <!--javascript include-->
+    <script src="js/script.js"></script>
   </body>
 </html>
