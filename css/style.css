@@ -157,6 +157,9 @@ html[data-color-mode="dark"] .card a:hover {
 }
 
 /* ----------Footer---------- */
+#footer {
+  background-color: var(--color-donker-blue);
+}
 footer {
   .row {
     background-color: var(--color-donker-blue);
