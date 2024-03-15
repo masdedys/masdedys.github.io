@@ -30,7 +30,7 @@
       <nav class="navbar fixed-top navbar-expand-lg mb-5 mb-sm-2" style="background-color: #555">
         <div class="container py-3">
           <a class="navbar-brand" href="https://masdedys.github.io/movie.html">
-            <img src="../assets/img/logo.png" alt="" />
+            <img src="../assets/img/logo.png" alt="logo mas_dedys" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -92,7 +92,7 @@
           <div class="col-sm-4 py-5">
             <ul>
               <li>
-                <p><img src="../assets/img/logo.png" class="img-fluid justify-content-center" alt="..." /></p>
+                <p><img src="../assets/img/logo.png" class="img-fluid justify-content-center" alt="logo mas_dedys" /></p>
               </li>
               <li><h3>Kunjungi saya juga di</h3></li>
             </ul>
@@ -119,13 +119,13 @@
             <ul>
               <li><h3>Pembayaran</h3></li>
               <li>
-                <img src="../assets/img/bca.webp" class="rounded-1" width="20%" height="20%" alt="" />
-                <img src="../assets/img/bri.webp" class="rounded-1" width="20%" height="20%" alt="" />
-                <img src="../assets/img/brimo.webp" class="rounded-1" width="20%" height="20%" alt="" />
+                <img src="../assets/img/bca.webp" class="rounded-1" width="20%" height="20%" alt="logo bca" />
+                <img src="../assets/img/bri.webp" class="rounded-1" width="20%" height="20%" alt="logo bri" />
+                <img src="../assets/img/brimo.webp" class="rounded-1" width="20%" height="20%" alt="logo brimo" />
               </li>
               <li><h3>Pengiriman</h3></li>
               <li class="py-2">
-                <img src="../assets/img/JNE.webp" class="rounded-1" width="20%" height="20%" alt="" />
+                <img src="../assets/img/JNE.webp" class="rounded-1" width="20%" height="20%" alt="logo jne" />
               </li>
             </ul>
           </div>
@@ -142,22 +142,6 @@
       </div>
       <!--/copyright-->
     </div>
-    <!-- Modal maaf belum tersedia-->
-    <div class="modal fade" id="belumtersedia" tabindex="-1" aria-labelledby="belumtersedia" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="belumtersedia">Maaf yah</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body text-center">
-            <span style="font-size: 100px">&#128532;</span>
-            <p>Konten yang kamu minta belum tersedia, silahkan cek yang lain.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Modal maaf belum tersedia-->
     <!-- Modal silahkan hubungi kami-->
     <div class="modal fade" id="hubungikamidiig" tabindex="-1" aria-labelledby="hubungikamidiig" aria-hidden="true">
       <div class="modal-dialog">
@@ -208,7 +192,9 @@
             content +=
               '<div class="card col-sm-3 m-3"><img src="../assets/film/' +
               data.gambar +
-              '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' +
+              '" width="18rem" class="card-img-top" alt="gambar ' +
+              data.judul +
+              '"><div class="card-body"><h5 class="card-title">' +
               data.judul +
               "</h5><p>" +
               data.harga +

@@ -2,6 +2,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --color-dark-orange: #ff7f00;
@@ -236,6 +237,47 @@ footer {
   margin: 0;
   justify-content: space-around;
   align-items: center;
+}
+/* ----------for Zoom---------- */
+.zoom {
+  transition: transform 0.2s;
+}
+.credit .container-fluid {
+  background-color: #e2edff;
+  text-decoration: none;
+}
+.credit .container-fluid .bi-cup-hot-fill {
+  color: #036635;
+}
+.credit .container-fluid .bi-heart-fill {
+  color: red;
+}
+.credit .container-fluid a {
+  text-decoration: none;
+  color: black;
+}
+.credit .container-fluid a:hover {
+  color: red;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2) rotate(10deg);
+  box-shadow: 2px 2px 5px rgb(161, 133, 133);
+  font-size: 150%;
+}
+
+h3 > .hovera {
+  text-decoration: none;
+  color: black;
+}
+h3 > .hovera:hover {
+  background-color: black;
+  color: yellow;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /* ----------Media Queries---------- */

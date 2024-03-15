@@ -15,8 +15,8 @@ function TampilkanSemuaProduk() {
       $("#daftar-produk").append(
         '<div class="card col-sm-3 m-3"><img src="assets/jualan/' +
           data.gambar +
-          '" width="18rem" class="card-img-top" alt="' +
-          data.gambar +
+          '" width="18rem" class="card-img-top" alt="gambar ' +
+          data.nama +
           '"><div class="card-body"><h5 class="card-title">' +
           data.nama +
           "</h5><p>Rp." +
@@ -51,7 +51,9 @@ $(".produk-kategori").on("click", function () {
         content +=
           '<div class="card col-sm-3 m-3"><img src="assets/jualan/' +
           data.gambar +
-          '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' +
+          '" width="18rem" class="card-img-top" alt="gambar ' +
+          data.nama +
+          '"><div class="card-body"><h5 class="card-title">' +
           data.nama +
           "</h5><p>Rp." +
           data.harga +
@@ -74,7 +76,9 @@ $.getJSON("../js/listfilm.json", function (data) {
       content +=
         '<div class="card col-sm-3 m-3"><img src="../assets/film/' +
         data.gambar +
-        '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' +
+        '" width="18rem" class="card-img-top" alt="gambar ' +
+        data.judul +
+        '"><div class="card-body"><h5 class="card-title">' +
         data.judul +
         "</h5><p>" +
         data.harga +
@@ -87,7 +91,9 @@ $.getJSON("../js/listfilm.json", function (data) {
       contents +=
         '<div class="card col-sm-3 m-3"><img src="../assets/film/' +
         data.gambar +
-        '" width="18rem" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' +
+        '" width="18rem" class="card-img-top" alt="gambar ' +
+        data.judul +
+        '"><div class="card-body"><h5 class="card-title">' +
         data.judul +
         "</h5><p>" +
         data.harga +
