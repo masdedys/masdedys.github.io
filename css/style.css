@@ -111,7 +111,16 @@ html[data-color-mode="dark"] .card a:hover {
   background-color: var(--color-dark-blue);
   color: var(--color-gold);
 }
-
+/* -----------Card---------- */
+.card span {
+  font-size: 14px;
+}
+.card small {
+  background-color: cadetblue;
+  padding: 6px;
+  font-size: 10px;
+  color: white;
+}
 /* -----------Aboutme---------- */
 .aboutme {
   padding-top: 150px;

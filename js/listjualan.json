@@ -6,6 +6,7 @@
       "nama": "Android Development for Rookies with Database",
       "harga": "50,000",
       "gambar": "Android Application Development for Rookies with Database.jpg",
+      "produksecond": "Produk Second",
       "detail": "Android-Application-Development-for-Rookies-with-Database.html"
     },
     {
@@ -14,6 +15,7 @@
       "nama": "Dasar Pemrograman JavaScript",
       "harga": "40,000",
       "gambar": "Dasar Pemrograman JavaScript.jpg",
+      "produksecond": "Produk Second",
       "detail": "Dasar-Pemrograman-JavaScript.html"
     },
     {
@@ -22,6 +24,7 @@
       "nama": "Panduan Praktis Menguasai Vuejs",
       "harga": "25,000",
       "gambar": "Panduan Praktis Menguasai Vuejs.jpg",
+      "produksecond": "Produk Second",
       "detail": "Panduan-Praktis-Menguasai-Vuejs.html"
     },
     {
@@ -30,6 +33,7 @@
       "nama": "Make It Happen!",
       "harga": "50,000",
       "gambar": "Make It Happen!.jpg",
+      "produksecond": "Produk Second",
       "detail": "Make-It-Happen.html"
     },
     {
@@ -38,6 +42,7 @@
       "nama": "The Body Language",
       "harga": "50,000",
       "gambar": "The Body Language.jpg",
+      "produksecond": "Produk Second",
       "detail": "The-Body-Language.html"
     },
     {
@@ -46,6 +51,7 @@
       "nama": "Pemrograman Android untuk Pemula",
       "harga": "20,000",
       "gambar": "Pemrograman Android untuk Pemula.jpg",
+      "produksecond": "Produk Second",
       "detail": "Pemrograman-Android-untuk-Pemula.html"
     }
   ]

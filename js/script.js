@@ -19,9 +19,11 @@ function TampilkanSemuaProduk() {
           data.nama +
           '"><div class="card-body"><h5 class="card-title">' +
           data.nama +
-          "</h5><p>Rp." +
+          "</h5><span>Rp." +
           data.harga +
-          '</p><p style="font-size: 16px;"></p><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>'
+          '</span><br><small class="rounded">' +
+          data.produksecond +
+          '</small><br><br><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>'
       );
     });
   });
@@ -55,9 +57,11 @@ $(".produk-kategori").on("click", function () {
           data.nama +
           '"><div class="card-body"><h5 class="card-title">' +
           data.nama +
-          "</h5><p>Rp." +
+          "</h5><span>Rp." +
           data.harga +
-          '</p><p style="font-size: 16px;"></p><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>';
+          '</span><br><small class="rounded">' +
+          data.produksecond +
+          '</small><br><br><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>';
       }
     });
 
