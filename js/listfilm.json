@@ -1,6 +1,30 @@
 {
   "DaftarFilm": [
     {
+      "id": "33",
+      "judul": "Jurassic World",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "jurassic world.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "32",
+      "judul": "Princess Mononoke",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "princess mononoke.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "31",
+      "judul": "The Boss Baby",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "The Boss Baby.jpg",
+      "detail": "newentry"
+    },
+    {
       "id": "30",
       "judul": "Migration",
       "genre": "Kartun",
@@ -22,7 +46,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Hotel Transylvania Transformania.png",
-      "detail": "newentry"
+      "detail": "Hotel Transylvania Transformania"
     },
     {
       "id": "27",
@@ -30,7 +54,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "The Super Mario Bros.jpg",
-      "detail": "newentry"
+      "detail": "The Super Mario Bros"
     },
     {
       "id": "26",
@@ -38,7 +62,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Weathering with You.jpg",
-      "detail": "newentry"
+      "detail": "Weathering with You"
     },
     {
       "id": "25",
