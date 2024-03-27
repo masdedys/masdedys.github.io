@@ -1,12 +1,36 @@
 {
   "DaftarFilm": [
     {
+      "id": "36",
+      "judul": "Yu Gi Oh Dark Side Dimensions",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "yu gi oh dark side dimensions.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "35",
+      "judul": "Your Name",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "your name.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "34",
+      "judul": "Wonka",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "Wonka.jpg",
+      "detail": "newentry"
+    },
+    {
       "id": "33",
       "judul": "Jurassic World",
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "jurassic world.jpg",
-      "detail": "newentry"
+      "detail": "Jurassic World"
     },
     {
       "id": "32",
@@ -14,7 +38,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "princess mononoke.jpg",
-      "detail": "newentry"
+      "detail": "Princess Mononoke"
     },
     {
       "id": "31",
@@ -22,7 +46,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "The Boss Baby.jpg",
-      "detail": "newentry"
+      "detail": "The Boss Baby"
     },
     {
       "id": "30",
