@@ -1,6 +1,30 @@
 {
   "DaftarFilm": [
     {
+      "id": "39",
+      "judul": "Digimon Adventure Tri Saikai",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "digimon adventure tri saikai.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "38",
+      "judul": "Stand By Me 2",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "stand by me 2.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "37",
+      "judul": "The Boss Baby Family Business",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "the boss baby family business.jpg",
+      "detail": "newentry"
+    },
+    {
       "id": "36",
       "judul": "Yu Gi Oh Dark Side Dimensions",
       "genre": "Kartun",
@@ -22,7 +46,7 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "Wonka.jpg",
-      "detail": "newentry"
+      "detail": "Wonka"
     },
     {
       "id": "33",
@@ -38,7 +62,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "princess mononoke.jpg",
-      "detail": "Princess Mononoke"
+      "detail": "Princess Mononoke",
+      "studio": "Ghibli"
     },
     {
       "id": "31",
@@ -54,7 +79,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "migration.jpg",
-      "detail": "newentry"
+      "detail": "Migration"
     },
     {
       "id": "29",
@@ -62,7 +87,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Leo.jpg",
-      "detail": "newentry"
+      "detail": "Leo"
     },
     {
       "id": "28",
@@ -142,7 +167,8 @@
       "genre": "Laga/Hero",
       "harga": "Rp. 20,000,-",
       "gambar": "Sri Asih.jpg",
-      "detail": "Sri Asih"
+      "detail": "Sri Asih",
+      "studio": "Bumilangit Cinematic Universe"
     },
     {
       "id": "18",
@@ -238,7 +264,8 @@
       "genre": "Laga/Hero",
       "harga": "Rp. 20,000,-",
       "gambar": "gundala.jpg",
-      "detail": "Gundala"
+      "detail": "Gundala",
+      "studio": "Bumilangit Cinematic Universe"
     },
     {
       "id": "6",
@@ -246,7 +273,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "howlmovingcastle.jpg",
-      "detail": "Howl Moving Castle"
+      "detail": "Howl Moving Castle",
+      "studio": "Ghibli"
     },
     {
       "id": "5",
@@ -254,7 +282,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "kikisdeliveryservice.jpg",
-      "detail": "Kikis Delivery Service"
+      "detail": "Kikis Delivery Service",
+      "studio": "Ghibli"
     },
     {
       "id": "4",
@@ -262,7 +291,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "ponyo.png",
-      "detail": "Ponyo"
+      "detail": "Ponyo",
+      "studio": "Ghibli"
     },
     {
       "id": "3",
@@ -270,7 +300,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "porcorosso.jpg",
-      "detail": "Porco Rosso"
+      "detail": "Porco Rosso",
+      "studio": "Ghibli"
     },
     {
       "id": "2",
@@ -278,7 +309,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "spiritedaway.jpg",
-      "detail": "awesome"
+      "detail": "awesome",
+      "studio": "Ghibli"
     },
     {
       "id": "1",
@@ -286,7 +318,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "totoro.jpg",
-      "detail": "My Neighbor Totoro"
+      "detail": "My Neighbor Totoro",
+      "studio": "Ghibli"
     }
   ]
 }
