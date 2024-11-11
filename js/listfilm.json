@@ -1,6 +1,30 @@
 {
   "DaftarFilm": [
     {
+      "id": "42",
+      "judul": "Transformers Revenge Of The Fallen",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "transformers revenge of the fallen.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "41",
+      "judul": "Bluelock episode nagi",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "bluelock episode nagi.jpg",
+      "detail": "newentry"
+    },
+    {
+      "id": "40",
+      "judul": "Ferdinand",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "ferdinand.jpg",
+      "detail": "newentry"
+    },
+    {
       "id": "39",
       "judul": "Digimon Adventure Tri Saikai",
       "genre": "Kartun",
@@ -22,7 +46,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "the boss baby family business.jpg",
-      "detail": "newentry"
+      "detail": "The Boss Baby Family Business"
     },
     {
       "id": "36",
@@ -30,7 +54,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "yu gi oh dark side dimensions.jpg",
-      "detail": "newentry"
+      "detail": "Yu Gi Oh Dark Side Dimensions"
     },
     {
       "id": "35",
@@ -38,7 +62,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "your name.jpg",
-      "detail": "newentry"
+      "detail": "Your Name"
     },
     {
       "id": "34",
@@ -162,23 +186,6 @@
       "detail": "awesome"
     },
     {
-      "id": "19",
-      "judul": "Sri Asih",
-      "genre": "Laga/Hero",
-      "harga": "Rp. 20,000,-",
-      "gambar": "Sri Asih.jpg",
-      "detail": "Sri Asih",
-      "studio": "Bumilangit Cinematic Universe"
-    },
-    {
-      "id": "18",
-      "judul": "Satria Dewa Gatotkaca",
-      "genre": "Laga/Hero",
-      "harga": "Rp. 20,000,-",
-      "gambar": "Satria Dewa Gatotkaca.jpg",
-      "detail": "Satria Dewa Gatotkaca"
-    },
-    {
       "id": "17",
       "judul": "Pirates of the Caribbean Dead Men Tell No Tales",
       "genre": "Fantasy",
@@ -195,30 +202,6 @@
       "detail": "Murder Orient Express"
     },
     {
-      "id": "15",
-      "judul": "Meg 2 The Trench",
-      "genre": "Laga/Hero",
-      "harga": "Rp. 25,000,-",
-      "gambar": "meg 2 the trench.jpg",
-      "detail": "Meg 2 The Trench"
-    },
-    {
-      "id": "14",
-      "judul": "Civil War Captain America",
-      "genre": "Laga/Hero",
-      "harga": "Rp. 25,000,-",
-      "gambar": "Civil War Captain America.jpg",
-      "detail": "Civil War Captain America"
-    },
-    {
-      "id": "13",
-      "judul": "AntMan and the Wasp Quantumania",
-      "genre": "Laga/Hero",
-      "harga": "Rp. 25,000,-",
-      "gambar": "AntMan and the Wasp Quantumania.jpg",
-      "detail": "awesome"
-    },
-    {
       "id": "12",
       "judul": "A Haunting in Venice",
       "genre": "Fantasy",
@@ -228,19 +211,11 @@
     },
     {
       "id": "11",
-      "judul": "Pengabdi Setan 2",
+      "judul": "Siksa Neraka",
       "genre": "Indo",
       "harga": "Rp. 20,000,-",
-      "gambar": "Pengabdi Setan 2.jpeg",
-      "detail": "Pengabdi Setan 2"
-    },
-    {
-      "id": "10",
-      "judul": "Mencuri Raden Saleh",
-      "genre": "Indo",
-      "harga": "Rp. 20,000,-",
-      "gambar": "Mencuri Raden Saleh.jpg",
-      "detail": "Mencuri Raden Saleh"
+      "gambar": "siksa neraka.jpeg",
+      "detail": "Siksa Neraka"
     },
     {
       "id": "9",
@@ -249,23 +224,6 @@
       "harga": "Rp. 25,000",
       "gambar": "Avatar The Way of Water.jpg",
       "detail": "awesome"
-    },
-    {
-      "id": "8",
-      "judul": "Aquaman and the lost kingdom",
-      "genre": "Laga/Hero",
-      "harga": "Rp. 25,000",
-      "gambar": "aquaman and the lost kingdom.jpg",
-      "detail": "awesome"
-    },
-    {
-      "id": "7",
-      "judul": "Gundala",
-      "genre": "Laga/Hero",
-      "harga": "Rp. 20,000,-",
-      "gambar": "gundala.jpg",
-      "detail": "Gundala",
-      "studio": "Bumilangit Cinematic Universe"
     },
     {
       "id": "6",
