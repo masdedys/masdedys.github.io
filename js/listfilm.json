@@ -1,12 +1,49 @@
 {
   "DaftarFilm": [
     {
+      "id": "46",
+      "judul": "Jurassic Park",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "jurassic park.jpg",
+      "detail": "newentry",
+      "studio": "Universal"
+    },
+    {
+      "id": "45",
+      "judul": "Kungfu Panda 4",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "kungfu panda 4.jpg",
+      "detail": "newentry",
+      "studio": "Paramount"
+    },
+    {
+      "id": "44",
+      "judul": "Grave Of The Fireflies",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Grave Of The Fireflies.jpg",
+      "detail": "newentry",
+      "studio": "Ghibli"
+    },
+    {
+      "id": "43",
+      "judul": "Digimon Adventure Last Evolution Kizuna",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "digimon adventure last evolution kizuna.jpg",
+      "detail": "newentry",
+      "studio": "Toei Animation"
+    },
+    {
       "id": "42",
       "judul": "Transformers Revenge Of The Fallen",
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "transformers revenge of the fallen.jpg",
-      "detail": "newentry"
+      "detail": "newentry",
+      "studio": "Paramount"
     },
     {
       "id": "41",
@@ -14,7 +51,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "bluelock episode nagi.jpg",
-      "detail": "newentry"
+      "detail": "Bluelock episode nagi",
+      "studio": "Bandai Namco"
     },
     {
       "id": "40",
@@ -22,7 +60,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "ferdinand.jpg",
-      "detail": "newentry"
+      "detail": "Ferdinand",
+      "studio": "20th Century"
     },
     {
       "id": "39",
@@ -30,7 +69,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "digimon adventure tri saikai.jpg",
-      "detail": "newentry"
+      "detail": "Digimon Adventure Tri Saikai",
+      "studio": "Toei Animation"
     },
     {
       "id": "38",
@@ -38,7 +78,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "stand by me 2.jpg",
-      "detail": "newentry"
+      "detail": "Stand By Me 2"
     },
     {
       "id": "37",
@@ -70,7 +110,8 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "Wonka.jpg",
-      "detail": "Wonka"
+      "detail": "Wonka",
+      "studio": "Warner Bros"
     },
     {
       "id": "33",
@@ -78,7 +119,8 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "jurassic world.jpg",
-      "detail": "Jurassic World"
+      "detail": "Jurassic World",
+      "studio": "Universal"
     },
     {
       "id": "32",
@@ -199,7 +241,8 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "murder orient express.jpg",
-      "detail": "Murder Orient Express"
+      "detail": "Murder Orient Express",
+      "studio": "20th Century"
     },
     {
       "id": "12",
@@ -207,7 +250,8 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "a haunting in venice.jpg",
-      "detail": "A Haunting in Venice"
+      "detail": "A Haunting in Venice",
+      "studio": "20th Century"
     },
     {
       "id": "11",
@@ -215,7 +259,8 @@
       "genre": "Indo",
       "harga": "Rp. 20,000,-",
       "gambar": "siksa neraka.jpeg",
-      "detail": "Siksa Neraka"
+      "detail": "Siksa Neraka",
+      "studio": "DEE"
     },
     {
       "id": "9",
@@ -223,7 +268,26 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000",
       "gambar": "Avatar The Way of Water.jpg",
-      "detail": "awesome"
+      "detail": "awesome",
+      "studio": "20th Century"
+    },
+    {
+      "id": "8",
+      "judul": "Sri Asih",
+      "genre": "Laga/Hero",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Sri Asih.jpg",
+      "detail": "Sri Asih",
+      "studio": "BCU"
+    },
+    {
+      "id": "7",
+      "judul": "Gundala",
+      "genre": "Laga/Hero",
+      "harga": "Rp. 20,000,-",
+      "gambar": "gundala.jpg",
+      "detail": "Gundala",
+      "studio": "BCU"
     },
     {
       "id": "6",
