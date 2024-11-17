@@ -6,7 +6,7 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "jurassic park.jpg",
-      "detail": "newentry",
+      "detail": "Jurassic Park",
       "studio": "Universal"
     },
     {
@@ -15,8 +15,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "kungfu panda 4.jpg",
-      "detail": "newentry",
-      "studio": "Paramount"
+      "detail": "Kungfu Panda 4",
+      "studio": "Dream Works"
     },
     {
       "id": "44",
@@ -24,7 +24,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Grave Of The Fireflies.jpg",
-      "detail": "newentry",
+      "detail": "Grave Of The Fireflies",
       "studio": "Ghibli"
     },
     {
@@ -33,7 +33,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "digimon adventure last evolution kizuna.jpg",
-      "detail": "newentry",
+      "detail": "Digimon Adventure Last Evolution Kizuna",
       "studio": "Toei Animation"
     },
     {
@@ -42,7 +42,7 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "transformers revenge of the fallen.jpg",
-      "detail": "newentry",
+      "detail": "Transformers Revenge Of The Fallen",
       "studio": "Paramount"
     },
     {
@@ -61,7 +61,7 @@
       "harga": "Rp. 20,000,-",
       "gambar": "ferdinand.jpg",
       "detail": "Ferdinand",
-      "studio": "20th Century"
+      "studio": "Blue Sky"
     },
     {
       "id": "39",
@@ -78,7 +78,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "stand by me 2.jpg",
-      "detail": "Stand By Me 2"
+      "detail": "Stand By Me 2",
+      "studio": "Shirogumi"
     },
     {
       "id": "37",
@@ -86,7 +87,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "the boss baby family business.jpg",
-      "detail": "The Boss Baby Family Business"
+      "detail": "The Boss Baby Family Business",
+      "studio": "Dream Works"
     },
     {
       "id": "36",
@@ -94,7 +96,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "yu gi oh dark side dimensions.jpg",
-      "detail": "Yu Gi Oh Dark Side Dimensions"
+      "detail": "Yu Gi Oh Dark Side Dimensions",
+      "studio": "Toei Animation"
     },
     {
       "id": "35",
@@ -102,7 +105,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "your name.jpg",
-      "detail": "Your Name"
+      "detail": "Your Name",
+      "studio": "Comic Wave"
     },
     {
       "id": "34",
@@ -137,7 +141,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "The Boss Baby.jpg",
-      "detail": "The Boss Baby"
+      "detail": "The Boss Baby",
+      "studio": "Dream Works"
     },
     {
       "id": "30",
@@ -145,7 +150,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "migration.jpg",
-      "detail": "Migration"
+      "detail": "Migration",
+      "studio": "Universal"
     },
     {
       "id": "29",
@@ -153,7 +159,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Leo.jpg",
-      "detail": "Leo"
+      "detail": "Leo",
+      "studio": "Happy Madison"
     },
     {
       "id": "28",
@@ -161,7 +168,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Hotel Transylvania Transformania.png",
-      "detail": "Hotel Transylvania Transformania"
+      "detail": "Hotel Transylvania Transformania",
+      "studio": "Columbia"
     },
     {
       "id": "27",
@@ -169,7 +177,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "The Super Mario Bros.jpg",
-      "detail": "The Super Mario Bros"
+      "detail": "The Super Mario Bros",
+      "studio": "Universal"
     },
     {
       "id": "26",
@@ -177,7 +186,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Weathering with You.jpg",
-      "detail": "Weathering with You"
+      "detail": "Weathering with You",
+      "studio": "Comic Wave"
     },
     {
       "id": "25",
@@ -185,7 +195,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Pussy Boots.jpg",
-      "detail": "Pussy Boots"
+      "detail": "Pussy Boots",
+      "studio": "Dream Works"
     },
     {
       "id": "24",
@@ -193,7 +204,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Mummies.jpg",
-      "detail": "Mummies"
+      "detail": "Mummies",
+      "studio": "Warner Bros"
     },
     {
       "id": "23",
@@ -201,7 +213,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Gridman Universe.jpg",
-      "detail": "Gridman Universe"
+      "detail": "Gridman Universe",
+      "studio": "Toho Animation"
     },
     {
       "id": "22",
@@ -209,7 +222,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Detective Conan Black Iron Submarine.jpg",
-      "detail": "Detective Conan Black Iron Submarine"
+      "detail": "Detective Conan Black Iron Submarine",
+      "studio": "TMS"
     },
     {
       "id": "21",
@@ -217,7 +231,8 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto.jpg",
-      "detail": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto"
+      "detail": "Detective Conan the fist of blue sapphire meitantei conan konjo no fisuto",
+      "studio": "TMS"
     },
     {
       "id": "20",
@@ -225,7 +240,17 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Suzume.jpg",
-      "detail": "awesome"
+      "detail": "awesome",
+      "studio": "Comic Wave"
+    },
+    {
+      "id": "18",
+      "judul": "Megamind vs The Doom Syndicate",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "megamind vs the doom syndicate.jpg",
+      "detail": "newentry",
+      "studio": "Dream Works"
     },
     {
       "id": "17",
@@ -243,6 +268,33 @@
       "gambar": "murder orient express.jpg",
       "detail": "Murder Orient Express",
       "studio": "20th Century"
+    },
+    {
+      "id": "15",
+      "judul": "Hellboy The Crooked Man",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "hellboy the crooked man.jpg",
+      "detail": "newentry",
+      "studio": "VVS Films"
+    },
+    {
+      "id": "14",
+      "judul": "Gundam Seed Freedom",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "gundam seed freedom.jpg",
+      "detail": "newentry",
+      "studio": "Bandai Namco"
+    },
+    {
+      "id": "13",
+      "judul": "Stand By Me",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "doraemon stand by me.jpg",
+      "detail": "newentry",
+      "studio": "Shirogumi"
     },
     {
       "id": "12",
@@ -263,6 +315,15 @@
       "studio": "DEE"
     },
     {
+      "id": "10",
+      "judul": "Siksa Kubur",
+      "genre": "Indo",
+      "harga": "Rp. 20,000,-",
+      "gambar": "siksa kubur.jpg",
+      "detail": "newentry",
+      "studio": "Rapi Film"
+    },
+    {
       "id": "9",
       "judul": "Avatar The Way of Water",
       "genre": "Fantasy",
@@ -274,7 +335,7 @@
     {
       "id": "8",
       "judul": "Sri Asih",
-      "genre": "Laga/Hero",
+      "genre": "Indo",
       "harga": "Rp. 20,000,-",
       "gambar": "Sri Asih.jpg",
       "detail": "Sri Asih",
@@ -283,7 +344,7 @@
     {
       "id": "7",
       "judul": "Gundala",
-      "genre": "Laga/Hero",
+      "genre": "Indo",
       "harga": "Rp. 20,000,-",
       "gambar": "gundala.jpg",
       "detail": "Gundala",
