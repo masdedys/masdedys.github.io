@@ -1,6 +1,42 @@
 {
   "DaftarFilm": [
     {
+      "id": "50",
+      "judul": "Demon Slayer Mugen Train",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "demon slayer mugen train.jpg",
+      "detail": "newentry",
+      "studio": "Ufotable"
+    },
+    {
+      "id": "49",
+      "judul": "beetlejuice beetlejuice.jpg",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "beetlejuice beetlejuice.jpg",
+      "detail": "newentry",
+      "studio": "Warner Bros"
+    },
+    {
+      "id": "48",
+      "judul": "How to make millions before grandma dies",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "how to make millions before grandma dies.jpg",
+      "detail": "newentry",
+      "studio": "GDH"
+    },
+    {
+      "id": "47",
+      "judul": "Davinci Code",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "the davinci code.jpg",
+      "detail": "newentry",
+      "studio": "Columbia"
+    },
+    {
       "id": "46",
       "judul": "Jurassic Park",
       "genre": "Fantasy",
@@ -244,12 +280,21 @@
       "studio": "Comic Wave"
     },
     {
+      "id": "19",
+      "judul": "Wind Rises",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "wind rises.jpg",
+      "detail": "newentry",
+      "studio": "Ghibli"
+    },
+    {
       "id": "18",
       "judul": "Megamind vs The Doom Syndicate",
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "megamind vs the doom syndicate.jpg",
-      "detail": "newentry",
+      "detail": "Megamind vs The Doom Syndicate",
       "studio": "Dream Works"
     },
     {
@@ -275,7 +320,7 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "hellboy the crooked man.jpg",
-      "detail": "newentry",
+      "detail": "Hellboy The Crooked Man",
       "studio": "VVS Films"
     },
     {
@@ -284,7 +329,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "gundam seed freedom.jpg",
-      "detail": "newentry",
+      "detail": "Gundam Seed Freedom",
       "studio": "Bandai Namco"
     },
     {
@@ -293,7 +338,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "doraemon stand by me.jpg",
-      "detail": "newentry",
+      "detail": "Stand By Me",
       "studio": "Shirogumi"
     },
     {
@@ -320,7 +365,7 @@
       "genre": "Indo",
       "harga": "Rp. 20,000,-",
       "gambar": "siksa kubur.jpg",
-      "detail": "newentry",
+      "detail": "Siksa Kubur",
       "studio": "Rapi Film"
     },
     {

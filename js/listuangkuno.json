@@ -1,0 +1,212 @@
+{
+  "uangkuno": [
+    {
+      "id": "26",
+      "nominal": "100",
+      "jenis": "Kertas",
+      "ciri": "Perahu Pinisi",
+      "tahun": 1992,
+      "noseri": "OLT237772"
+    },
+    {
+      "id": "25",
+      "nominal": "100",
+      "jenis": "Kertas",
+      "ciri": "Goura Victoria",
+      "tahun": 1984,
+      "noseri": "UWQ191607"
+    },
+    {
+      "id": "24",
+      "nominal": "1",
+      "jenis": "Kertas",
+      "ciri": "Petani",
+      "tahun": 1964,
+      "noseri": "AK0014649"
+    },
+    {
+      "id": "23",
+      "nominal": "5",
+      "jenis": "Kertas",
+      "ciri": "Empat Burung",
+      "tahun": 1959,
+      "noseri": "5XEX09218"
+    },
+    {
+      "id": "22",
+      "nominal": "2.5",
+      "jenis": "Kertas",
+      "ciri": "Orang Tua Papua",
+      "tahun": 1956,
+      "noseri": "CDK094827"
+    },
+    {
+      "id": "21",
+      "nominal": "5000",
+      "jenis": "Kertas",
+      "ciri": "Raja Sisingamangaraja XII",
+      "tahun": 1987,
+      "noseri": "JPZ164368"
+    },
+    {
+      "id": "20",
+      "nominal": "5000",
+      "jenis": "Kertas",
+      "ciri": "Dr. K.H. Idham Chalid",
+      "tahun": 2016,
+      "noseri": "YFN402199"
+    },
+    {
+      "id": "19",
+      "nominal": "75000",
+      "jenis": "Kertas",
+      "ciri": "75 Tahun Indonesia Merdeka",
+      "tahun": 2020,
+      "noseri": "AAA593324"
+    },
+    {
+      "id": "18",
+      "nominal": "100000",
+      "jenis": "Kertas",
+      "ciri": "Raja Ampat",
+      "tahun": 2022,
+      "noseri": "VAN690260"
+    },
+    {
+      "id": "17",
+      "nominal": "500",
+      "jenis": "Kertas",
+      "ciri": "Orang Utan",
+      "tahun": 1992,
+      "noseri": "CPO490436"
+    },
+    {
+      "id": "16",
+      "nominal": "1",
+      "jenis": "Kertas",
+      "ciri": "Saudi Arabian Monetary Agency",
+      "tahun": 2012,
+      "noseri": "1167334740"
+    },
+    {
+      "id": "15",
+      "nominal": "50",
+      "jenis": "Koin",
+      "ciri": "Kepodang",
+      "tahun": 2002,
+      "noseri": "-"
+    },
+    {
+      "id": "14",
+      "nominal": "50",
+      "jenis": "Koin",
+      "ciri": "Komodo",
+      "tahun": 1996,
+      "noseri": "-"
+    },
+    {
+      "id": "13",
+      "nominal": "1000",
+      "jenis": "Koin",
+      "ciri": "Mr. I Gusti Ketut Pudja",
+      "tahun": 2016,
+      "noseri": "-"
+    },
+    {
+      "id": "12",
+      "nominal": "1000",
+      "jenis": "Koin",
+      "ciri": "Angklung",
+      "tahun": 2010,
+      "noseri": "-"
+    },
+    {
+      "id": "11",
+      "nominal": "500",
+      "jenis": "Koin",
+      "ciri": "Bunga Melati",
+      "tahun": 1991,
+      "noseri": "-"
+    },
+    {
+      "id": "10",
+      "nominal": "500",
+      "jenis": "Koin",
+      "ciri": "Bunga Melati",
+      "tahun": 2000,
+      "noseri": "-"
+    },
+    {
+      "id": "9",
+      "nominal": "100",
+      "jenis": "Koin",
+      "ciri": "Wayang",
+      "tahun": 1978,
+      "noseri": "-"
+    },
+    {
+      "id": "8",
+      "nominal": "100",
+      "jenis": "Koin",
+      "ciri": "Rumah Gadang",
+      "tahun": 1973,
+      "noseri": "-"
+    },
+    {
+      "id": "7",
+      "nominal": "100",
+      "jenis": "Koin",
+      "ciri": "Karapan Sapi",
+      "tahun": 1993,
+      "noseri": "-"
+    },
+    {
+      "id": "6",
+      "nominal": "100",
+      "jenis": "Koin",
+      "ciri": "Kakaktua Raja",
+      "tahun": 1999,
+      "noseri": "-"
+    },
+    {
+      "id": "5",
+      "nominal": "100",
+      "jenis": "Koin",
+      "ciri": "Prof. Dr. Ir. Herman Johannes",
+      "tahun": 2016,
+      "noseri": "-"
+    },
+    {
+      "id": "4",
+      "nominal": "200",
+      "jenis": "Koin",
+      "ciri": "Jalak Bali",
+      "tahun": 2003,
+      "noseri": "-"
+    },
+    {
+      "id": "3",
+      "nominal": "200",
+      "jenis": "Koin",
+      "ciri": "Dr. Tjiptomangunkusumo",
+      "tahun": 2016,
+      "noseri": "-"
+    },
+    {
+      "id": "2",
+      "nominal": "500",
+      "jenis": "Koin",
+      "ciri": "Bunga Melati",
+      "tahun": 2003,
+      "noseri": "-"
+    },
+    {
+      "id": "1",
+      "nominal": "500",
+      "jenis": "Koin",
+      "ciri": "Letjen TNI T.B.Simatupang",
+      "tahun": 2016,
+      "noseri": "-"
+    }
+  ]
+}
