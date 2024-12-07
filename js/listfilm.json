@@ -1,12 +1,66 @@
 {
   "DaftarFilm": [
     {
+      "id": "61",
+      "judul": "Transformers dark moon",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "transformers dark moon.jpg",
+      "detail": "newentry",
+      "studio": "Paramount"
+    },
+    {
+      "id": "60",
+      "judul": "Castle in the sky",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "castle in the sky.jpg",
+      "detail": "newentry",
+      "studio": "Ghibli"
+    },
+    {
+      "id": "59",
+      "judul": "Garfield Movie",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "garfield movie.jpg",
+      "detail": "newentry",
+      "studio": "Columbia"
+    },
+    {
+      "id": "58",
+      "judul": "Look Back",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Look Back.jpg",
+      "detail": "newentry",
+      "studio": "Metro Goldwyn Mayer"
+    },
+    {
+      "id": "57",
+      "judul": "Secret world arrietty",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "secret world arrietty.jpg",
+      "detail": "newentry",
+      "studio": "Ghibli"
+    },
+    {
+      "id": "56",
+      "judul": "Spy X Code White",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "spy x code white.jpg",
+      "detail": "Spy X Code White",
+      "studio": "Toho Animation"
+    },
+    {
       "id": "55",
       "judul": "Ghostbusters Frozen Empire",
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "ghostbusters frozen empire.jpg",
-      "detail": "newentry",
+      "detail": "Ghostbusters Frozen Empire",
       "studio": "Columbia"
     },
     {
@@ -15,7 +69,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "spy x code white.jpg",
-      "detail": "newentry",
+      "detail": "Spy X Code White",
       "studio": "Toho Animation"
     },
     {
@@ -24,7 +78,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "the boy and the heron.jpg",
-      "detail": "newentry",
+      "detail": "The Boy and The Heron",
       "studio": "Ghibli"
     },
     {
@@ -33,7 +87,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "the first slam dunk.jpg",
-      "detail": "newentry",
+      "detail": "The First Slam Dunk",
       "studio": "Toei Animation"
     },
     {
@@ -42,7 +96,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "the wild robot.jpg",
-      "detail": "newentry",
+      "detail": "The Wild Robot",
       "studio": "Dream Works"
     },
     {
@@ -330,7 +384,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "wind rises.jpg",
-      "detail": "newentry",
+      "detail": "Wind Rises",
       "studio": "Ghibli"
     },
     {
