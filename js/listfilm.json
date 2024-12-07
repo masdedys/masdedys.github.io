@@ -1,21 +1,66 @@
 {
   "DaftarFilm": [
     {
+      "id": "55",
+      "judul": "Ghostbusters Frozen Empire",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "ghostbusters frozen empire.jpg",
+      "detail": "newentry",
+      "studio": "Columbia"
+    },
+    {
+      "id": "54",
+      "judul": "Spy X Code White",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "spy x code white.jpg",
+      "detail": "newentry",
+      "studio": "Toho Animation"
+    },
+    {
+      "id": "53",
+      "judul": "The Boy and The Heron",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "the boy and the heron.jpg",
+      "detail": "newentry",
+      "studio": "Ghibli"
+    },
+    {
+      "id": "52",
+      "judul": "The First Slam Dunk",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "the first slam dunk.jpg",
+      "detail": "newentry",
+      "studio": "Toei Animation"
+    },
+    {
+      "id": "51",
+      "judul": "The Wild Robot",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "the wild robot.jpg",
+      "detail": "newentry",
+      "studio": "Dream Works"
+    },
+    {
       "id": "50",
       "judul": "Demon Slayer Mugen Train",
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "demon slayer mugen train.jpg",
-      "detail": "newentry",
+      "detail": "Demon Slayer Mugen Train",
       "studio": "Ufotable"
     },
     {
       "id": "49",
-      "judul": "beetlejuice beetlejuice.jpg",
+      "judul": "Beetlejuice Beetlejuice",
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "beetlejuice beetlejuice.jpg",
-      "detail": "newentry",
+      "detail": "Beetlejuice Beetlejuice",
       "studio": "Warner Bros"
     },
     {
@@ -24,7 +69,7 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "how to make millions before grandma dies.jpg",
-      "detail": "newentry",
+      "detail": "How to make millions before grandma dies",
       "studio": "GDH"
     },
     {
@@ -33,7 +78,7 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "the davinci code.jpg",
-      "detail": "newentry",
+      "detail": "Davinci Code",
       "studio": "Columbia"
     },
     {
