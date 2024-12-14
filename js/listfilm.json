@@ -1,12 +1,57 @@
 {
   "DaftarFilm": [
     {
+      "id": "66",
+      "judul": "Haikyu The Dumpster Battle",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Haikyu The Dumpster Battle.jpeg",
+      "detail": "newentry",
+      "studio": "Toho Animation"
+    },
+    {
+      "id": "65",
+      "judul": "Jurassic World Dominion",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "jurassic world dominion.jpg",
+      "detail": "newentry",
+      "studio": "Universal"
+    },
+    {
+      "id": "64",
+      "judul": "Si Juki the Movie Harta Pulau Monyet",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Si Juki the Movie Harta Pulau Monyet.jpg",
+      "detail": "newentry",
+      "studio": "Falcon"
+    },
+    {
+      "id": "63",
+      "judul": "Transformers Last Knight",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "transformers last knight.jpg",
+      "detail": "newentry",
+      "studio": "Paramount"
+    },
+    {
+      "id": "62",
+      "judul": "Transformers One",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Transformers One.jpg",
+      "detail": "newentry",
+      "studio": "Paramount"
+    },
+    {
       "id": "61",
       "judul": "Transformers dark moon",
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "transformers dark moon.jpg",
-      "detail": "newentry",
+      "detail": "Transformers dark moon",
       "studio": "Paramount"
     },
     {
@@ -15,7 +60,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "castle in the sky.jpg",
-      "detail": "newentry",
+      "detail": "Castle in the sky",
       "studio": "Ghibli"
     },
     {
@@ -24,7 +69,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "garfield movie.jpg",
-      "detail": "newentry",
+      "detail": "Garfield Movie",
       "studio": "Columbia"
     },
     {
@@ -33,7 +78,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Look Back.jpg",
-      "detail": "newentry",
+      "detail": "Look Back",
       "studio": "Metro Goldwyn Mayer"
     },
     {
@@ -42,7 +87,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "secret world arrietty.jpg",
-      "detail": "newentry",
+      "detail": "Secret world arrietty",
       "studio": "Ghibli"
     },
     {
