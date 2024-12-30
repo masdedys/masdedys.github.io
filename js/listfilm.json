@@ -1,12 +1,48 @@
 {
   "DaftarFilm": [
     {
+      "id": "70",
+      "judul": "Transformers Rise of The Beasts",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "transformers rise of the beasts.jpg",
+      "detail": "newentry",
+      "studio": "Paramount"
+    },
+    {
+      "id": "69",
+      "judul": "Mission Immposible Dead Reckoning part one",
+      "genre": "Fantasy",
+      "harga": "Rp. 25,000,-",
+      "gambar": "mission immposible dead reckoning part one.jpg",
+      "detail": "newentry",
+      "studio": "Paramount"
+    },
+    {
+      "id": "68",
+      "judul": "Digimon Adventure 02 Begining",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "digimon adventure 02 begining.jpg",
+      "detail": "newentry",
+      "studio": "Toei Animation"
+    },
+    {
+      "id": "67",
+      "judul": "Detective Conan The Million Dollar Pentagram",
+      "genre": "Kartun",
+      "harga": "Rp. 20,000,-",
+      "gambar": "Detective Conan The Million Dollar Pentagram.jpg",
+      "detail": "newentry",
+      "studio": "TMS"
+    },
+    {
       "id": "66",
       "judul": "Haikyu The Dumpster Battle",
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Haikyu The Dumpster Battle.jpeg",
-      "detail": "newentry",
+      "detail": "Haikyu The Dumpster Battle",
       "studio": "Toho Animation"
     },
     {
@@ -15,7 +51,7 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "jurassic world dominion.jpg",
-      "detail": "newentry",
+      "detail": "Jurassic World Dominion",
       "studio": "Universal"
     },
     {
@@ -24,7 +60,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Si Juki the Movie Harta Pulau Monyet.jpg",
-      "detail": "newentry",
+      "detail": "Si Juki the Movie Harta Pulau Monyet",
       "studio": "Falcon"
     },
     {
@@ -33,7 +69,7 @@
       "genre": "Fantasy",
       "harga": "Rp. 25,000,-",
       "gambar": "transformers last knight.jpg",
-      "detail": "newentry",
+      "detail": "Transformers Last Knight",
       "studio": "Paramount"
     },
     {
@@ -42,7 +78,7 @@
       "genre": "Kartun",
       "harga": "Rp. 20,000,-",
       "gambar": "Transformers One.jpg",
-      "detail": "newentry",
+      "detail": "Transformers One",
       "studio": "Paramount"
     },
     {
