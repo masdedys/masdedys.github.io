@@ -111,6 +111,17 @@ html[data-color-mode="dark"] .card a:hover {
   background-color: var(--color-dark-blue);
   color: var(--color-gold);
 }
+/* -----------td color---------- */
+table tr .caption-description {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 7px 0 7px 0;
+}
+table tr .caption-description-o {
+  font-weight: bold;
+}
+/* -----------/td color---------- */
 /* -----------Card---------- */
 .card span {
   font-size: 14px;

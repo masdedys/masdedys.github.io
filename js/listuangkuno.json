@@ -1,292 +1,172 @@
 {
   "uangkuno": [
     {
-      "id": "36",
-      "nominal": "5 Sen",
+      "id": "0",
+      "negara": "Indonesia",
+      "nominal": "100",
       "jenis": "Koin",
-      "ciri": "Tengah Bolong",
-      "tahun": 1951,
-      "noseri": "-"
-    },
-    {
-      "id": "35",
-      "nominal": "1 Sen",
-      "jenis": "Koin",
-      "ciri": "Tengah Bolong",
-      "tahun": 1952,
-      "noseri": "-"
-    },
-    {
-      "id": "34",
-      "nominal": "50 Sen",
-      "jenis": "Koin",
-      "ciri": "Dipa Negara",
-      "tahun": 1952,
-      "noseri": "-"
-    },
-    {
-      "id": "33",
-      "nominal": "50 Sen",
-      "jenis": "Koin",
-      "ciri": "Garuda Besar",
-      "tahun": 1959,
-      "noseri": "-"
-    },
-    {
-      "id": "32",
-      "nominal": "10 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Tingkatkan Produksi Sandang Pangan",
-      "tahun": 1971,
-      "noseri": "-"
-    },
-    {
-      "id": "31",
-      "nominal": "25 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Burung",
-      "tahun": 1971,
-      "noseri": "-"
-    },
-    {
-      "id": "30",
-      "nominal": "5 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Keluarga Berencana",
-      "tahun": 1979,
-      "noseri": "-"
-    },
-    {
-      "id": "29",
-      "nominal": "10 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Tabanas",
-      "tahun": 1979,
-      "noseri": "-"
-    },
-    {
-      "id": "28",
-      "nominal": "25 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Buah Pala",
-      "tahun": 1994,
-      "noseri": "-"
-    },
-    {
-      "id": "27",
-      "nominal": "1000 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Kelapa Sawit",
-      "tahun": 1996,
-      "noseri": "-"
-    },
-    {
-      "id": "26",
-      "nominal": "100 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Perahu Pinisi",
-      "tahun": 1992,
-      "noseri": "OLT237772"
-    },
-    {
-      "id": "25",
-      "nominal": "100 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Goura Victoria",
-      "tahun": 1984,
-      "noseri": "UWQ191607"
-    },
-    {
-      "id": "24",
-      "nominal": "1 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Petani",
-      "tahun": 1964,
-      "noseri": "AK0014649"
-    },
-    {
-      "id": "23",
-      "nominal": "5 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Empat Burung",
-      "tahun": 1959,
-      "noseri": "5XEX09218"
-    },
-    {
-      "id": "22",
-      "nominal": "2.5 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Orang Tua Papua",
-      "tahun": 1956,
-      "noseri": "CDK094827"
-    },
-    {
-      "id": "21",
-      "nominal": "5000 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Raja Sisingamangaraja XII",
-      "tahun": 1987,
-      "noseri": "JPZ164368"
-    },
-    {
-      "id": "20",
-      "nominal": "5000 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Dr. K.H. Idham Chalid",
+      "ciri": "Prof. Dr. Ir. HERMAN JOHANNES",
+      "satuan": "Rupiah",
       "tahun": 2016,
-      "noseri": "YFN402199"
-    },
-    {
-      "id": "19",
-      "nominal": "75000 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "75 Tahun Indonesia Merdeka",
-      "tahun": 2020,
-      "noseri": "AAA593324"
-    },
-    {
-      "id": "18",
-      "nominal": "100000 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Raja Ampat",
-      "tahun": 2022,
-      "noseri": "VAN690260"
-    },
-    {
-      "id": "17",
-      "nominal": "500 Rupiah",
-      "jenis": "Kertas",
-      "ciri": "Orang Utan",
-      "tahun": 1992,
-      "noseri": "CPO490436"
-    },
-    {
-      "id": "16",
-      "nominal": "1 Real",
-      "jenis": "Kertas",
-      "ciri": "Saudi Arabian Monetary Agency",
-      "tahun": 2012,
-      "noseri": "1167334740"
-    },
-    {
-      "id": "15",
-      "nominal": "50 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Cendrawasih",
-      "tahun": 1971,
-      "noseri": "-"
-    },
-    {
-      "id": "14",
-      "nominal": "50 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Komodo",
-      "tahun": 1996,
-      "noseri": "-"
-    },
-    {
-      "id": "13",
-      "nominal": "1000 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Mr. I Gusti Ketut Pudja",
-      "tahun": 2016,
-      "noseri": "-"
-    },
-    {
-      "id": "12",
-      "nominal": "1000 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Angklung",
-      "tahun": 2010,
-      "noseri": "-"
-    },
-    {
-      "id": "11",
-      "nominal": "500 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Bunga Melati",
-      "tahun": 1991,
-      "noseri": "-"
-    },
-    {
-      "id": "10",
-      "nominal": "500 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Bunga Melati",
-      "tahun": 2000,
-      "noseri": "-"
-    },
-    {
-      "id": "9",
-      "nominal": "100 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Wayang",
-      "tahun": 1978,
-      "noseri": "-"
-    },
-    {
-      "id": "8",
-      "nominal": "100 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Rumah Gadang",
-      "tahun": 1973,
-      "noseri": "-"
-    },
-    {
-      "id": "7",
-      "nominal": "100 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Karapan Sapi",
-      "tahun": 1993,
-      "noseri": "-"
-    },
-    {
-      "id": "6",
-      "nominal": "100 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Kakaktua Raja",
-      "tahun": 1999,
-      "noseri": "-"
-    },
-    {
-      "id": "5",
-      "nominal": "100 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Prof. Dr. Ir. Herman Johannes",
-      "tahun": 2016,
-      "noseri": "-"
-    },
-    {
-      "id": "4",
-      "nominal": "200 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Jalak Bali",
-      "tahun": 2003,
-      "noseri": "-"
-    },
-    {
-      "id": "3",
-      "nominal": "200 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Dr. Tjiptomangunkusumo",
-      "tahun": 2016,
-      "noseri": "-"
-    },
-    {
-      "id": "2",
-      "nominal": "500 Rupiah",
-      "jenis": "Koin",
-      "ciri": "Bunga Melati",
-      "tahun": 2003,
-      "noseri": "-"
+      "noseri": "-",
+      "detail": "detailuangkuno/koin100hermanjohannes.html",
+      "foto": "../assets/uangkuno/koin-100-rupiah-Herman-Johannes.jpg"
     },
     {
       "id": "1",
-      "nominal": "500 Rupiah",
+      "negara": "Indonesia",
+      "nominal": "500",
       "jenis": "Koin",
-      "ciri": "Letjen TNI T.B.Simatupang",
+      "ciri": "Bunga Melati",
+      "satuan": "Rupiah",
+      "tahun": 2003,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin500melati.html",
+      "foto": "../assets/uangkuno/koin-500-rupiah-bunga-melati.jpg"
+    },
+    {
+      "id": "2",
+      "negara": "Indonesia",
+      "nominal": "200",
+      "jenis": "Koin",
+      "ciri": "Jalak Bali",
+      "satuan": "Rupiah",
+      "tahun": 2003,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin200jalakbali.html",
+      "foto": "../assets/uangkuno/koin-200-rupiah-jalak-bali.jpg"
+    },
+    {
+      "id": "3",
+      "negara": "Indonesia",
+      "nominal": "500",
+      "jenis": "Koin",
+      "ciri": "Bunga Melati Aluminium",
+      "satuan": "Rupiah",
+      "tahun": 2003,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin500melatialu.html",
+      "foto": "../assets/uangkuno/koin-500-rupiah-bunga-melati-alu.jpg"
+    },
+    {
+      "id": "4",
+      "negara": "Indonesia",
+      "nominal": "1000",
+      "jenis": "Koin",
+      "ciri": "Angklung",
+      "satuan": "Rupiah",
+      "tahun": 2010,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin1000angklung.html",
+      "foto": "../assets/uangkuno/koin-1000-rupiah-angklung.jpg"
+    },
+    {
+      "id": "5",
+      "negara": "Indonesia",
+      "nominal": "25",
+      "jenis": "Koin",
+      "ciri": "Buah Pala",
+      "satuan": "Rupiah",
+      "tahun": 1994,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin25BuahPala.html",
+      "foto": "../assets/uangkuno/koin-25-rupiah-Buah-Pala.jpg"
+    },
+    {
+      "id": "6",
+      "negara": "Indonesia",
+      "nominal": "200",
+      "jenis": "Koin",
+      "ciri": "Dr. TJIPTOMANGUNKUSUMO",
+      "satuan": "Rupiah",
       "tahun": 2016,
-      "noseri": "-"
+      "noseri": "-",
+      "detail": "detailuangkuno/koin200TJIPTOMANGUNKUSUMO.html",
+      "foto": "../assets/uangkuno/koin-200-rupiah-TJIPTOMANGUNKUSUMO.jpg"
+    },
+    {
+      "id": "7",
+      "negara": "Indonesia",
+      "nominal": "1000",
+      "jenis": "Koin",
+      "ciri": "Mr. I GUSTI KETUT PUDJA",
+      "satuan": "Rupiah",
+      "tahun": 2016,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin1000IGUSTIKETUTPUDJA.html",
+      "foto": "../assets/uangkuno/koin-1000-rupiah-I-GUSTI-KETUT-PUDJA.jpg"
+    },
+    {
+      "id": "8",
+      "negara": "Indonesia",
+      "nominal": "500",
+      "jenis": "Koin",
+      "ciri": "LETJEN TNI T.B. SIMATUPANG",
+      "satuan": "Rupiah",
+      "tahun": 2016,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin500SIMATUPANG.html",
+      "foto": "../assets/uangkuno/koin-500-rupiah-SIMATUPANG.jpg"
+    },
+    {
+      "id": "9",
+      "negara": "Indonesia",
+      "nominal": "50",
+      "jenis": "Koin",
+      "ciri": "Komodo",
+      "satuan": "Rupiah",
+      "tahun": 1996,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin50Komodo.html",
+      "foto": "../assets/uangkuno/koin-50-rupiah-Komodo.jpg"
+    },
+    {
+      "id": "10",
+      "negara": "Indonesia",
+      "nominal": "1000",
+      "jenis": "Koin",
+      "ciri": "KELAPA SAWIT",
+      "satuan": "Rupiah",
+      "tahun": 1996,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin1000KELAPASAWIT.html",
+      "foto": "../assets/uangkuno/koin-1000-rupiah-KELAPA-SAWIT.jpg"
+    },
+    {
+      "id": "11",
+      "negara": "Indonesia",
+      "nominal": "100",
+      "jenis": "Koin",
+      "ciri": "KAKAKTUA RAJA",
+      "satuan": "Rupiah",
+      "tahun": 1999,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin100KAKAKTUARAJA.html",
+      "foto": "../assets/uangkuno/koin-100-rupiah-KAKAKTUA-RAJA.jpg"
+    },
+    {
+      "id": "12",
+      "negara": "Indonesia",
+      "nominal": "100",
+      "jenis": "Koin",
+      "ciri": "Karapan Sapi",
+      "satuan": "Rupiah",
+      "tahun": 1993,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin100KarapanSapi.html",
+      "foto": "../assets/uangkuno/koin-100-rupiah-Karapan-Sapi.jpg"
+    },
+    {
+      "id": "13",
+      "negara": "Indonesia",
+      "nominal": "500",
+      "jenis": "Koin",
+      "ciri": "Bunga Melati Besar",
+      "satuan": "Rupiah",
+      "tahun": 1991,
+      "noseri": "-",
+      "detail": "detailuangkuno/koin500bungamelatibesar.html",
+      "foto": "../assets/uangkuno/koin-500-rupiah-bunga-melati-besar.jpg"
     }
   ]
 }
