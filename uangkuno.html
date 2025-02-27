@@ -122,6 +122,7 @@
             console.log(data);
             $("#table-uangkuno").DataTable({
               // "ajax":data/object.txt,
+              responsive: true,
               data: data.uangkuno,
               columns: [
                 { data: "nominal" },
