@@ -371,6 +371,102 @@
       "noseri": "-",
       "detail": "detailuangkuno/30.html",
       "foto": "../assets/uangkuno/koin-10-rupiah-MENABUNG-UNTUK-MENUNJANG-PEMBANGUNAN.jpg"
+    },
+    {
+      "id": "31",
+      "negara": "Indonesia",
+      "nominal": 1,
+      "jenis": "Kertas",
+      "ciri": "PAK TANI",
+      "satuan": "SEN",
+      "tahun": 1964,
+      "noseri": "AKO014649",
+      "detail": "detailuangkuno/31.html",
+      "foto": "../assets/uangkuno/kertas-1-sen-PAK-PETANI.jpg"
+    },
+    {
+      "id": "32",
+      "negara": "Indonesia",
+      "nominal": 2.5,
+      "jenis": "Kertas",
+      "ciri": "LAKI - LAKI",
+      "satuan": "Rupiah",
+      "tahun": 1956,
+      "noseri": "CDK094827",
+      "detail": "detailuangkuno/32.html",
+      "foto": "../assets/uangkuno/kertas-2koma5-rupiah-LAKI-LAKI.jpg"
+    },
+    {
+      "id": "33",
+      "negara": "Indonesia",
+      "nominal": 5,
+      "jenis": "Kertas",
+      "ciri": "WIJAYAKUSUMA",
+      "satuan": "Rupiah",
+      "tahun": 1959,
+      "noseri": "5XEX09218",
+      "detail": "detailuangkuno/33.html",
+      "foto": "../assets/uangkuno/kertas-5-rupiah-WIJAYAKUSUMA.jpg"
+    },
+    {
+      "id": "34",
+      "negara": "Indonesia",
+      "nominal": 100,
+      "jenis": "Kertas",
+      "ciri": "GOURA VICTORIA",
+      "satuan": "Rupiah",
+      "tahun": 1984,
+      "noseri": "UWQ191607",
+      "detail": "detailuangkuno/34.html",
+      "foto": "../assets/uangkuno/kertas-100-rupiah-GOURA-VICTORIA.jpg"
+    },
+    {
+      "id": "35",
+      "negara": "Indonesia",
+      "nominal": 100,
+      "jenis": "Kertas",
+      "ciri": "PERAHU PINISI",
+      "satuan": "Rupiah",
+      "tahun": 1992,
+      "noseri": "OLT237772",
+      "detail": "detailuangkuno/35.html",
+      "foto": "../assets/uangkuno/kertas-100-rupiah-PERAHU-PINISI.jpg"
+    },
+    {
+      "id": "36",
+      "negara": "Indonesia",
+      "nominal": 500,
+      "jenis": "Kertas",
+      "ciri": "ORANG UTAN",
+      "satuan": "Rupiah",
+      "tahun": 1992,
+      "noseri": "CPO490436",
+      "detail": "detailuangkuno/36.html",
+      "foto": "../assets/uangkuno/kertas-500-rupiah-ORANG-UTAN.jpg"
+    },
+    {
+      "id": "37",
+      "negara": "Indonesia",
+      "nominal": 1000,
+      "jenis": "Kertas",
+      "ciri": "RAJA SISINGAMANGARAJA XII",
+      "satuan": "Rupiah",
+      "tahun": 1987,
+      "noseri": "JPZ164368",
+      "detail": "detailuangkuno/37.html",
+      "foto": "../assets/uangkuno/kertas-1000-rupiah-RAJA-SISINGAMANGARAJA-XII.jpg"
+    },
+    {
+      "id": "38",
+      "negara": "Saudi Arabia",
+      "nominal": 1,
+      "jenis": "Kertas",
+      "ciri": "RAJA SALMAN",
+      "satuan": "Riyal",
+      "tahun": "-",
+      "noseri": "1167334740",
+      "detail": "detailuangkuno/38.html",
+      "foto": "../assets/uangkuno/kertas-1-riyal-Raja-Salman.jpg"
     }
   ]
 }
