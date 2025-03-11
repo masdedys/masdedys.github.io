@@ -1,58 +1,48 @@
 {
   "produk": [
     {
-      "id": "1",
-      "kategori": "information technology",
-      "nama": "Android Development for Rookies with Database",
+      "id": "0",
+      "nama": "The Body Language",
+      "oleh": "JUDI JAMES",
       "harga": "50,000",
-      "gambar": "Android Application Development for Rookies with Database.jpg",
-      "produksecond": "Produk Second",
-      "detail": "Android-Application-Development-for-Rookies-with-Database.html"
+      "jenis": "buku bekas",
+      "gambar": "The Body Language.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Pencitraan dan penampilan menjadi ukuran dalam sebuah keberhasilan bagi masyarakat saat ini. Hanya kurang dari 3 detik, secara tak sadar manusia saling menilai satu sama lain berdasarkan bahasa tubuh mereka. Buku ini dipenuhi informasi psikologi dan tips - tips sederhana tetapi ampuh untuk menjelaskan kepada kita cara menggali, membaca, memahami pencitraan diri kita dan mengekspresikannya secara akurat.",
+      "detail": "0.html"
+    },
+    {
+      "id": "1",
+      "nama": "Make It Happen!",
+      "oleh": "PRITA HAPSARI GHOZIE",
+      "harga": "50,000",
+      "jenis": "buku bekas",
+      "gambar": "Make It Happen!.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Buku ini berisi tahapan - tahapan dalam perencanaan keuangan untuk mewujudkan berbagai mimpi anda. Dirangkum dalam ilustrasi yang sangat menarik dan bahasa yang membumi, buku ini dapat menjadi panduan bagi siapa saja.",
+      "detail": "1.html"
     },
     {
       "id": "2",
-      "kategori": "information technology",
-      "nama": "Dasar Pemrograman JavaScript",
-      "harga": "40,000",
-      "gambar": "Dasar Pemrograman JavaScript.jpg",
-      "produksecond": "Produk Second",
-      "detail": "Dasar-Pemrograman-JavaScript.html"
+      "nama": "Android Application Development for Rookies with Database",
+      "oleh": "NADIA FIRLY",
+      "harga": "50,000",
+      "jenis": "buku bekas",
+      "gambar": "Android Application Development for Rookies with Database.jpg",
+      "kategori": "komputer",
+      "deskripsi": "Sudah saatnya anda membuat sebuah apilkasi hingga dapat mengunggahnya ke Google Play. Terlebih , Proyek yang ada pada buku ini telah menggunakan 2 jenis database, yaitu SQLite dan Firebase sekaligus. Sungguh investasi diri yang besar bukan?",
+      "detail": "2.html"
     },
     {
       "id": "3",
-      "kategori": "information technology",
       "nama": "Panduan Praktis Menguasai Vuejs",
+      "oleh": "LUTFI GANI",
       "harga": "25,000",
+      "jenis": "buku bekas",
       "gambar": "Panduan Praktis Menguasai Vuejs.jpg",
-      "produksecond": "Produk Second",
-      "detail": "Panduan-Praktis-Menguasai-Vuejs.html"
-    },
-    {
-      "id": "4",
-      "kategori": "business",
-      "nama": "Make It Happen!",
-      "harga": "50,000",
-      "gambar": "Make It Happen!.jpg",
-      "produksecond": "Produk Second",
-      "detail": "Make-It-Happen.html"
-    },
-    {
-      "id": "5",
-      "kategori": "motivation",
-      "nama": "The Body Language",
-      "harga": "50,000",
-      "gambar": "The Body Language.jpg",
-      "produksecond": "Produk Second",
-      "detail": "The-Body-Language.html"
-    },
-    {
-      "id": "6",
-      "kategori": "information technology",
-      "nama": "Pemrograman Android untuk Pemula",
-      "harga": "20,000",
-      "gambar": "Pemrograman Android untuk Pemula.jpg",
-      "produksecond": "Produk Second",
-      "detail": "Pemrograman-Android-untuk-Pemula.html"
+      "kategori": "komputer",
+      "deskripsi": "Vue.js dibangun dengan pendekatan Approachable yang fokus pada kesederhanaan dan kerapian struktur codingannya - cukup pengetahuan dasar HTML, CSS dan Javascript - memudahkan pengguna mempelajarinya dengan cepat.",
+      "detail": "3.html"
     }
   ]
 }

@@ -67,9 +67,9 @@
           <h2 class="py-5 mt-5">Kategori</h2>
           <div class="col-sm justify-content-between">
             <button type="button" class="btn btn-lg produk-kategori my-3">All Product</button>
-            <button type="button" class="btn btn-lg produk-kategori my-3">Information Technology</button>
-            <button type="button" class="btn btn-lg produk-kategori my-3">Motivation</button>
-            <button type="button" class="btn btn-lg produk-kategori my-3">Business</button>
+            <button type="button" class="btn btn-lg produk-kategori my-3">Pengembangan Diri</button>
+            <button type="button" class="btn btn-lg produk-kategori my-3">Bisnis</button>
+            <button type="button" class="btn btn-lg produk-kategori my-3">Komputer</button>
           </div>
         </div>
       </section>
@@ -193,10 +193,12 @@ function TampilkanSemuaProduk() {
           '"><div class="card-body"><h5 class="card-title">' +
           data.nama +
           "</h5><span>Rp." +
-          data.harga +
+          data.harga +',-'+
           '</span><br><small class="rounded">' +
-          data.produksecond +
-          '</small><br><br><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>'
+          data.kategori +
+          '</small><small class="rounded">' +
+          data.jenis +
+          '</small><br><br><a href="detail-jualan/'+ data.detail +'" class="btn" target="_blank">Detail</a><br /><br /><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli Sekarang</a></div></div>'
       );
     });
   });
@@ -231,10 +233,12 @@ $(".produk-kategori").on("click", function () {
           '"><div class="card-body"><h5 class="card-title">' +
           data.nama +
           "</h5><span>Rp." +
-          data.harga +
+          data.harga +',-'+
           '</span><br><small class="rounded">' +
-          data.produksecond +
-          '</small><br><br><a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli</a></div></div>';
+          data.kategori +
+          '</small><small class="rounded">' +
+          data.jenis +
+          '</small><br><br><a href="detail-jualan/'+ data.detail +'" class="btn" target="_blank">Detail</a><br /><br /><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli Sekarang</a></div></div>';
       }
     });
 
