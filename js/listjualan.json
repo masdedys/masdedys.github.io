@@ -109,6 +109,61 @@
       "kategori": "komputer",
       "deskripsi": "Dalam buku ini, akan dibahas bagaimana untuk membangun aplikasi kearsipan untuk Perusahaan Jasa Tenaga Kerja Indonesia (PJTKI), pembahasan dari ulai perancangan table dan pembuatan database, perancangan diagram konteks, DFD Level 0, DFD Bertingkat ERD, Flowchart, Konsep Desain dan cara penggunaan aplikasi. Sehingga dengan lengkapnya perancangan dan konsep desin, buku ini juga cocok dijadikan sebagai panduan skripsi, tidak lupa disertakan Final Project Mega Proyek Exclusive senilai 50 Juta Rupiah yang bisa ditemukan dalam buku ini.",
       "detail": "9.html"
+    },
+    {
+      "id": "10",
+      "nama": "Proyek membuat website periklanan dengan php",
+      "oleh": "Agus Saputra",
+      "harga": "55,000",
+      "jenis": "buku bekas",
+      "gambar": "Proyek membuat website periklanan dengan php.jpg",
+      "kategori": "komputer",
+      "deskripsi": "Buku ini membahas bagaimana membuat website periklanan dengan berkonsep pada website oaseast.com. sebuah website periklanan berbasis di Qatar. Dikupas tutas dari mulai konsep alur perancangan, diagram konteks, DFD, DFD bertingkat, Flowchart, ERD, Perancangan Tabel, hingga kepada pembuatan trik – trik utama pendukung website seperti slider ala yahoo, live chat ala facebook, fancybox, upload ajax, slider iklan secara polaroid, image rounded, social network dan masih banyak lainnya.",
+      "detail": "10.html"
+    },
+    {
+      "id": "11",
+      "nama": "The magic of thinking big",
+      "oleh": "David J. Schwartz",
+      "harga": "45,000",
+      "jenis": "buku bekas",
+      "gambar": "The magic of thinking big.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Langkah - langkah sederhana yag disusun didalam buku ini merupakan pendekatan yang sudah terbukti terhadap situasi kehidupan yang secara universal dapat diterapkan dan berhasil seperti mukjizat. Mulialah sekarang juga untuk mengetahui bagaimana membuat cara berfikir anda menghasilkan mukjizat bagi diri anda.",
+      "detail": "11.html"
+    },
+    {
+      "id": "12",
+      "nama": "Unlimited power",
+      "oleh": "Anthony Robbins",
+      "harga": "75,000",
+      "jenis": "buku bekas",
+      "gambar": "Unlimited power.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Jika anda pernah memimpikan kehidupan yang lebih baik, buku ini menunjukkan anda bagaimana mencapai kualitas luar biasa dari kehidupan yang anda inginkan dan pantas untuk mendapatkannya. Penulis telah membuktikan kepada jutaan orang melalui buku ini dan berbagai seminarnya. Dia telah membuktikan para tokoh negarawan, pengusaha, atlet bintang film, hingga anak kecil, bagaimana mereka dapat menggapainya.",
+      "detail": "12.html"
+    },
+    {
+      "id": "13",
+      "nama": "Changing Minds",
+      "oleh": "Howard Gardner",
+      "harga": "45,000",
+      "jenis": "buku bekas",
+      "gambar": "Changing minds.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Berdasarkan penelitian kognitif selama bertahun – tahun, Gardner mengidentifkasi tujuh penggerak yang dapat membantu atau menggagalkan proses perubahan pikiran, termasuk alasan, penelitian, kejadian nyata, dan resistansi. Changing minds menawarkan kerangka asli dengan ilustrasi contoh – contoh terkenal dan sederhana dari agen – agen pengubah didunia politik, bisnis, sains, seni dan kehidupan sehari – hari yang menunjukkan bagaimana seorang individu dapat bersekutu dengan penggerak - penggerak tersebut untuk membawa perubahan signifikan dalam perspektif dan tingkah laku. Mulai dari re-orientasi inggris raya Margaret Tracher, transformasi BP Sir John Browne, teori evolusi Charles Darwin, tingkah laku antar suami – istri atau antar teman, hingga pada perubahan keputusan dari pikiran seseorang, Gardner mengungkap kesamaan yang mengejutkan dan perubahan yang berguna diantara faktor – faktor yang mempengaruhi perubahan pikiran dalam berbagai pengaturan yang berbeda.",
+      "detail": "13.html"
+    },
+    {
+      "id": "14",
+      "nama": "Dasar Pemrograman JavaScript",
+      "oleh": "Dr. Eng RH. Sianipar",
+      "harga": "40,000",
+      "jenis": "buku bekas",
+      "gambar": "Dasar Pemrograman JavaScript.jpg",
+      "kategori": "komputer",
+      "deskripsi": "Buku ini menawarkan lebih dari 110 kasus yang dikerjakan langkah demi langkah. Buku ini cocok untuk pemula maupun pembelajar berpengalaman, yang hanya memfokuskan dan mendalami elemen - elemen penting Javascript.",
+      "detail": "14.html"
     }
   ]
 }
