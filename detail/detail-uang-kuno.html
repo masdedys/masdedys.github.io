@@ -128,7 +128,7 @@
     <script>
       $.getJSON("../js/listuangkuno.json", function (data) {
         let list = data.uangkuno;
-        let noarray = 24;
+        let noarray = document.cookie;
         //console.log(list);
         document.title = list[noarray].jenis + " " + list[noarray].nominal + " " + list[noarray].satuan + " " + "| masdedys.github.io";
         document.getElementById("judul").innerHTML = list[noarray].jenis + " " + list[noarray].nominal + " " + list[noarray].satuan;
@@ -139,7 +139,7 @@
         document.getElementById("satuan").innerHTML = list[noarray].satuan;
         document.getElementById("tahun").innerHTML = list[noarray].tahun;
         document.getElementById("seri").innerHTML = list[noarray].noseri;
-        document.getElementById("show-image").innerHTML = `<div class="image-list"><img src ="${list[noarray].foto}" class="img-fluid" alt="" data-fancybox="gallery" data-caption="Caption #1"></div>`;
+        document.getElementById("show-image").innerHTML = `<div class="image-list"><img src ="../assets/uangkuno/${list[noarray].foto}" class="img-fluid" alt="" data-fancybox="gallery" data-caption="Caption #1"></div>`;
       });
     </script>
   </body>

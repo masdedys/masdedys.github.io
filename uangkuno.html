@@ -129,10 +129,10 @@
                 { data: "jenis" },
                 { data: "ciri" },
                 {
-                  data: "detail",
+                  data: "id",
                   render: function (data, type, row, meta) {
                     if (type === "display") {
-                      data = '<a href="' + data + '" target="_blank"> Lihat </a>';
+                      data = '<a href="detail/detail-uang-kuno.html" onclick="document.cookie =' + data + '" target="_blank"> Lihat </a>';
                     }
 
                     return data;

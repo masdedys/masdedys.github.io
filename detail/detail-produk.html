@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--title icon-->
+    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
@@ -132,8 +134,8 @@
     <script>
       $.getJSON("../js/listjualan.json", function (data) {
         let list = data.produk;
-        let noarray = 7;
-        console.log(list);
+        let noarray = document.cookie;
+        //console.log(list);
         document.title = "Jual " + list[noarray].nama + " " + "| Jakarta. masdedys.github.io";
         document.getElementById("nama").innerHTML = list[noarray].nama;
         document.getElementById("oleh").innerHTML = list[noarray].oleh;

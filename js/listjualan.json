@@ -1,169 +1,184 @@
 {
   "produk": [
     {
-      "id": "0",
+      "id": 0,
       "nama": "The Body Language",
       "oleh": "JUDI JAMES",
       "harga": "55,000",
       "jenis": "buku bekas",
       "gambar": "The Body Language.jpg",
       "kategori": "pengembangan diri",
-      "deskripsi": "Pencitraan dan penampilan menjadi ukuran dalam sebuah keberhasilan bagi masyarakat saat ini. Hanya kurang dari 3 detik, secara tak sadar manusia saling menilai satu sama lain berdasarkan bahasa tubuh mereka. Buku ini dipenuhi informasi psikologi dan tips - tips sederhana tetapi ampuh untuk menjelaskan kepada kita cara menggali, membaca, memahami pencitraan diri kita dan mengekspresikannya secara akurat.",
-      "detail": "0.html"
+      "deskripsi": "Pencitraan dan penampilan menjadi ukuran dalam sebuah keberhasilan bagi masyarakat saat ini. Hanya kurang dari 3 detik, secara tak sadar manusia saling menilai satu sama lain berdasarkan bahasa tubuh mereka. Buku ini dipenuhi informasi psikologi dan tips - tips sederhana tetapi ampuh untuk menjelaskan kepada kita cara menggali, membaca, memahami pencitraan diri kita dan mengekspresikannya secara akurat."
     },
     {
-      "id": "1",
+      "id": 1,
       "nama": "Make It Happen!",
       "oleh": "PRITA HAPSARI GHOZIE",
       "harga": "55,000",
       "jenis": "buku bekas",
       "gambar": "Make It Happen!.jpg",
       "kategori": "pengembangan diri",
-      "deskripsi": "Buku ini berisi tahapan - tahapan dalam perencanaan keuangan untuk mewujudkan berbagai mimpi anda. Dirangkum dalam ilustrasi yang sangat menarik dan bahasa yang membumi, buku ini dapat menjadi panduan bagi siapa saja.",
-      "detail": "1.html"
+      "deskripsi": "Buku ini berisi tahapan - tahapan dalam perencanaan keuangan untuk mewujudkan berbagai mimpi anda. Dirangkum dalam ilustrasi yang sangat menarik dan bahasa yang membumi, buku ini dapat menjadi panduan bagi siapa saja."
     },
     {
-      "id": "2",
+      "id": 2,
       "nama": "Android Application Development for Rookies with Database",
       "oleh": "NADIA FIRLY",
       "harga": "45,000",
       "jenis": "buku bekas",
       "gambar": "Android Application Development for Rookies with Database.jpg",
       "kategori": "komputer",
-      "deskripsi": "Sudah saatnya anda membuat sebuah apilkasi hingga dapat mengunggahnya ke Google Play. Terlebih , Proyek yang ada pada buku ini telah menggunakan 2 jenis database, yaitu SQLite dan Firebase sekaligus. Sungguh investasi diri yang besar bukan?",
-      "detail": "2.html"
+      "deskripsi": "Sudah saatnya anda membuat sebuah apilkasi hingga dapat mengunggahnya ke Google Play. Terlebih , Proyek yang ada pada buku ini telah menggunakan 2 jenis database, yaitu SQLite dan Firebase sekaligus. Sungguh investasi diri yang besar bukan?"
     },
     {
-      "id": "3",
+      "id": 3,
       "nama": "Panduan Praktis Menguasai Vuejs",
       "oleh": "LUTFI GANI",
       "harga": "25,000",
       "jenis": "buku bekas",
       "gambar": "Panduan Praktis Menguasai Vuejs.jpg",
       "kategori": "komputer",
-      "deskripsi": "Vue.js dibangun dengan pendekatan Approachable yang fokus pada kesederhanaan dan kerapian struktur codingannya - cukup pengetahuan dasar HTML, CSS dan Javascript - memudahkan pengguna mempelajarinya dengan cepat.",
-      "detail": "3.html"
+      "deskripsi": "Vue.js dibangun dengan pendekatan Approachable yang fokus pada kesederhanaan dan kerapian struktur codingannya - cukup pengetahuan dasar HTML, CSS dan Javascript - memudahkan pengguna mempelajarinya dengan cepat."
     },
     {
-      "id": "4",
+      "id": 4,
       "nama": "Merawat dan melatih burung kicauan",
       "oleh": "Anang dewanto dan maloedyn sitanggang",
       "harga": "45,000",
       "jenis": "buku bekas",
       "gambar": "Merawat dan melatih burung kicauan.jpg",
       "kategori": "hobi",
-      "deskripsi": "Mencetak burung kicauan liar menjadi burung yang bersuara merdu dan berkualitas kontes bukan masalah yang sulit. Asalkan kita sabra dan telaten dalam merawat dan melatihnya, niscaya burung tersebut akan memiliki suara indah dan merdu sesuai dengan yang ita harapkan. Buku yang ditulis oleh hobiis burung icauan yang telah banyak menghasilkan burung juara ini akan memaparkan secara gamblang cara merawat dan melatih 13 jenis burung kicauan. Disertai juga dengan tips dan trik memilih burung bakalan yang bagus.",
-      "detail": "4.html"
+      "deskripsi": "Mencetak burung kicauan liar menjadi burung yang bersuara merdu dan berkualitas kontes bukan masalah yang sulit. Asalkan kita sabra dan telaten dalam merawat dan melatihnya, niscaya burung tersebut akan memiliki suara indah dan merdu sesuai dengan yang ita harapkan. Buku yang ditulis oleh hobiis burung icauan yang telah banyak menghasilkan burung juara ini akan memaparkan secara gamblang cara merawat dan melatih 13 jenis burung kicauan. Disertai juga dengan tips dan trik memilih burung bakalan yang bagus."
     },
     {
-      "id": "5",
+      "id": 5,
       "nama": "Mengupas kiat sukses mengatur waktu",
       "oleh": "Ahmad farouq",
       "harga": "35,000",
       "jenis": "buku bekas",
       "gambar": "Mengupas kiat sukses mengatur waktu.jpg",
       "kategori": "pengembangan diri",
-      "deskripsi": "Pengelolaan waktu yag strategis merupakan factor vital dalam penyusunan semua aktifitas baik itu aktivitas bisnis, kehidupan personal maupun hubungan social. Tanpa kemampuan pengelolaan waktu yang tepat tidak akan tercapai. Jadikan pengelolaan waktu strategis sebagai konsep seukses dalam semua kehidupan anda. Buku ini mengantarkan anda untuk mencapainya!.",
-      "detail": "5.html"
+      "deskripsi": "Pengelolaan waktu yag strategis merupakan factor vital dalam penyusunan semua aktifitas baik itu aktivitas bisnis, kehidupan personal maupun hubungan social. Tanpa kemampuan pengelolaan waktu yang tepat tidak akan tercapai. Jadikan pengelolaan waktu strategis sebagai konsep seukses dalam semua kehidupan anda. Buku ini mengantarkan anda untuk mencapainya!."
     },
     {
-      "id": "6",
+      "id": 6,
       "nama": "Bahagia Bersama",
       "oleh": "Kang maman dan mice",
       "harga": "55,000",
       "jenis": "buku bekas",
       "gambar": "Bahagia Bersama.jpg",
       "kategori": "pengembangan diri",
-      "deskripsi": "Berbagi, memberi, menyantuni. Tiga penggal kata, terus didenyutkan dinadi, didetakkan diantung, dialirkan di alir darah dan diulang-ulang dilisankan tanpa henti, bak mantra yag terus digaungkan saban detik. Tiga kata yang dijadikan syair kehidupan dalam paduan suara dan derap langkah semua orang yang bekerja, berbakti dan mengabdi ditempat ini. Adakah itu sebuah teori ekonmi nan sakti? Atau pemanis dibibir belaka?. Lalu bagaimana ceritanya berbagi itu tidak mengurangi? Malah sebaliknya. Dari semula hanya 8 beranak pinak menjadi puluhan ribu?",
-      "detail": "6.html"
+      "deskripsi": "Berbagi, memberi, menyantuni. Tiga penggal kata, terus didenyutkan dinadi, didetakkan diantung, dialirkan di alir darah dan diulang-ulang dilisankan tanpa henti, bak mantra yag terus digaungkan saban detik. Tiga kata yang dijadikan syair kehidupan dalam paduan suara dan derap langkah semua orang yang bekerja, berbakti dan mengabdi ditempat ini. Adakah itu sebuah teori ekonmi nan sakti? Atau pemanis dibibir belaka?. Lalu bagaimana ceritanya berbagi itu tidak mengurangi? Malah sebaliknya. Dari semula hanya 8 beranak pinak menjadi puluhan ribu?"
     },
     {
-      "id": "7",
+      "id": 7,
       "nama": "Beternak ulat jerman dan ulat hongkong",
       "oleh": "Risma nespati, S.pt.",
       "harga": "50,000",
       "jenis": "buku bekas",
       "gambar": "Beternak ulat jerman dan ulat hongkong.jpg",
       "kategori": "hobi",
-      "deskripsi": "Budidaya ulat jerman mempunyai resiko kerugian yang sangat kecil. Keuntungan pun lumayan, yakni sekitar 10 – 20 persen dari modal yang kita keluarkan. Bandingkan dengan budidaya hewan lainnya, misalnya ayam, yang membutuhkan investasi yang jauh lebih besar dengan keuntungan yang pas – pasan. Buku ini akan menuntun anda dalam membudidayakan ulat jerman. Didalamnya secara gamblang dijelaskan bagaimana kiat – kiat memulai budidaya ulat jerman hingga strategi pemasarannya. Akhirnya saya ucapkan selamat membaca dan semga bermanfaat.",
-      "detail": "7.html"
+      "deskripsi": "Budidaya ulat jerman mempunyai resiko kerugian yang sangat kecil. Keuntungan pun lumayan, yakni sekitar 10 – 20 persen dari modal yang kita keluarkan. Bandingkan dengan budidaya hewan lainnya, misalnya ayam, yang membutuhkan investasi yang jauh lebih besar dengan keuntungan yang pas – pasan. Buku ini akan menuntun anda dalam membudidayakan ulat jerman. Didalamnya secara gamblang dijelaskan bagaimana kiat – kiat memulai budidaya ulat jerman hingga strategi pemasarannya. Akhirnya saya ucapkan selamat membaca dan semga bermanfaat."
     },
     {
-      "id": "8",
+      "id": 8,
       "nama": "Kisah kehidupan dari para guru tao dan konfusian",
       "oleh": "Tsai chih chung",
       "harga": "100,000",
       "jenis": "buku bekas",
       "gambar": "Kisah kehidupan dari para guru tao dan konfusian.jpg",
       "kategori": "pengembangan diri",
-      "deskripsi": "Cara cepat dan mudah untuk memahami karya klasik china sebagai makanan jiwa dan pikiran bagi masyarakat modern yang mencari pengembangan diri di masa kini.",
-      "detail": "8.html"
+      "deskripsi": "Cara cepat dan mudah untuk memahami karya klasik china sebagai makanan jiwa dan pikiran bagi masyarakat modern yang mencari pengembangan diri di masa kini."
     },
     {
-      "id": "9",
+      "id": 9,
       "nama": "Mega Proyek Exclusive 50 Juta",
       "oleh": "Agus Saputra",
       "harga": "55,000",
       "jenis": "buku bekas",
       "gambar": "Mega Proyek Exclusive 50 Juta.jpg",
       "kategori": "komputer",
-      "deskripsi": "Dalam buku ini, akan dibahas bagaimana untuk membangun aplikasi kearsipan untuk Perusahaan Jasa Tenaga Kerja Indonesia (PJTKI), pembahasan dari ulai perancangan table dan pembuatan database, perancangan diagram konteks, DFD Level 0, DFD Bertingkat ERD, Flowchart, Konsep Desain dan cara penggunaan aplikasi. Sehingga dengan lengkapnya perancangan dan konsep desin, buku ini juga cocok dijadikan sebagai panduan skripsi, tidak lupa disertakan Final Project Mega Proyek Exclusive senilai 50 Juta Rupiah yang bisa ditemukan dalam buku ini.",
-      "detail": "9.html"
+      "deskripsi": "Dalam buku ini, akan dibahas bagaimana untuk membangun aplikasi kearsipan untuk Perusahaan Jasa Tenaga Kerja Indonesia (PJTKI), pembahasan dari ulai perancangan table dan pembuatan database, perancangan diagram konteks, DFD Level 0, DFD Bertingkat ERD, Flowchart, Konsep Desain dan cara penggunaan aplikasi. Sehingga dengan lengkapnya perancangan dan konsep desin, buku ini juga cocok dijadikan sebagai panduan skripsi, tidak lupa disertakan Final Project Mega Proyek Exclusive senilai 50 Juta Rupiah yang bisa ditemukan dalam buku ini."
     },
     {
-      "id": "10",
+      "id": 10,
       "nama": "Proyek membuat website periklanan dengan php",
       "oleh": "Agus Saputra",
       "harga": "55,000",
       "jenis": "buku bekas",
       "gambar": "Proyek membuat website periklanan dengan php.jpg",
       "kategori": "komputer",
-      "deskripsi": "Buku ini membahas bagaimana membuat website periklanan dengan berkonsep pada website oaseast.com. sebuah website periklanan berbasis di Qatar. Dikupas tutas dari mulai konsep alur perancangan, diagram konteks, DFD, DFD bertingkat, Flowchart, ERD, Perancangan Tabel, hingga kepada pembuatan trik – trik utama pendukung website seperti slider ala yahoo, live chat ala facebook, fancybox, upload ajax, slider iklan secara polaroid, image rounded, social network dan masih banyak lainnya.",
-      "detail": "10.html"
+      "deskripsi": "Buku ini membahas bagaimana membuat website periklanan dengan berkonsep pada website oaseast.com. sebuah website periklanan berbasis di Qatar. Dikupas tutas dari mulai konsep alur perancangan, diagram konteks, DFD, DFD bertingkat, Flowchart, ERD, Perancangan Tabel, hingga kepada pembuatan trik – trik utama pendukung website seperti slider ala yahoo, live chat ala facebook, fancybox, upload ajax, slider iklan secara polaroid, image rounded, social network dan masih banyak lainnya."
     },
     {
-      "id": "11",
+      "id": 11,
       "nama": "The magic of thinking big",
       "oleh": "David J. Schwartz",
       "harga": "45,000",
       "jenis": "buku bekas",
       "gambar": "The magic of thinking big.jpg",
       "kategori": "pengembangan diri",
-      "deskripsi": "Langkah - langkah sederhana yag disusun didalam buku ini merupakan pendekatan yang sudah terbukti terhadap situasi kehidupan yang secara universal dapat diterapkan dan berhasil seperti mukjizat. Mulialah sekarang juga untuk mengetahui bagaimana membuat cara berfikir anda menghasilkan mukjizat bagi diri anda.",
-      "detail": "11.html"
+      "deskripsi": "Langkah - langkah sederhana yag disusun didalam buku ini merupakan pendekatan yang sudah terbukti terhadap situasi kehidupan yang secara universal dapat diterapkan dan berhasil seperti mukjizat. Mulialah sekarang juga untuk mengetahui bagaimana membuat cara berfikir anda menghasilkan mukjizat bagi diri anda."
     },
     {
-      "id": "12",
+      "id": 12,
       "nama": "Unlimited power",
       "oleh": "Anthony Robbins",
       "harga": "75,000",
       "jenis": "buku bekas",
       "gambar": "Unlimited power.jpg",
       "kategori": "pengembangan diri",
-      "deskripsi": "Jika anda pernah memimpikan kehidupan yang lebih baik, buku ini menunjukkan anda bagaimana mencapai kualitas luar biasa dari kehidupan yang anda inginkan dan pantas untuk mendapatkannya. Penulis telah membuktikan kepada jutaan orang melalui buku ini dan berbagai seminarnya. Dia telah membuktikan para tokoh negarawan, pengusaha, atlet bintang film, hingga anak kecil, bagaimana mereka dapat menggapainya.",
-      "detail": "12.html"
+      "deskripsi": "Jika anda pernah memimpikan kehidupan yang lebih baik, buku ini menunjukkan anda bagaimana mencapai kualitas luar biasa dari kehidupan yang anda inginkan dan pantas untuk mendapatkannya. Penulis telah membuktikan kepada jutaan orang melalui buku ini dan berbagai seminarnya. Dia telah membuktikan para tokoh negarawan, pengusaha, atlet bintang film, hingga anak kecil, bagaimana mereka dapat menggapainya."
     },
     {
-      "id": "13",
+      "id": 13,
       "nama": "Changing Minds",
       "oleh": "Howard Gardner",
       "harga": "45,000",
       "jenis": "buku bekas",
       "gambar": "Changing minds.jpg",
       "kategori": "pengembangan diri",
-      "deskripsi": "Berdasarkan penelitian kognitif selama bertahun – tahun, Gardner mengidentifkasi tujuh penggerak yang dapat membantu atau menggagalkan proses perubahan pikiran, termasuk alasan, penelitian, kejadian nyata, dan resistansi. Changing minds menawarkan kerangka asli dengan ilustrasi contoh – contoh terkenal dan sederhana dari agen – agen pengubah didunia politik, bisnis, sains, seni dan kehidupan sehari – hari yang menunjukkan bagaimana seorang individu dapat bersekutu dengan penggerak - penggerak tersebut untuk membawa perubahan signifikan dalam perspektif dan tingkah laku. Mulai dari re-orientasi inggris raya Margaret Tracher, transformasi BP Sir John Browne, teori evolusi Charles Darwin, tingkah laku antar suami – istri atau antar teman, hingga pada perubahan keputusan dari pikiran seseorang, Gardner mengungkap kesamaan yang mengejutkan dan perubahan yang berguna diantara faktor – faktor yang mempengaruhi perubahan pikiran dalam berbagai pengaturan yang berbeda.",
-      "detail": "13.html"
+      "deskripsi": "Berdasarkan penelitian kognitif selama bertahun – tahun, Gardner mengidentifkasi tujuh penggerak yang dapat membantu atau menggagalkan proses perubahan pikiran, termasuk alasan, penelitian, kejadian nyata, dan resistansi. Changing minds menawarkan kerangka asli dengan ilustrasi contoh – contoh terkenal dan sederhana dari agen – agen pengubah didunia politik, bisnis, sains, seni dan kehidupan sehari – hari yang menunjukkan bagaimana seorang individu dapat bersekutu dengan penggerak - penggerak tersebut untuk membawa perubahan signifikan dalam perspektif dan tingkah laku. Mulai dari re-orientasi inggris raya Margaret Tracher, transformasi BP Sir John Browne, teori evolusi Charles Darwin, tingkah laku antar suami – istri atau antar teman, hingga pada perubahan keputusan dari pikiran seseorang, Gardner mengungkap kesamaan yang mengejutkan dan perubahan yang berguna diantara faktor – faktor yang mempengaruhi perubahan pikiran dalam berbagai pengaturan yang berbeda."
     },
     {
-      "id": "14",
+      "id": 14,
       "nama": "Dasar Pemrograman JavaScript",
       "oleh": "Dr. Eng RH. Sianipar",
       "harga": "40,000",
       "jenis": "buku bekas",
       "gambar": "Dasar Pemrograman JavaScript.jpg",
       "kategori": "komputer",
-      "deskripsi": "Buku ini menawarkan lebih dari 110 kasus yang dikerjakan langkah demi langkah. Buku ini cocok untuk pemula maupun pembelajar berpengalaman, yang hanya memfokuskan dan mendalami elemen - elemen penting Javascript.",
-      "detail": "14.html"
+      "deskripsi": "Buku ini menawarkan lebih dari 110 kasus yang dikerjakan langkah demi langkah. Buku ini cocok untuk pemula maupun pembelajar berpengalaman, yang hanya memfokuskan dan mendalami elemen - elemen penting Javascript."
+    },
+    {
+      "id": 15,
+      "nama": "One Way Ticket to Success",
+      "oleh": "Sandiaga S. Uno",
+      "harga": "40,000",
+      "jenis": "buku bekas",
+      "gambar": "One Way Ticket to Success.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Lewat buku ini, kita melihat lebih dalam pergulatan hidup Sandiaga Uno – bagaimana ia mengalami pahit mansnya kegagalan dan kesuksesan, dan bagaimana keyakinannya telah menjadi tembok yang kukuh melawan badai nasib. Kegigihannya dalam berjuang untuk bangkit dari kegagalan, keteguhannya dalam menghadapi tantangan – tantangan dan pengalamannya menaklukkan kesulitan dalam berbisnis patut kita simak dan contoh. Ditulis dengan Bahasa sederhana, buku ini mengakrabi pembaca bahkan jauh sebelum pembaca seselai membacanya."
+    },
+    {
+      "id": 16,
+      "nama": "Simulasi Jaringan Komputer dengan Cisco Packet Tracer",
+      "oleh": "Dian Ariawal dan Onno W Purbo",
+      "harga": "40,000",
+      "jenis": "buku bekas",
+      "gambar": "Simulasi Jaringan Komputer dengan Cisco Packet Tracer.jpg",
+      "kategori": "komputer",
+      "deskripsi": "Dalam buku ini anda akan membuat simulasi jaringan computer yang sangat mirip dengan keadaan aslinya tanpa memerlukan modal besar. Simulasi dengan Cisco Packet Tracer sangat efektif untuk media pembelaaran sebelum mengimplementasikannya dilapangan. Anda juga akan belajar tentang dasar – dasar jaringan, mulai dari mengenal perangkat jaringan, menghitung alamat IPv4 dan IPv6, jenis – jenis topologi, standar OSI layer dan sebagainnya."
+    },
+    {
+      "id": 17,
+      "nama": "Teach Like Finland",
+      "oleh": "Timothy D Walker",
+      "harga": "40,000",
+      "jenis": "buku bekas",
+      "gambar": "Teach Like Finland.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Ketika Timothy D. Walker mulai mengajar kelas 5 di sebuah sekolah negeri di Helsinki, ia meulai mencatat rahasia – rahasia dibalik kesuksesan sekolah – sekolah Finlandia. Walker menuliskan rahasia – rahasia ini, dan artikel – artikelnya di Atlantic kerap menuai tanggapan antusias. Dalam buku ini, ia mengumpulkan semua temuan tersebut, dan menjelaskan pada para pengajar, cara untuk mengimplementasikannya. Buku ini memuat strategi dan anjuran – anjuran yang sangat mudah dipraktikkan dari sistem Pendidikan kelas dunia."
     }
   ]
 }

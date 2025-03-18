@@ -180,12 +180,11 @@
 //masdedyshop page
 function TampilkanSemuaProduk() {
   $.getJSON("js/listjualan.json", function (data) {
-    //console.log(data);
     let produk = data.produk;
     //console.log(menu);
     $("#daftar-produk").empty();
     $.each(produk, function (i, data) {
-      // console.log(data);
+      //console.log(data);
       $("#daftar-produk").append(
         '<div class="card col-sm-3 m-3"><img src="assets/jualan/' +
           data.gambar +
@@ -199,7 +198,7 @@ function TampilkanSemuaProduk() {
           data.kategori +
           '</small><small class="rounded">' +
           data.jenis +
-          '</small><br><br><a href="detail-jualan/'+ data.detail +'" class="btn" target="_blank">Detail</a><br /><br /><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli Sekarang</a></div></div>'
+          '</small><br><br><a href="detail/detail-produk.html" onclick="document.cookie ='+ data.id +'" class="btn" target="_blank">Detail</a><br /><br /><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli Sekarang</a></div></div>'
       );
     });
   });
@@ -239,7 +238,7 @@ $(".produk-kategori").on("click", function () {
           data.kategori +
           '</small><small class="rounded">' +
           data.jenis +
-          '</small><br><br><a href="detail-jualan/'+ data.detail +'" class="btn" target="_blank">Detail</a><br /><br /><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli Sekarang</a></div></div>';
+          '</small><br><br><a href="detail/detail-produk.html" onclick="document.cookie ='+ data.id +'" class="btn" target="_blank">Detail</a><br /><br /><a href="#" class="btn" class="btn" data-bs-toggle="modal" data-bs-target="#hubungikamidiig">Beli Sekarang</a></div></div>';
       }
     });
 

@@ -1,7 +1,7 @@
 {
   "uangkuno": [
     {
-      "id": "0",
+      "id": 0,
       "negara": "Indonesia",
       "nominal": "100",
       "jenis": "Koin",
@@ -9,11 +9,10 @@
       "satuan": "Rupiah",
       "tahun": 2016,
       "noseri": "-",
-      "detail": "detailuangkuno/0.html",
-      "foto": "../assets/uangkuno/koin-100-rupiah-Herman-Johannes.jpg"
+      "foto": "koin-100-rupiah-Herman-Johannes.jpg"
     },
     {
-      "id": "1",
+      "id": 1,
       "negara": "Indonesia",
       "nominal": "500",
       "jenis": "Koin",
@@ -21,11 +20,10 @@
       "satuan": "Rupiah",
       "tahun": 2003,
       "noseri": "-",
-      "detail": "detailuangkuno/1.html",
-      "foto": "../assets/uangkuno/koin-500-rupiah-bunga-melati.jpg"
+      "foto": "koin-500-rupiah-bunga-melati.jpg"
     },
     {
-      "id": "2",
+      "id": 2,
       "negara": "Indonesia",
       "nominal": "200",
       "jenis": "Koin",
@@ -33,11 +31,10 @@
       "satuan": "Rupiah",
       "tahun": 2003,
       "noseri": "-",
-      "detail": "detailuangkuno/2.html",
-      "foto": "../assets/uangkuno/koin-200-rupiah-jalak-bali.jpg"
+      "foto": "koin-200-rupiah-jalak-bali.jpg"
     },
     {
-      "id": "3",
+      "id": 3,
       "negara": "Indonesia",
       "nominal": "500",
       "jenis": "Koin",
@@ -45,11 +42,10 @@
       "satuan": "Rupiah",
       "tahun": 2003,
       "noseri": "-",
-      "detail": "detailuangkuno/3.html",
-      "foto": "../assets/uangkuno/koin-500-rupiah-bunga-melati-alu.jpg"
+      "foto": "koin-500-rupiah-bunga-melati-alu.jpg"
     },
     {
-      "id": "4",
+      "id": 4,
       "negara": "Indonesia",
       "nominal": "1000",
       "jenis": "Koin",
@@ -57,11 +53,10 @@
       "satuan": "Rupiah",
       "tahun": 2010,
       "noseri": "-",
-      "detail": "detailuangkuno/4.html",
-      "foto": "../assets/uangkuno/koin-1000-rupiah-angklung.jpg"
+      "foto": "koin-1000-rupiah-angklung.jpg"
     },
     {
-      "id": "5",
+      "id": 5,
       "negara": "Indonesia",
       "nominal": "25",
       "jenis": "Koin",
@@ -69,11 +64,10 @@
       "satuan": "Rupiah",
       "tahun": 1994,
       "noseri": "-",
-      "detail": "detailuangkuno/5.html",
-      "foto": "../assets/uangkuno/koin-25-rupiah-Buah-Pala.jpg"
+      "foto": "koin-25-rupiah-Buah-Pala.jpg"
     },
     {
-      "id": "6",
+      "id": 6,
       "negara": "Indonesia",
       "nominal": "200",
       "jenis": "Koin",
@@ -81,11 +75,10 @@
       "satuan": "Rupiah",
       "tahun": 2016,
       "noseri": "-",
-      "detail": "detailuangkuno/6.html",
-      "foto": "../assets/uangkuno/koin-200-rupiah-TJIPTOMANGUNKUSUMO.jpg"
+      "foto": "koin-200-rupiah-TJIPTOMANGUNKUSUMO.jpg"
     },
     {
-      "id": "7",
+      "id": 7,
       "negara": "Indonesia",
       "nominal": "1000",
       "jenis": "Koin",
@@ -93,11 +86,10 @@
       "satuan": "Rupiah",
       "tahun": 2016,
       "noseri": "-",
-      "detail": "detailuangkuno/7.html",
-      "foto": "../assets/uangkuno/koin-1000-rupiah-I-GUSTI-KETUT-PUDJA.jpg"
+      "foto": "koin-1000-rupiah-I-GUSTI-KETUT-PUDJA.jpg"
     },
     {
-      "id": "8",
+      "id": 8,
       "negara": "Indonesia",
       "nominal": "500",
       "jenis": "Koin",
@@ -105,11 +97,10 @@
       "satuan": "Rupiah",
       "tahun": 2016,
       "noseri": "-",
-      "detail": "detailuangkuno/8.html",
-      "foto": "../assets/uangkuno/koin-500-rupiah-SIMATUPANG.jpg"
+      "foto": "koin-500-rupiah-SIMATUPANG.jpg"
     },
     {
-      "id": "9",
+      "id": 9,
       "negara": "Indonesia",
       "nominal": "50",
       "jenis": "Koin",
@@ -117,11 +108,10 @@
       "satuan": "Rupiah",
       "tahun": 1996,
       "noseri": "-",
-      "detail": "detailuangkuno/9.html",
-      "foto": "../assets/uangkuno/koin-50-rupiah-Komodo.jpg"
+      "foto": "koin-50-rupiah-Komodo.jpg"
     },
     {
-      "id": "10",
+      "id": 10,
       "negara": "Indonesia",
       "nominal": "1000",
       "jenis": "Koin",
@@ -129,11 +119,10 @@
       "satuan": "Rupiah",
       "tahun": 1996,
       "noseri": "-",
-      "detail": "detailuangkuno/10.html",
-      "foto": "../assets/uangkuno/koin-1000-rupiah-KELAPA-SAWIT.jpg"
+      "foto": "koin-1000-rupiah-KELAPA-SAWIT.jpg"
     },
     {
-      "id": "11",
+      "id": 11,
       "negara": "Indonesia",
       "nominal": "100",
       "jenis": "Koin",
@@ -141,11 +130,10 @@
       "satuan": "Rupiah",
       "tahun": 1999,
       "noseri": "-",
-      "detail": "detailuangkuno/11.html",
-      "foto": "../assets/uangkuno/koin-100-rupiah-KAKAKTUA-RAJA.jpg"
+      "foto": "koin-100-rupiah-KAKAKTUA-RAJA.jpg"
     },
     {
-      "id": "12",
+      "id": 12,
       "negara": "Indonesia",
       "nominal": "100",
       "jenis": "Koin",
@@ -153,11 +141,10 @@
       "satuan": "Rupiah",
       "tahun": 1993,
       "noseri": "-",
-      "detail": "detailuangkuno/12.html",
-      "foto": "../assets/uangkuno/koin-100-rupiah-Karapan-Sapi.jpg"
+      "foto": "koin-100-rupiah-Karapan-Sapi.jpg"
     },
     {
-      "id": "13",
+      "id": 13,
       "negara": "Indonesia",
       "nominal": "500",
       "jenis": "Koin",
@@ -165,11 +152,10 @@
       "satuan": "Rupiah",
       "tahun": 1991,
       "noseri": "-",
-      "detail": "detailuangkuno/13.html",
-      "foto": "../assets/uangkuno/koin-500-rupiah-bunga-melati-besar.jpg"
+      "foto": "koin-500-rupiah-bunga-melati-besar.jpg"
     },
     {
-      "id": "14",
+      "id": 14,
       "negara": "Indonesia",
       "nominal": "50",
       "jenis": "Koin",
@@ -177,11 +163,10 @@
       "satuan": "Rupiah",
       "tahun": 1971,
       "noseri": "-",
-      "detail": "detailuangkuno/14.html",
-      "foto": "../assets/uangkuno/koin-50-rupiah-Cendrawasih.jpg"
+      "foto": "koin-50-rupiah-Cendrawasih.jpg"
     },
     {
-      "id": "15",
+      "id": 15,
       "negara": "Indonesia",
       "nominal": "25",
       "jenis": "Koin",
@@ -189,11 +174,10 @@
       "satuan": "Rupiah",
       "tahun": 1971,
       "noseri": "-",
-      "detail": "detailuangkuno/15.html",
-      "foto": "../assets/uangkuno/koin-25-rupiah-Mambruk-Victoria.jpg"
+      "foto": "koin-25-rupiah-Mambruk-Victoria.jpg"
     },
     {
-      "id": "16",
+      "id": 16,
       "negara": "Indonesia",
       "nominal": "10",
       "jenis": "Koin",
@@ -201,11 +185,10 @@
       "satuan": "Rupiah",
       "tahun": 1971,
       "noseri": "-",
-      "detail": "detailuangkuno/16.html",
-      "foto": "../assets/uangkuno/koin-10-rupiah-Padi-Kapas.jpg"
+      "foto": "koin-10-rupiah-Padi-Kapas.jpg"
     },
     {
-      "id": "17",
+      "id": 17,
       "negara": "Nederlandsch Indie",
       "nominal": 2.5,
       "jenis": "Koin",
@@ -213,11 +196,10 @@
       "satuan": "Cent",
       "tahun": 1920,
       "noseri": "-",
-      "detail": "detailuangkuno/17.html",
-      "foto": "../assets/uangkuno/koin-2koma5-cent-Logo-Belanda.jpg"
+      "foto": "koin-2koma5-cent-Logo-Belanda.jpg"
     },
     {
-      "id": "18",
+      "id": 18,
       "negara": "Indonesia",
       "nominal": 5,
       "jenis": "Koin",
@@ -225,11 +207,10 @@
       "satuan": "SEN",
       "tahun": 1951,
       "noseri": "-",
-      "detail": "detailuangkuno/18.html",
-      "foto": "../assets/uangkuno/koin-5-sen-Padi.jpg"
+      "foto": "koin-5-sen-Padi.jpg"
     },
     {
-      "id": "19",
+      "id": 19,
       "negara": "Indonesia",
       "nominal": 50,
       "jenis": "Koin",
@@ -237,11 +218,10 @@
       "satuan": "SEN",
       "tahun": 1952,
       "noseri": "-",
-      "detail": "detailuangkuno/19.html",
-      "foto": "../assets/uangkuno/koin-50-sen-DIPA-NEGARA.jpg"
+      "foto": "koin-50-sen-DIPA-NEGARA.jpg"
     },
     {
-      "id": "20",
+      "id": 20,
       "negara": "Indonesia",
       "nominal": 50,
       "jenis": "Koin",
@@ -249,11 +229,10 @@
       "satuan": "SEN",
       "tahun": 1959,
       "noseri": "-",
-      "detail": "detailuangkuno/20.html",
-      "foto": "../assets/uangkuno/koin-50-sen-Garuda.jpg"
+      "foto": "koin-50-sen-Garuda.jpg"
     },
     {
-      "id": "21",
+      "id": 21,
       "negara": "Indonesia",
       "nominal": 1,
       "jenis": "Koin",
@@ -261,11 +240,10 @@
       "satuan": "SEN",
       "tahun": 1952,
       "noseri": "-",
-      "detail": "detailuangkuno/21.html",
-      "foto": "../assets/uangkuno/koin-1-sen-Padi.jpg"
+      "foto": "koin-1-sen-Padi.jpg"
     },
     {
-      "id": "22",
+      "id": 22,
       "negara": "Indonesia",
       "nominal": 5,
       "jenis": "Koin",
@@ -273,11 +251,10 @@
       "satuan": "Rupiah",
       "tahun": 1970,
       "noseri": "-",
-      "detail": "detailuangkuno/22.html",
-      "foto": "../assets/uangkuno/koin-5-rupiah-Sri-Gunting.jpg"
+      "foto": "koin-5-rupiah-Sri-Gunting.jpg"
     },
     {
-      "id": "23",
+      "id": 23,
       "negara": "Indonesia",
       "nominal": 50,
       "jenis": "Koin",
@@ -285,11 +262,10 @@
       "satuan": "Rupiah",
       "tahun": 1999,
       "noseri": "-",
-      "detail": "detailuangkuno/23.html",
-      "foto": "../assets/uangkuno/koin-50-rupiah-KEPODANG.jpg"
+      "foto": "koin-50-rupiah-KEPODANG.jpg"
     },
     {
-      "id": "24",
+      "id": 24,
       "negara": "NEDERLANDSCH INDIE",
       "nominal": 0.5,
       "jenis": "Koin",
@@ -297,11 +273,10 @@
       "satuan": "Cent",
       "tahun": 1945,
       "noseri": "-",
-      "detail": "detailuangkuno/24.html",
-      "foto": "../assets/uangkuno/koin-0koma5-cent-Logo Belanda.jpg"
+      "foto": "koin-0koma5-cent-Logo Belanda.jpg"
     },
     {
-      "id": "25",
+      "id": 25,
       "negara": "Indonesia",
       "nominal": 5,
       "jenis": "Koin",
@@ -309,11 +284,10 @@
       "satuan": "Rupiah",
       "tahun": 1979,
       "noseri": "-",
-      "detail": "detailuangkuno/25.html",
-      "foto": "../assets/uangkuno/koin-5-rupiah-Keluarga-Berencana.jpg"
+      "foto": "koin-5-rupiah-Keluarga-Berencana.jpg"
     },
     {
-      "id": "26",
+      "id": 26,
       "negara": "Indonesia",
       "nominal": 100,
       "jenis": "Koin",
@@ -321,11 +295,10 @@
       "satuan": "Rupiah",
       "tahun": 1973,
       "noseri": "-",
-      "detail": "detailuangkuno/26.html",
-      "foto": "../assets/uangkuno/koin-100-rupiah-Rumah-Gadang.jpg"
+      "foto": "koin-100-rupiah-Rumah-Gadang.jpg"
     },
     {
-      "id": "27",
+      "id": 27,
       "negara": "Indonesia",
       "nominal": 100,
       "jenis": "Koin",
@@ -333,11 +306,10 @@
       "satuan": "Rupiah",
       "tahun": 1978,
       "noseri": "-",
-      "detail": "detailuangkuno/27.html",
-      "foto": "../assets/uangkuno/koin-100-rupiah-Gunungan-Wayang.jpg"
+      "foto": "koin-100-rupiah-Gunungan-Wayang.jpg"
     },
     {
-      "id": "28",
+      "id": 28,
       "negara": "NEDERLANDSCH INDIE",
       "nominal": 5,
       "jenis": "Koin",
@@ -345,11 +317,10 @@
       "satuan": "Cent",
       "tahun": 1922,
       "noseri": "-",
-      "detail": "detailuangkuno/28.html",
       "foto": "../assets/uangkuno/koin-5-cent-PADI-dan-MAHKOTA.jpg"
     },
     {
-      "id": "29",
+      "id": 29,
       "negara": "NEDERLANDSCH INDIE",
       "nominal": 1,
       "jenis": "Koin",
@@ -357,11 +328,10 @@
       "satuan": "Cent",
       "tahun": 1945,
       "noseri": "-",
-      "detail": "detailuangkuno/29.html",
-      "foto": "../assets/uangkuno/koin-1-cent-Padi.jpg"
+      "foto": "koin-1-cent-Padi.jpg"
     },
     {
-      "id": "30",
+      "id": 30,
       "negara": "Indonesia",
       "nominal": 10,
       "jenis": "Koin",
@@ -369,11 +339,10 @@
       "satuan": "Rupiah",
       "tahun": 1979,
       "noseri": "-",
-      "detail": "detailuangkuno/30.html",
-      "foto": "../assets/uangkuno/koin-10-rupiah-MENABUNG-UNTUK-MENUNJANG-PEMBANGUNAN.jpg"
+      "foto": "koin-10-rupiah-MENABUNG-UNTUK-MENUNJANG-PEMBANGUNAN.jpg"
     },
     {
-      "id": "31",
+      "id": 31,
       "negara": "Indonesia",
       "nominal": 1,
       "jenis": "Kertas",
@@ -381,11 +350,10 @@
       "satuan": "SEN",
       "tahun": 1964,
       "noseri": "AKO014649",
-      "detail": "detailuangkuno/31.html",
-      "foto": "../assets/uangkuno/kertas-1-sen-PAK-PETANI.jpg"
+      "foto": "kertas-1-sen-PAK-PETANI.jpg"
     },
     {
-      "id": "32",
+      "id": 32,
       "negara": "Indonesia",
       "nominal": 2.5,
       "jenis": "Kertas",
@@ -393,11 +361,10 @@
       "satuan": "Rupiah",
       "tahun": 1956,
       "noseri": "CDK094827",
-      "detail": "detailuangkuno/32.html",
-      "foto": "../assets/uangkuno/kertas-2koma5-rupiah-LAKI-LAKI.jpg"
+      "foto": "kertas-2koma5-rupiah-LAKI-LAKI.jpg"
     },
     {
-      "id": "33",
+      "id": 33,
       "negara": "Indonesia",
       "nominal": 5,
       "jenis": "Kertas",
@@ -405,11 +372,10 @@
       "satuan": "Rupiah",
       "tahun": 1959,
       "noseri": "5XEX09218",
-      "detail": "detailuangkuno/33.html",
-      "foto": "../assets/uangkuno/kertas-5-rupiah-WIJAYAKUSUMA.jpg"
+      "foto": "kertas-5-rupiah-WIJAYAKUSUMA.jpg"
     },
     {
-      "id": "34",
+      "id": 34,
       "negara": "Indonesia",
       "nominal": 100,
       "jenis": "Kertas",
@@ -417,11 +383,10 @@
       "satuan": "Rupiah",
       "tahun": 1984,
       "noseri": "UWQ191607",
-      "detail": "detailuangkuno/34.html",
-      "foto": "../assets/uangkuno/kertas-100-rupiah-GOURA-VICTORIA.jpg"
+      "foto": "kertas-100-rupiah-GOURA-VICTORIA.jpg"
     },
     {
-      "id": "35",
+      "id": 35,
       "negara": "Indonesia",
       "nominal": 100,
       "jenis": "Kertas",
@@ -429,11 +394,10 @@
       "satuan": "Rupiah",
       "tahun": 1992,
       "noseri": "OLT237772",
-      "detail": "detailuangkuno/35.html",
-      "foto": "../assets/uangkuno/kertas-100-rupiah-PERAHU-PINISI.jpg"
+      "foto": "kertas-100-rupiah-PERAHU-PINISI.jpg"
     },
     {
-      "id": "36",
+      "id": 36,
       "negara": "Indonesia",
       "nominal": 500,
       "jenis": "Kertas",
@@ -441,11 +405,10 @@
       "satuan": "Rupiah",
       "tahun": 1992,
       "noseri": "CPO490436",
-      "detail": "detailuangkuno/36.html",
-      "foto": "../assets/uangkuno/kertas-500-rupiah-ORANG-UTAN.jpg"
+      "foto": "kertas-500-rupiah-ORANG-UTAN.jpg"
     },
     {
-      "id": "37",
+      "id": 37,
       "negara": "Indonesia",
       "nominal": 1000,
       "jenis": "Kertas",
@@ -453,11 +416,10 @@
       "satuan": "Rupiah",
       "tahun": 1987,
       "noseri": "JPZ164368",
-      "detail": "detailuangkuno/37.html",
-      "foto": "../assets/uangkuno/kertas-1000-rupiah-RAJA-SISINGAMANGARAJA-XII.jpg"
+      "foto": "kertas-1000-rupiah-RAJA-SISINGAMANGARAJA-XII.jpg"
     },
     {
-      "id": "38",
+      "id": 38,
       "negara": "Saudi Arabia",
       "nominal": 1,
       "jenis": "Kertas",
@@ -465,8 +427,7 @@
       "satuan": "Riyal",
       "tahun": "-",
       "noseri": "1167334740",
-      "detail": "detailuangkuno/38.html",
-      "foto": "../assets/uangkuno/kertas-1-riyal-Raja-Salman.jpg"
+      "foto": "kertas-1-riyal-Raja-Salman.jpg"
     }
   ]
 }
