@@ -179,6 +179,46 @@
       "gambar": "Teach Like Finland.jpg",
       "kategori": "pengembangan diri",
       "deskripsi": "Ketika Timothy D. Walker mulai mengajar kelas 5 di sebuah sekolah negeri di Helsinki, ia meulai mencatat rahasia – rahasia dibalik kesuksesan sekolah – sekolah Finlandia. Walker menuliskan rahasia – rahasia ini, dan artikel – artikelnya di Atlantic kerap menuai tanggapan antusias. Dalam buku ini, ia mengumpulkan semua temuan tersebut, dan menjelaskan pada para pengajar, cara untuk mengimplementasikannya. Buku ini memuat strategi dan anjuran – anjuran yang sangat mudah dipraktikkan dari sistem Pendidikan kelas dunia."
+    },
+    {
+      "id": 18,
+      "nama": "Cashflow Quadrant",
+      "oleh": "Robert T. Kiyosaki",
+      "harga": "60,000",
+      "jenis": "buku bekas",
+      "gambar": "Cashflow Quadrant.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Panduan mencapai kebebasan keuangan"
+    },
+    {
+      "id": 19,
+      "nama": "Rich Dad Poor Dad",
+      "oleh": "Robert T. Kiyosaki",
+      "harga": "40,000",
+      "jenis": "buku bekas",
+      "gambar": "Rich Dad Poor Dad.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "Apa yang diajarkan orang kaya pada anak - anak mereka tentang uang yang tidak diajarkan oleh orang miskin dan kelas menengah"
+    },
+    {
+      "id": 20,
+      "nama": "The Science of Luck",
+      "oleh": "Bong Chandra",
+      "harga": "50,000",
+      "jenis": "buku bekas",
+      "gambar": "The Science of Luck.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "12 Rahasia Menciptakan Keberuntungan Secara Ilmiah"
+    },
+    {
+      "id": 21,
+      "nama": "Unlimited Wealth",
+      "oleh": "Bong Chandra",
+      "harga": "50,000",
+      "jenis": "buku bekas",
+      "gambar": "Unlimited Wealth.jpg",
+      "kategori": "pengembangan diri",
+      "deskripsi": "17 Hari Menuju Kebebasan Finansial"
     }
   ]
 }
