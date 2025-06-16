@@ -428,6 +428,50 @@
       "tahun": "-",
       "noseri": "1167334740",
       "foto": "kertas-1-riyal-Raja-Salman.jpg"
+    },
+    {
+      "id": 39,
+      "negara": "Indonesia",
+      "nominal": 1,
+      "jenis": "Koin",
+      "ciri": "Burung Sikatan",
+      "satuan": "Rupiah",
+      "tahun": "-",
+      "noseri": "-",
+      "foto": "koin-1-rupiah-burung-sikatan.jpg"
+    },
+    {
+      "id": 40,
+      "negara": "Indonesia",
+      "nominal": 1,
+      "jenis": "Koin",
+      "ciri": "Keluarga Berencana",
+      "satuan": "Rupiah",
+      "tahun": "-",
+      "noseri": "-",
+      "foto": "koin-5-rupiah-kb.jpg"
+    },
+    {
+      "id": 41,
+      "negara": "Indonesia",
+      "nominal": 10,
+      "jenis": "Koin",
+      "ciri": "Garuda",
+      "satuan": "SEN",
+      "tahun": "-",
+      "noseri": "-",
+      "foto": "koin-10-sen-garuda.jpg"
+    },
+    {
+      "id": 42,
+      "negara": "Indonesia",
+      "nominal": 25,
+      "jenis": "Koin",
+      "ciri": "Garuda",
+      "satuan": "SEN",
+      "tahun": "-",
+      "noseri": "-",
+      "foto": "koin-25-sen-garuda.jpg"
     }
   ]
 }

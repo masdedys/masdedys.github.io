@@ -337,10 +337,16 @@ h3 > .hovera:hover {
   .aboutme {
     padding-top: 50px;
   }
+  .ok {
+    margin-top: 1000px;
+  }
 }
 /* Smartphone */
 @media (max-width: 450px) {
   .hero-content {
     margin-top: 70px;
+  }
+  .ok {
+    margin-top: 1000px;
   }
 }
