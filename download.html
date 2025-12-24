@@ -233,7 +233,7 @@
                   data: "file",
                   render: function (data, type, row, meta) {
                     if (type === "display") {
-                      data = '<a href="assets/doc/'+ data +'" onclick="document.cookie =' + data + '" target="_blank"> Unduh </a>';
+                      data = '<a href="assets/doc/'+ data +'" onclick="document.cookie =' + data + '" target="_blank" media="print"> Unduh </a>';
                     }
 
                     return data;

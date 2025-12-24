@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Periksa Data Sementara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleCek.css">
+</head>
+  <body>
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col mt-5 mobile">
+                <h2 class="text-center mb-4">Selamat Datang</h2>
+                <input type="text" class="form-control mb-3 input-oval" id="searchBox" placeholder="Masukkan NIK">
+                <button class="btn btn-primary float-end mb-5 searchBtn rounded-pill" type="button">Cek Data</button>
+                <div class="mt-5" id="results"></div>
+            </div>
+            <div class="col notmobile">
+                <div class="text-center">
+                    <h1>Maaf harus di pakai hp</h1>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+$(".searchBtn").on("click", function () {
+     $.getJSON("js/listgaji.json", function (data) {
+        //console.log(data);
+        var searchBox = document.getElementById('searchBox');
+        var results = document.getElementById('results');
+        var keyword = searchBox.value;
+        let gaji = data.gaji;
+        let content = "";
+
+        $.each(gaji, function (i, data) { 
+            if(data.nik==keyword){
+                content += 
+                '<table class="table table-striped-columns"><tr><th scope="row table-active">NIK</th><td>'+ 
+                    data.nik +'</td></tr><tr><th scope="row">Nama</th><td>'+ 
+                    data.nama +'</td></tr></table><table class="table table-striped"><thead><tr><th scope="col">Bulan</th><th scope="col">Jumlah (Rp.)</th></tr></thead><tbody><tr><th scope="row">JAN 2024</th><td>'+ 
+                    data.jan24 +'</td></tr><tr><th scope="row">FEB 2024</th><td>'+ 
+                    data.feb24 +'</td></tr><tr><th scope="row">MAR 2024</th><td>'+ 
+                    data.mar24 +'</td></tr><tr><th scope="row">APR 2024</th><td>'+ 
+                    data.apr24 +'</td></tr><tr><th scope="row">MAY 2024</th><td>'+ 
+                    data.may24 +'</td></tr><tr><th scope="row">JUN 2024</th><td>'+ 
+                    data.jun24 +'</td></tr><tr><th scope="row">JUL 2024</th><td>'+ 
+                    data.jul24 +'</td></tr><tr><th scope="row">AUG 2024</th><td>'+ 
+                    data.aug24 +'</td></tr><tr><th scope="row">SEP 2024</th><td>'+ 
+                    data.sep24 +'</td></tr><tr><th scope="row">OCT 2024</th><td>'+ 
+                    data.oct24 +'</td></tr><tr><th scope="row">NOV 2024</th><td>'+
+                    data.nov24 +'</td></tr><tr><th scope="row">DEC 2024</th><td>'+ 
+                    data.dec24 +'</td></tr><tr><th scope="row">JAN 2025</th><td>'+ 
+                    data.jan25 +'</td></tr><tr><th scope="row">FEB 2025</th><td>'+ 
+                    data.feb25 +'</td></tr><tr><th scope="row">MAR 2025</th><td>'+ 
+                    data.mar25 +'</td></tr><tr><th scope="row">APR 2025</th><td>'+ 
+                    data.apr25 +'</td></tr><tr><th scope="row">MAY 2025</th><td>'+ 
+                    data.may25 +'</td></tr><tr><th scope="row">JUN 2025</th><td>'+ 
+                    data.jun25 +'</td></tr><tr><th scope="row">JUL 2025</th><td>'+ 
+                    data.jul25 +'</td></tr><tr><th scope="row">AUG 2025</th><td>'+ 
+                    data.aug25 +'</td></tr><tr><th scope="row">SEP 2025</th><td>'+ 
+                    data.sep25 +'</td></tr><tr><th scope="row">OCT 2025</th><td>'+ 
+                    data.oct25 +'</td></tr><tr><th scope="row">NOV 2025</th><td>'+ 
+                    data.nov25 +'</td></tr><tr><th scope="row">DEC 2025</th><td>'+ 
+                    data.dec25 +'</td></tr><tr><th scope="row">PESANGON</th><td>'+ 
+                    data.pesangon +'</td></tr><tr><th scope="row">TOTAL</th><td>'+ 
+                    data.total +'</td></tr></tbody></table>';
+            return false;
+            }
+        });
+        //$("#results").html(content);
+        if (content) {
+            $("#results").html(content);
+        } else {
+            //location.reload();
+            //$("#results").empty();
+            content +='<b>Data tidak terdaftar dalam sistem</b>';
+            $("#results").html(content);
+        }
+    });
+});
+</script>
+<script>
+    const inputOval = document.getElementById('searchBox');
+
+inputOval.addEventListener('keydown', (event) => {
+    // Check if the pressed key is the 'Enter' key
+    if (event.key === 'Enter') {
+        $.getJSON("js/listgaji.json", function (data) {
+        //console.log(data);
+        var searchBox = document.getElementById('searchBox');
+        var results = document.getElementById('results');
+        var keyword = searchBox.value;
+        let gaji = data.gaji;
+        let content = "";
+
+        $.each(gaji, function (i, data) { 
+            if(data.nik==keyword){
+                content += 
+                '<table class="table table-striped-columns"><tr><th scope="row table-active">NIK</th><td>'+ 
+                    data.nik +'</td></tr><tr><th scope="row">Nama</th><td>'+ 
+                    data.nama +'</td></tr></table><table class="table table-striped"><thead><tr><th scope="col">Bulan</th><th scope="col">Jumlah (Rp.)</th></tr></thead><tbody><tr><th scope="row">JAN 2024</th><td>'+ 
+                    data.jan24 +'</td></tr><tr><th scope="row">FEB 2024</th><td>'+ 
+                    data.feb24 +'</td></tr><tr><th scope="row">MAR 2024</th><td>'+ 
+                    data.mar24 +'</td></tr><tr><th scope="row">APR 2024</th><td>'+ 
+                    data.apr24 +'</td></tr><tr><th scope="row">MAY 2024</th><td>'+ 
+                    data.may24 +'</td></tr><tr><th scope="row">JUN 2024</th><td>'+ 
+                    data.jun24 +'</td></tr><tr><th scope="row">JUL 2024</th><td>'+ 
+                    data.jul24 +'</td></tr><tr><th scope="row">AUG 2024</th><td>'+ 
+                    data.aug24 +'</td></tr><tr><th scope="row">SEP 2024</th><td>'+ 
+                    data.sep24 +'</td></tr><tr><th scope="row">OCT 2024</th><td>'+ 
+                    data.oct24 +'</td></tr><tr><th scope="row">NOV 2024</th><td>'+
+                    data.nov24 +'</td></tr><tr><th scope="row">DEC 2024</th><td>'+ 
+                    data.dec24 +'</td></tr><tr><th scope="row">JAN 2025</th><td>'+ 
+                    data.jan25 +'</td></tr><tr><th scope="row">FEB 2025</th><td>'+ 
+                    data.feb25 +'</td></tr><tr><th scope="row">MAR 2025</th><td>'+ 
+                    data.mar25 +'</td></tr><tr><th scope="row">APR 2025</th><td>'+ 
+                    data.apr25 +'</td></tr><tr><th scope="row">MAY 2025</th><td>'+ 
+                    data.may25 +'</td></tr><tr><th scope="row">JUN 2025</th><td>'+ 
+                    data.jun25 +'</td></tr><tr><th scope="row">JUL 2025</th><td>'+ 
+                    data.jul25 +'</td></tr><tr><th scope="row">AUG 2025</th><td>'+ 
+                    data.aug25 +'</td></tr><tr><th scope="row">SEP 2025</th><td>'+ 
+                    data.sep25 +'</td></tr><tr><th scope="row">OCT 2025</th><td>'+ 
+                    data.oct25 +'</td></tr><tr><th scope="row">NOV 2025</th><td>'+ 
+                    data.nov25 +'</td></tr><tr><th scope="row">DEC 2025</th><td>'+ 
+                    data.dec25 +'</td></tr><tr><th scope="row">PESANGON</th><td>'+ 
+                    data.pesangon +'</td></tr><tr><th scope="row">TOTAL</th><td>'+ 
+                    data.total +'</td></tr></tbody></table>';
+            return false;
+            }
+        });
+        //$("#results").html(content);
+        if (content) {
+            $("#results").html(content);
+        } else {
+            //location.reload();
+            //$("#results").empty();
+            content +='<b>Data tidak terdaftar dalam sistem</b>';
+            $("#results").html(content);
+        }
+    });
+        // Prevent the default form submission behavior (if inside a form)
+        event.preventDefault(); 
+    }
+});
+
+</script>
+</html>

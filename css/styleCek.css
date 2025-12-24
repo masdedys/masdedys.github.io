@@ -1,0 +1,31 @@
+.input-oval{
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px; /* Nilai besar untuk bentuk oval */
+    font-size: 16px;
+  }
+  .btn-default-oval {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(108, 88, 179, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(108, 89, 179, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+/* Hide by default (mobile first) */
+.notmobile {
+  display: none;
+}
+
+/* Show only on desktop */
+@media screen and (min-width: 768px) {
+  .notmobile {
+    display: block; /* or inline, flex, grid, etc. */
+  }
+  .mobile{
+    display: none;
+  }
+}
