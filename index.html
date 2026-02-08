@@ -56,6 +56,21 @@ background: linear-gradient(180deg, rgba(1, 0, 23, 1) 0%, rgba(9, 9, 121, 1) 50%
             background: #020024;
 background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 72%, rgba(0, 212, 255, 1) 100%);
         }
+        #aboutme h1, #aboutme p{
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        #aboutme h5 a{
+            text-decoration: none;
+            color: white;
+        }
+        #aboutme h5 a:hover{
+            color: yellow;
+        }
+        #aboutme img{
+            width: 400px;
+            height: auto;
+        }
         .rounded-circle{
             text-shadow: 200px 200px 50px white;
         }
@@ -66,11 +81,6 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
         #portfolio h1, #portfolio p{
             text-shadow: 2px 2px 4px #000000;
         }
-        /* #lightgallery{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        } */
         #portfolio img{
             margin: 5px;
             border-radius: 10px;
@@ -139,26 +149,38 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
             /* color: yellow; */
             margin-right: 10px;
         }
-footer {
-  .col-sm-4 > ul > li > i {
-    font-size: 15px !important;
-    color: var(--color-dark-orange) !important;
-    margin-right: 10px !important;
-  }
-}
-.copyright {
-  background-color: var(--color-blue);
-}
-.copyright-item small {
-  display: flex;
-  height: 60px;
-  padding: 0;
-  margin: 0;
-  justify-content: space-around;
-  align-items: center;
-}
+        .copyright {
+        background-color: var(--color-blue);
+        }
+        .copyright-item small {
+        display: flex;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+        }
         /* Hidding sections under 960px width */
-        @media screen and (max-width: 960px) {
+        @media screen and (max-width: 600px) {
+            .jumbotron h1{
+                font-size: 72px;
+                font-weight: 200;
+            }
+            .jumbotron p{
+                font-size: 32px;
+            }
+            .aboutme h1{
+                font-size: 48px;
+                font-weight: 500;
+                margin: 0;
+                padding: 0;
+            }
+            #aboutme img{
+                width: 50%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+            }
             .hide-on-responsive{
                 display: none;
             }
@@ -217,24 +239,24 @@ footer {
 </nav>
 <div id="fullpage">
     <div class="section fp-auto-height-responsive" id="home">
-        <div class="jumbotron container my-5 my-sm-0 py-sm-0">
-        <h1 class="display-4 my-4 pt-4 text-white" data-aos="fade-up">Let's grow together</h1>
-        <p class="lead text-white" data-aos="fade-up" data-aos-delay="300">This is my simple website, in here I want to share all about my computer experiences and my life.</p>
-        <hr class="mb-2" />
-        <p class="text-white" data-aos="fade-up" data-aos-delay="500">Like UI Design, Illustration, Coding, etc.</p>
-        <a class="btn btn-primary btn-lg" href="#profile" role="button" data-aos="fade-up" data-aos-delay="700">My Profile</a>
-      </div>
+        <div class="jumbotron container my-5 my-sm-0 py-sm-0 text-white">
+            <h1 class="display-4 my-4 pt-4" data-aos="fade-up">Let's grow together</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="300">This is my simple website, in here I want to share all about my computer experiences and my life.</p>
+            <hr class="mb-2" />
+            <p class="" data-aos="fade-up" data-aos-delay="500">Like UI Design, Illustration, Coding, etc.</p>
+            <a class="btn btn-primary btn-lg" href="#profile" role="button" data-aos="fade-up" data-aos-delay="700">My Profile</a>
+        </div>
     </div>
     <div class="section fp-auto-height-responsive" id="aboutme">
         <div class="container">
-            <div class="row my-5 my-sm-0 py-sm-0">
-                <div class="col-md justify-content-center my-5 pt-5 text-white">
+            <div class="row my-5 my-sm-0 py-sm-0 justify-content-center align-items-center">
+                <div class="col-md my-5 pt-5">
                     <h1 data-aos="fade-up">Hello my name is <ins><b>Dedy</b></ins>, you can call me <b>Dedy</b>.</h1>
                     <p data-aos="flip-left" data-aos-delay="200">My Hobby is learning about computer, reading books, assemble gunpla, ect. I hope what I sharing for you can help you. ^_^</p>
-                    <h5><a href="#contact" class="text-white" style="text-decoration: none" data-aos="flip-left" data-aos-delay="500">Visit Me</a></h5>
+                    <h5><a href="#contact" data-aos="flip-left" data-aos-delay="500">Visit Me</a></h5>
                 </div>
-                <div class="col-md justify-content-center my-3 pt-3 text-center">
-                    <img src="assets/img/ku.jpg" width="50%" height="50%" class="img-thumbnail rounded-circle" alt="" srcset="" data-aos="flip-left" />
+                <div class="col-md my-5 pt-5 text-center">
+                    <img src="assets/img/ku.jpg" class="img-thumbnail rounded-circle" alt="" srcset="" data-aos="flip-left" />
                 </div>
             </div>
         </div>
