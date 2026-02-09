@@ -70,7 +70,7 @@ background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 72%, rg
             color: yellow;
         }
         #aboutme img{
-            width: 400px;
+            width: 300px;
             height: auto;
         }
         .rounded-circle{
@@ -128,7 +128,7 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
         }
         #footer ul >li{
             list-style: none;
-            font-size: 14px;
+            font-size: 18px;
             padding: 5px;
         }
         #footer ul >li>b{
@@ -168,16 +168,41 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
             .navbar-toggler {
                 border-color: white !important;
             }
+            .jumbotron{
+                padding: 50px;
+            }
             .jumbotron h1{
-                font-size: 72px;
-                font-weight: 200;
+                font-size: 64px;
+                font-weight: 100;
             }
             .jumbotron p{
-                font-size: 32px;
+                font-size: 24px;
             }
             #aboutme img{
                 width: 60%;
                 height: auto;
+            }
+            #aboutme .order-last, #blog .col-md, #contact .col-md{
+                margin: 0 auto;
+                padding: 40px;
+            }
+            #blog h1{
+                font-size: 64px;
+                font-weight: 100;
+            }
+            #blog p{
+                font-size: 24px;
+            }
+            #contact h1{
+                font-size: 52px;
+                font-weight: 100;
+            }
+            #contact p{
+                font-size: 24px;
+            }
+            #footer ul >li{
+                font-size: 24px;
+                padding: 10px;
             }
             .hide-on-responsive{
                 display: none;
@@ -230,7 +255,7 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
         <a class="nav-link mx-3" href="#aboutme">About me</a>
         <a class="nav-link mx-3" href="#portfolio">Portfolio</a>
         <a class="nav-link mx-3" href="#blog">Blog</a>
-        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link mx-3" href="#contact">Contact</a>
       </div>
     </div>
   </div>
@@ -242,18 +267,18 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
             <p class="lead" data-aos="fade-up" data-aos-delay="300">This is my simple website, in here I want to share all about my computer experiences and my life.</p>
             <hr class="mb-2" />
             <p class="" data-aos="fade-up" data-aos-delay="500">Like UI Design, Illustration, Coding, etc.</p>
-            <a class="btn btn-primary btn-lg" href="#profile" role="button" data-aos="fade-up" data-aos-delay="700">My Profile</a>
+            <a class="btn btn-primary btn-lg" href="#aboutme" role="button" data-aos="fade-up" data-aos-delay="700">My Profile</a>
         </div>
     </div>
     <div class="section fp-auto-height-responsive" id="aboutme">
         <div class="container">
-            <div class="row my-5 my-sm-0 py-sm-0 justify-content-center align-items-center">
-                <div class="col-md my-5 pt-5 my-sm-1 pt-sm-1 order-last order-md-first">
+            <div class="row my-5 justify-content-center align-items-center">
+                <div class="col-md pt-5 order-last order-md-first">
                     <h1 data-aos="fade-up">Hello my name is <ins><b>Dedy</b></ins>, you can call me <b>Dedy</b>.</h1>
                     <p data-aos="flip-left" data-aos-delay="200">My Hobby is learning about computer, reading books, assemble gunpla, ect. I hope what I sharing for you can help you. ^_^</p>
                     <h5><a href="#contact" data-aos="flip-left" data-aos-delay="500">Visit Me</a></h5>
                 </div>
-                <div class="col-md my-5 pt-5 text-center order-first order-md-last">
+                <div class="col-md pt-5 pt-5 text-center order-first order-md-last">
                     <img src="assets/img/ku.jpg" class="img-thumbnail rounded-circle" alt="" srcset="" data-aos="flip-left" />
                 </div>
             </div>
@@ -311,7 +336,7 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
                                 <img src="assets/img/portfolio/teslo.jpg" width="10%" height="auto" alt="" data-aos="flip-left">
                             </a>
                             <br>
-                            <a class="btn btn-outline-light btn-lg mt-5" href="https://www.instagram.com/mas_dedys/" role="button" data-aos="fade-up" data-aos-delay="700">More Portfolio</a>
+                            <a class="btn btn-outline-light btn-lg mt-5" href="https://www.instagram.com/mas_dedys/" target="_blank" role="button" data-aos="fade-up" data-aos-delay="700">More Portfolio</a>
                     </div>
                     <div class="slide my-5">
                         <h1>Graphic Design</h1>
@@ -363,13 +388,13 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
                             </a>
                             <br>
                         
-                        <a class="btn btn-outline-light btn-lg mt-5" href="https://www.instagram.com/mas_dedys/" role="button" data-aos="fade-up" data-aos-delay="700">More Portfolio</a>
+                        <a class="btn btn-outline-light btn-lg mt-5" href="https://www.instagram.com/mas_dedys/" target="_blank" role="button" data-aos="fade-up" data-aos-delay="700">More Portfolio</a>
                     </div>
                     <div class="slide my-5 pt-5">
                         <h1>Code</h1>
                         <p>I have some code that you might be able to use.</p>
                         <p>HTML, CSS, Javascript, PHP, MYSQL</p>
-                        <a class="btn btn-outline-light btn-lg mt-5" href="https://github.com/masdedys" role="button" data-aos="fade-up" data-aos-delay="700">More Portfolio</a>
+                        <a class="btn btn-outline-light btn-lg mt-5" href="https://github.com/masdedys" target="_blank" role="button" data-aos="fade-up" data-aos-delay="700">More Portfolio</a>
                     </div>
                 </div>
             </div>
@@ -378,7 +403,7 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
 	<div class="section fp-auto-height-responsive" id="blog">
 		<div class="container">
             <div class="row my-5 my-sm-0 py-sm-0">
-                <div class="col-md justify-content-center my-5 pt-5 text-center text-white">
+                <div class="col-md justify-content-center text-center text-white">
                     <div class="intro">
                         <h1>Blog</h1>
                         <p>
@@ -402,12 +427,12 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
                         <hr>
                         <h1>Social Media</h1>
                         <span class="my-1 justify-content-center text-center">
-                            <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="https://www.instagram.com/mas_dedys/" role="button" title="Instagram"><i class="bi bi-instagram size-35"></i></a>
-                            <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="https://www.youtube.com/channel/UCsZygXjR6iZgNSMz2rwiujw" role="button" title="Youtube"><i class="bi bi-youtube size-35"></i></a>
+                            <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="https://www.instagram.com/mas_dedys/" target="_blank" role="button" title="Instagram"><i class="bi bi-instagram size-35"></i></a>
+                            <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="https://www.youtube.com/channel/UCsZygXjR6iZgNSMz2rwiujw" target="_blank" role="button" title="Youtube"><i class="bi bi-youtube size-35"></i></a>
                             <!-- <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="http://masdedys.blogspot.com/" role="button" title="Blogspot"><i class="bi bi-type-bold size-35"></i></a> -->
-                            <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="https://github.com/masdedys" role="button" title="Github"><i class="bi bi-github size-35"></i></a>
-                            <!-- <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="https://dribbble.com/masdedys" role="button" title="Dribbble"><i class="bi bi-dribbble size-35"></i></a>
-                            <a class="btn btn-lg rounded-circle circle-pertama text-white text-white text-center" href="https://play.google.com/store/apps/developer?id=Dedy+Setiawan&hl=id" role="button" title="Google Play"><i class="bi bi-google-play size-35"></i></a> -->
+                            <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="https://github.com/masdedys" target="_blank" role="button" title="Github"><i class="bi bi-github size-35"></i></a>
+                            <!-- <a class="btn btn-lg rounded-circle circle-pertama text-white text-center" href="https://dribbble.com/masdedys" target="_blank" role="button" title="Dribbble"><i class="bi bi-dribbble size-35"></i></a>
+                            <a class="btn btn-lg rounded-circle circle-pertama text-white text-white text-center" href="https://play.google.com/store/apps/developer?id=Dedy+Setiawan&hl=id" target="_blank" role="button" title="Google Play"><i class="bi bi-google-play size-35"></i></a> -->
                         </span>
                 </div>
             </div>
@@ -419,10 +444,10 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
                 <div class="col-md">
                     <ul>
                     <li><b>Other</b></li>
-                    <li class="py-2"><a href="https://masdedys.github.io/shop.html">My Grocery Store</a></li>
-                    <li class="pb-2"><a href="https://masdedys.github.io/portfolio.html">My Portfolio Gallery</a></li>
-                    <li class="pb-2"><a href="https://masdedys.github.io/simple-code.html">Simply Code</a></li>
-                    <li class="pb-2"><a href="#">Download</a></li>
+                    <li class="py-2"><a href="https://masdedys.github.io/shop.html" target="_blank">My Grocery Store</a></li>
+                    <li class="pb-2"><a href="https://masdedys.github.io/portfolio.html" target="_blank">My Portfolio Gallery</a></li>
+                    <li class="pb-2"><a href="https://masdedys.github.io/simple-code.html" target="_blank">Simply Code</a></li>
+                    <li class="pb-2"><a href="#" target="_blank">Download</a></li>
                     </ul>
                 </div>
                 <div class="col-md">
