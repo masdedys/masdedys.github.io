@@ -1,11 +1,18 @@
 {
-  "uangkuno": [
+  "code": [
+    {
+      "id": 1,
+      "name": "Web based chairman election application",
+      "tech": "HTML, CSS, Javascript, MYSQL",
+      "view": "https://youtu.be/sS1FVPlPUsI?si=t5_2PeSaWLEiYkJW",
+      "download": "https://github.com/masdedys/web-based-chairman-election-application"
+    },
     {
       "id": 0,
-      "name": "Secure message with caesar method on android based application",
+      "name": "Android based secure messaging application with Caesar method",
       "tech": "Android, Java, Caesar Cipher",
-      "view": "errorNotFound.html",
-      "download": "errorNotFound.html"
+      "view": "https://youtu.be/56umjd3NwNg?si=5r8la2gDsIvwYMY-",
+      "download": "https://github.com/masdedys/android-based-secure-messaging-application-with-Caesar-method"
     }
   ]
 }
