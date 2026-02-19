@@ -1,6 +1,13 @@
 {
   "code": [
     {
+      "id": 3,
+      "name": "Parallax scrolling effect",
+      "tech": "HTML, CSS",
+      "view": "https://masdedys.github.io/parallax-scrolling-effect/",
+      "download": "https://github.com/masdedys/parallax-scrolling-effect"
+    },
+    {
       "id": 2,
       "name": "Web based retained sample application",
       "tech": "HTML, CSS, Javascript, PHP, MYSQL",
