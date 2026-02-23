@@ -1,6 +1,13 @@
 {
   "code": [
     {
+      "id": 6,
+      "name": "Landing page kedai masdedys",
+      "tech": "HTML, CSS",
+      "view": "https://masdedys.github.io/kedai-masdedys/",
+      "download": "https://github.com/masdedys/kedai-masdedys"
+    },
+    {
       "id": 5,
       "name": "Landing page masdedys opentrip",
       "tech": "HTML, CSS",
