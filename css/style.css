@@ -1,88 +1,93 @@
 div.fp-watermark {
-            display: none;
-        }
-        .navbar{
-            background: transparent;
-            backdrop-filter: blur(8px);
-        }
-        .navbar .nav-link{
-            color: white;
-            font-weight: 400;
-            font-size: 18px;
-        }
-        .navbar .nav-link:hover{
-            color: #e5e5e5;
-            font-weight: 500;
-            font-size: 18px;
-        }
-        .navbar .nav-underline .nav-link.active{
-            border-bottom: 2px solid white;
-            color: white;
-        }
-        #home{
-            background: #010017;
-background: linear-gradient(180deg, rgba(1, 0, 23, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
-        }
-        #aboutme{
-            background: #020024;
-background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 72%, rgba(0, 212, 255, 1) 100%);
-        }
-        #aboutme h1, #aboutme p{
-            color: white;
-            text-shadow: 2px 2px 4px #000000;
-        }
-        #aboutme h5 a{
-            text-decoration: none;
-            color: white;
-        }
-        #aboutme h5 a:hover{
-            color: yellow;
-        }
-        #aboutme img{
-            width: 300px;
-            height: auto;
-        }
-        .rounded-circle{
-            text-shadow: 200px 200px 50px white;
-        }
-        #portfolio {
-            background: #020024;
-background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%, rgba(0, 212, 255, 1) 100%);
-        }
-        #portfolio h1, #portfolio p{
-            text-shadow: 2px 2px 4px #000000;
-        }
-        #portfolio img{
-            width: 10%;
-            height: auto;
-            margin: 5px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px black;
-            transition: transform 0.3s ease; /* Smooth animation over 0.3s */
-            cursor: pointer; /* Changes cursor to a hand pointer */
-        }
-        #portfolio img:hover{
-            transform: scale(1.1); /* Scales up the image by 20% on hover */
-        }
-        #blog{
-            background: #242538;
-        }
-        #contact{
-            background: #090979;
-        }
-        #contact .container .row .col-md span > a > .bi-instagram {
-            transition: transform 0.3s ease; /* Smooth animation over 0.3s */
-            cursor: pointer; /* Changes cursor to a hand pointer */
-        }
-        #contact .container .row .col-md span > a > .bi-instagram:hover {
-            color: #feda75;
-        }
-        #contact .container .row .col-md span > a > .bi-youtube:hover {
-            color: #FF0000;
-        }
-        #contact .container .row .col-md span > a > .bi-type-bold:hover {
-            color: #FF5722;
-        }
+    display: none;
+}
+/* navbar start */
+.navbar{
+    background: transparent;
+    backdrop-filter: blur(8px);
+}
+.navbar .nav-link{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.navbar .nav-link:hover{
+    color: #e5e5e5;
+    font-weight: 500;
+    font-size: 18px;
+}
+.navbar .nav-underline .nav-link.active{
+    border-bottom: 2px solid white;
+    color: white;
+}
+/* navbar end */
+/* home start */
+#home{
+    background: #010017;
+    background: linear-gradient(180deg, rgba(1, 0, 23, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
+/* home end */
+/* about start */
+#aboutme{
+    background: #020024;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 72%, rgba(0, 212, 255, 1) 100%);
+}
+#aboutme h1, #aboutme p{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#aboutme h5 a{
+    text-decoration: none;
+    color: white;
+}
+#aboutme h5 a:hover{
+    color: yellow;
+}
+#aboutme img{
+    width: 300px;
+    height: auto;
+}
+.rounded-circle{
+    text-shadow: 200px 200px 50px white;
+}
+#portfolio {
+    background: #020024;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%, rgba(0, 212, 255, 1) 100%);
+}
+#portfolio h1, #portfolio p{
+    text-shadow: 2px 2px 4px #000000;
+}
+#portfolio img{
+    width: 10%;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    transition: transform 0.3s ease; /* Smooth animation over 0.3s */
+    cursor: pointer; /* Changes cursor to a hand pointer */
+}
+#portfolio img:hover{
+    transform: scale(1.1); /* Scales up the image by 20% on hover */
+}
+#blog{
+    background: #242538;
+}
+#contact{
+    background: #090979;
+}
+#contact .container .row .col-md span > a > .bi-instagram {
+    transition: transform 0.3s ease; /* Smooth animation over 0.3s */
+    cursor: pointer; /* Changes cursor to a hand pointer */
+}
+#contact .container .row .col-md span > a > .bi-instagram:hover {
+    color: #feda75;
+}
+#contact .container .row .col-md span > a > .bi-youtube:hover {
+    color: #FF0000;
+}
+#contact .container .row .col-md span > a > .bi-type-bold:hover {
+    color: #FF5722;
+}
         #contact .container .row .col-md span > a > .bi-github:hover {
             color: #24292e;
         }
@@ -100,6 +105,9 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
         /* clip-path: polygon(0 0, 100% 0, 50% 100%); */
         clip-path: polygon(5% 15%, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0 75%);
         }
+        #contact h2{
+                text-align: left;
+            }
         #footer {
             background: #020024;
             background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%, rgba(0, 212, 255, 1) 100%);
@@ -191,9 +199,16 @@ background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%
             #blog p{
                 font-size: 24px;
             }
+            #contact{
+                background: #090979;
+                margin-top: 200px;
+            }
             #contact h1{
                 font-size: 52px;
                 font-weight: 100;
+            }
+            #contact h2{
+                text-align: left;
             }
             #contact p{
                 font-size: 24px;
