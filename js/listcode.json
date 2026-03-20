@@ -1,16 +1,23 @@
 {
   "code": [
     {
+      "id": 7,
+      "name": "Simple cashier",
+      "tech": "Javascript",
+      "view": "errorNotFound.html",
+      "download": "https://github.com/masdedys/simple-cashier"
+    },
+    {
       "id": 6,
       "name": "Landing page kedai masdedys",
-      "tech": "HTML, CSS",
+      "tech": "CSS",
       "view": "https://masdedys.github.io/kedai-masdedys/",
       "download": "https://github.com/masdedys/kedai-masdedys"
     },
     {
       "id": 5,
       "name": "Landing page masdedys opentrip",
-      "tech": "HTML, CSS",
+      "tech": "CSS",
       "view": "https://masdedys.github.io/landing-page-masdedys-opentrip/",
       "download": "https://github.com/masdedys/landing-page-masdedys-opentrip"
     },
@@ -24,21 +31,21 @@
     {
       "id": 3,
       "name": "Parallax scrolling effect",
-      "tech": "HTML, CSS",
+      "tech": "CSS",
       "view": "https://masdedys.github.io/parallax-scrolling-effect/",
       "download": "https://github.com/masdedys/parallax-scrolling-effect"
     },
     {
       "id": 2,
       "name": "Web based retained sample application",
-      "tech": "HTML, CSS, Javascript, PHP, MYSQL",
+      "tech": "CSS, Javascript, PHP, MYSQL",
       "view": "https://www.youtube.com/watch?v=_JymzvAwTow",
       "download": "https://github.com/masdedys/web-based-retained-sample-application"
     },
     {
       "id": 1,
       "name": "Web based chairman election application",
-      "tech": "HTML, CSS, Javascript, PHP, MYSQL",
+      "tech": "CSS, Javascript, PHP, MYSQL",
       "view": "https://youtu.be/sS1FVPlPUsI?si=t5_2PeSaWLEiYkJW",
       "download": "https://github.com/masdedys/web-based-chairman-election-application"
     },
