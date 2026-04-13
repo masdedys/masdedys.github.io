@@ -423,7 +423,7 @@
       "negara": "Saudi Arabia",
       "nominal": 1,
       "jenis": "Kertas",
-      "ciri": "RAJA SALMAN",
+      "ciri": "Raja Salman",
       "satuan": "Riyal",
       "tahun": "-",
       "noseri": "1167334740",
@@ -472,6 +472,28 @@
       "tahun": "-",
       "noseri": "-",
       "foto": "koin-25-sen-garuda.jpg"
+    },
+    {
+      "id": 43,
+      "negara": "Saudi Arabia",
+      "nominal": 1,
+      "jenis": "Koin",
+      "ciri": "Raja Salman",
+      "satuan": "Riyal",
+      "tahun": "-",
+      "noseri": "-",
+      "foto": "koin-1-riyal-Raja-Salman.jpg"
+    },
+    {
+      "id": 44,
+      "negara": "Saudi Arabia",
+      "nominal": 2,
+      "jenis": "Koin",
+      "ciri": "Raja Abdulaziz",
+      "satuan": "Riyal",
+      "tahun": "-",
+      "noseri": "-",
+      "foto": "koin-2-riyal-Raja-Abdulaziz.jpg"
     }
   ]
 }
