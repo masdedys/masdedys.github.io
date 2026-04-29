@@ -2,10 +2,10 @@
   "code": [
     {
       "id": 7,
-      "name": "Simple cashier",
-      "tech": "Javascript",
-      "view": "errorNotFound.html",
-      "download": "https://github.com/masdedys/simple-cashier"
+      "name": "Warung Apps",
+      "tech": "PHP, MYSQL",
+      "view": "https://www.youtube.com/watch?v=CAYbF5eQHco",
+      "download": "https://github.com/masdedys/warungapps"
     },
     {
       "id": 6,
