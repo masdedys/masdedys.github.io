@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="shortcut icon" href="../assets/img/logo.png" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../assets/bootstrap-5.2.3/css/bootstrap.min.css">
+    <!--icon-->
+    <link rel="stylesheet" href="../assets/icons-1.13.1/font/bootstrap-icons.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!--pace js-->
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="stylesheet" href="../css/barber-shop.css" />
+  <body>
+    <div class="container">
+      <!--navbar-->
+      <nav class="navbar fixed-top navbar-expand-lg mb-5 mb-sm-2 bg-dark">
+        <div class="container py-3">
+          <a class="navbar-brand" href="https://masdedys.github.io/">
+            <img src="../assets/img/logo.png" alt="logo mas_dedys" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="uang-kuno.html">Koleksi Uang</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--/navbar-->
+    </div>
+    <div class="container mt-5">
+      <!--content-->
+      <section class="detail" id="detail">
+        <h1 class="mt-5 py-5 text-center" id="judul"></h1>
+        <div class="row py-2 justify-content-center">
+          <div class="col-md-4" id="show-image"><img id="img" /></div>
+          <div class="col-md-6 table-responsive">
+            <table class="table fs-6">
+              <tr>
+                <td class="caption-description">Negara</td>
+                <td id="negara"></td>
+              </tr>
+              <tr>
+                <td class=".caption-description-o">Nominal</td>
+                <td id="nominal"></td>
+              </tr>
+              <tr>
+                <td class="caption-description">Jenis</td>
+                <td id="jenis"></td>
+              </tr>
+              <tr>
+                <td class=".caption-description-o">Ciri</td>
+                <td id="ciri"></td>
+              </tr>
+              <tr>
+                <td class="caption-description">Satuan</td>
+                <td id="satuan"></td>
+              </tr>
+              <tr>
+                <td class=".caption-description-o">Tahun</td>
+                <td id="tahun"></td>
+              </tr>
+              <tr>
+                <td class="caption-description">No. Seri</td>
+                <td id="seri">-</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center text-dark py-3">
+			<div class="col-6 text-center">
+				<div class="text-dark">&copy;2026&nbsp;<a href="https://masdedys.github.io/" class="text-dark link-info text-decoration-none">masdedys.github.io</a>, All Rights Reserved</div>
+			</div>
+		</div>
+      </section>
+      <!--/content-->
+    </div>
+    <script src="../assets/jquery/jquery-3.7.1.js"></script>
+    <script src="../assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+<script>
+      AOS.init();
+</script>
+    <script>
+      $.getJSON("../assets/js/listuangkuno.json", function (data) {
+        let list = data.uangkuno;
+        let noarray = document.cookie;
+        //console.log(list);
+        document.title = list[noarray].jenis + " " + list[noarray].nominal + " " + list[noarray].satuan + " " + "| masdedys.github.io";
+        document.getElementById("judul").innerHTML = list[noarray].jenis + " " + list[noarray].nominal + " " + list[noarray].satuan;
+        document.getElementById("negara").innerHTML = list[noarray].negara;
+        document.getElementById("nominal").innerHTML = list[noarray].nominal;
+        document.getElementById("jenis").innerHTML = list[noarray].jenis;
+        document.getElementById("ciri").innerHTML = list[noarray].ciri;
+        document.getElementById("satuan").innerHTML = list[noarray].satuan;
+        document.getElementById("tahun").innerHTML = list[noarray].tahun;
+        document.getElementById("seri").innerHTML = list[noarray].noseri;
+        document.getElementById("show-image").innerHTML = `<div class="image-list"><img src ="../assets/uangkuno/${list[noarray].foto}" class="img-fluid" width="70%" height="70%" alt="" data-fancybox="gallery" data-caption="Caption #1"></div>`;
+      });
+    </script>
+  </body>
+</html>
