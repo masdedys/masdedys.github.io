@@ -12,9 +12,10 @@ div.fp-watermark {
     font-size: 18px;
 }
 .navbar .nav-link:hover{
-    color: #e5e5e5;
-    font-weight: 500;
-    font-size: 18px;
+    color: white;
+    /* font-weight: 500; */
+    background-color: lightslategray;
+    border-radius: 5px;
 }
 .navbar .nav-underline .nav-link.active{
     border-bottom: 2px solid white;
@@ -25,6 +26,16 @@ div.fp-watermark {
 #home{
     background: #010017;
     background: linear-gradient(180deg, rgba(1, 0, 23, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
+.display-4{
+    font-size: 42px;
+    font-weight: 500;
+}
+.lead{
+    font-size: 26px;
+}
+.description{
+    font-size: 18px;
 }
 /* home end */
 /* about start */
@@ -39,9 +50,6 @@ div.fp-watermark {
 #aboutme h5 a{
     text-decoration: none;
     color: white;
-}
-#aboutme h5 a:hover{
-    color: yellow;
 }
 #aboutme img{
     width: 300px;
