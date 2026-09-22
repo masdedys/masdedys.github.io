@@ -1,6 +1,23 @@
 div.fp-watermark {
     display: none;
 }
+h1{
+    font-size: 42px;
+    font-weight: 500;
+}
+h2{
+    font-size: 26px;
+}
+p{
+    font-size: 18px;
+}
+.display-4{
+    font-size: 42px;
+    font-weight: 500;
+}
+.lead{
+    font-size: 26px;
+}
 /* navbar start */
 .navbar{
     background: transparent;
@@ -27,29 +44,11 @@ div.fp-watermark {
     background: #010017;
     background: linear-gradient(180deg, rgba(1, 0, 23, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
 }
-.display-4{
-    font-size: 42px;
-    font-weight: 500;
-}
-.lead{
-    font-size: 26px;
-}
-.description{
-    font-size: 18px;
-}
 /* home end */
 /* about start */
 #aboutme{
     background: #020024;
     background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 72%, rgba(0, 212, 255, 1) 100%);
-}
-#aboutme h1, #aboutme p{
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-}
-#aboutme h5 a{
-    text-decoration: none;
-    color: white;
 }
 #aboutme img{
     width: 300px;
@@ -60,21 +59,26 @@ div.fp-watermark {
 }
 /* about end */
 /* portfolio start */
+.content-item{
+    width: 130px;
+    margin: 10px;
+    padding: 10px;
+}
+.content-item a img{
+    width: 130px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    transition: transform 0.3s ease; 
+    cursor: pointer; 
+}
 #portfolio {
     background: #020024;
     background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 79%, rgba(0, 212, 255, 1) 100%);
 }
 #portfolio h1, #portfolio p{
     text-shadow: 2px 2px 4px #000000;
-}
-#portfolio img{
-    width: 10%;
-    height: auto;
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px black;
-    transition: transform 0.3s ease; /* Smooth animation over 0.3s */
-    cursor: pointer; /* Changes cursor to a hand pointer */
 }
 #portfolio img:hover{
     transform: scale(1.1); /* Scales up the image by 20% on hover */
@@ -194,16 +198,27 @@ div.fp-watermark {
         margin: 0 auto;
         padding: 40px;
     }
-    #portfolio img{
+    .content-item{
+        width: 130px;
+    }
+    .content-item a img{
+        width: 130px;
+        margin: 2px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;
+        transition: transform 0.3s ease; 
+        cursor: pointer; 
+    }
+    /* #portfolio img{
         width: 25%;
         height: auto;
         margin: 0 auto;
         padding: 2px;
         border-radius: 10px;
         box-shadow: 2px 2px 10px black;
-        transition: transform 0.3s ease; /* Smooth animation over 0.3s */
-        cursor: pointer; /* Changes cursor to a hand pointer */
-    }
+        transition: transform 0.3s ease; 
+        cursor: pointer; 
+    } */
     #portfolio img:hover{
         transform: scale(1.1); /* Scales up the image by 20% on hover */
     }
