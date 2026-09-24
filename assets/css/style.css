@@ -176,6 +176,24 @@ p{
 }
 /* Hidding sections under 960px width */
 @media screen and (max-width: 600px) {
+    h1{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 13px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .display-4{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .lead{
+        font-size: 13px;
+    }
+
     /* Mengubah warna bingkai (border) tombol */
     .navbar-toggler {
         border-color: white !important;
@@ -199,11 +217,11 @@ p{
         padding: 40px;
     }
     .content-item{
-        width: 130px;
+        display: flex;
+        flex-direction: column;
     }
     .content-item a img{
-        width: 130px;
-        margin: 2px;
+        width: 66%;
         border-radius: 10px;
         box-shadow: 1px 1px 5px black;
         transition: transform 0.3s ease; 
