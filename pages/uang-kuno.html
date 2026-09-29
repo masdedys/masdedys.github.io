@@ -15,141 +15,69 @@
     <link rel="stylesheet" href="../assets/DataTables/DataTables-2.3.8/css/dataTables.bootstrap5.min.css">
 
     <link rel="stylesheet" href="../assets/DataTables/Buttons-3.2.6/css/buttons.dataTables.min.css">
-    <!--fancybox-->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" /> -->
-    <!--aos-->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-    <!--pace js-->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script> -->
     <link rel="stylesheet" href="../assets/css/barber-shop.css" />
     <style>
-      /* Navbar */
-.navbar{
-    background: transparent;
-    backdrop-filter: blur(8px);
-}
-.navbar .nav-link{
-    color: #4d4d4d;
-    font-weight: 400;
-    font-size: 18px;
-}
-.navbar .nav-link:hover{
-    color: #4d4d4d;
-    font-weight: 500;
-    font-size: 18px;
-}
-.navbar .nav-underline .nav-link.active{
-    border-bottom: 2px solid white;
-    color: white;
-}
-/* copyright */
-.copyright {
-    background-color: #fff;
-}
-.copyright-item small {
-    display: flex;
-    height: 60px;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-}
-.copyright-item small a {
-    text-decoration: none;
-    color: #000;
-}
-.copyright-item small a:hover {
-    color: #434343;
-}
-.copyright small{
-    font-size: 16px;
-}
-/* Hidding sections under 960px width */
-@media screen and (max-width: 600px) {
-    /* Mengubah warna bingkai (border) tombol */
-            .navbar-toggler {
-                border-color: white !important;
-            }
-            .shortcode h1 {
-                margin-top: 20px;
-            }
-.copyright small{
-    font-size: 14px;
-    }
-}       
+       body{
+        background-color: #2C1D0C;
+        color: white;
+      }
+      #search tbody>tr>td{
+        color: white;
+        font-size: 14px;
+      }
     </style>
   </head>
   <body>
     <!--navbar-->
-        <nav class="navbar fixed-top navbar-expand-lg nav-underline bg-dark" style="height: 95px">
-        <div class="container">
-            <a class="navbar-brand" href="https://masdedys.github.io/">
-                <img src="../assets/img/logo.png" alt="" class="d-inline-block align-top shadow" style="border-radius: 10%" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-white"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-                <!-- <a class="nav-link mx-3" aria-current="page" href="index.html">Home</a> -->
-                <a class="nav-link mx-3 text-white" href="https://masdedys.github.io/#contact" target="_blank">Contact</a>
-            </div>
-            </div>
-        </div>
-        </nav>
+    <nav class="navbar fixed-top navbar-expand-lg nav-underline" style="height: 80px">
+      <div class="container">
+          <a class="navbar-brand" href="https://masdedys.github.io/">
+              <img src="../assets/img/logo.png" alt="" class="d-inline-block align-top shadow" style="border-radius: 10%" />
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                  <a class="nav-link mx-3" href="../index.html#contact">Kontak</a>
+              </div>
+          </div>
+      </div>
+    </nav>
     <!--/navbar-->
-    <div class="container mt-5">
+    <div class="container">
+      <div class="row d-flex flex-wrap flex-row justify-content-center align-items-center" style="height: 100vh;" id="top">
+        <div class="col-md text-center">
+          <h1 class="mt-4 pt-5 mb-2">"Sesuatu yang dapat hilang tidak dapat dianggap sebagai kekayaan."</h1>
+          <h3 class="mt-4 mb-4">Leonardo Da Vinci</h3>
+          <a class="btn btn-outline-light btn-lg px-4" href="#search" role="button" data-aos="fade-up" data-aos-delay="700">Lanjut</a>
+        </div>
+      </div>
       <!--database uang kuno-->
-      <section>
-        <h1 class="mt-4 py-4"></h1>
-        <div class="row py-4 justify-content-center" id="search">
-          <div class="col-md-6 table-responsive">
-            <table id="table-uangkuno" class="table table-striped" cellspacing="0">
-              <thead>
-                <tr>
-                  <th>Nominal</th>
-                  <th>Satuan</th>
-                  <th>Jenis</th>
-                  <th>Ciri</th>
-                  <th>Detail</th>
-                </tr>
-              </thead>
-            </table>
-          </div>
+      <div class="row d-flex justify-content-center align-items-center" style="height: 85vh;" id="search">
+        <div class="col-md-6 mt-5 table-responsive">
+          <h2 class="text-center mb-2">Uang Kuno</h2>
+          <table id="table-uangkuno" class="table table-striped text-white" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Nominal</th>
+                <th>Satuan</th>
+                <th>Jenis</th>
+                <th>Ciri</th>
+                <th>Detail</th>
+              </tr>
+            </thead>
+          </table>
         </div>
-      </section>
+      </div>
       <!--/database uang kuno-->
-      <div class="row align-items-end">
-          <div class="col-md text-dark copyright-item text-center">
-            <small>&copy;2026&nbsp;<a href="https://masdedys.github.io/">masdedys.github.io</a>, All Rights Reserved</small>
+      <hr />
+        <div class="row d-flex flex-wrap flex-row justify-content-center align-content-center py-3">
+          <div class="col-6">
+            <div class="copyright text-white text-center">&copy;2026&nbsp;<a href="https://masdedys.github.io/" class="text-white link-info text-decoration-none">masdedys.github.io</a>, All Rights Reserved</div>
           </div>
-        </div>
+		    </div>
     </div>
-    <!--footer-->
-    <!-- <div class="container-fluid" id="footer">
-      <footer>
-        <div class="row text-light">
-          <div class="col-sm-4 py-5">
-            <ul>
-              <li>
-                <p><img src="assets/img/logo.png" class="img-fluid justify-content-center" alt="logo mas_dedys" /></p>
-              </li>
-              <li><h3>Kunjungi saya juga di</h3></li>
-            </ul>
-            <ul class="social circle">
-              <li>
-                <a href="https://github.com/masdedys"><i class="bi bi-github"></i></a>
-                <a href="https://dribbble.com/masdedys"><i class="bi bi-dribbble"></i></a>
-                <a href="http://masdedys.blogspot.com/"><i class="bi bi-type-bold"></i></a>
-                <a href="https://play.google.com/store/apps/developer?id=Dedy+Setiawan&hl=id"><i class="bi bi-google-play"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-    </div> -->
     <script src="../assets/jquery/jquery-3.7.1.js"></script>
 	<script src="../assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
 	<!-- 2. Export Button Dependencies (Must load BEFORE Buttons plugin) -->
@@ -171,7 +99,6 @@
 	<script src="../assets/DataTables/Buttons-3.2.6/js/buttons.html5.min.js"></script>
 	<script src="../assets/DataTables/Buttons-3.2.6/js/buttons.print.min.js"></script>
     <!--javascript include-->
-    <script src="../assets/js/script.js"></script>
     <script>
       //Datatables search
       $(document).ready(function () {
@@ -196,7 +123,7 @@
                   data: "id",
                   render: function (data, type, row, meta) {
                     if (type === "display") {
-                      data = '<a href="detail-uang-kuno.html" onclick="document.cookie =' + data + '" target="_blank"> Lihat </a>';
+                      data = '<a href="detail-uang-kuno.html" onclick="document.cookie =' + data + '" target="_blank" class="text-white link-info text-decoration-none"> Lihat </a>';
                     }
 
                     return data;
