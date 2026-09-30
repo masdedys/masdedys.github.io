@@ -261,6 +261,17 @@ p{
     .fp-arrow .fp-next {
         border-width: 20px 0 20px 22px;
     }
+    table{
+        margin-top: 30px;
+    }
+    table tbody>tr>td{
+        color: white;
+        font-size: 12px;
+    }
+    .image-list img{
+        width: 50%;
+        border-radius: 10px;
+       }
 }
 
 #fp-nav ul li a span, 
