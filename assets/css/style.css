@@ -258,8 +258,19 @@ p{
     .hide-on-responsive{
         display: none;
     }
-    .fp-arrow .fp-next {
-        border-width: 20px 0 20px 22px;
+    .fp-arrow.fp-prev {
+        border-width: 10.5px 14px 10.5px 0;
+        border-color: transparent #fff transparent transparent;
+    }
+    .fp-arrow.fp-next {
+        border-width: 10.5px 0 10.5px 14px;
+        border-color: transparent transparent transparent #fff;
+    }
+    .fp-prev {
+        left: 42px;
+    }
+    .fp-next{
+        right: 42px;
     }
     table{
         margin-top: 30px;
