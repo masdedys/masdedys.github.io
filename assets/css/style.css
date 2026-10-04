@@ -84,6 +84,20 @@ p{
 #portfolio img:hover{
     transform: scale(1.1); /* Scales up the image by 20% on hover */
 }
+.fp-arrow.fp-prev {
+    border-width: 20.5px 24px 20.5px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.fp-arrow.fp-next {
+    border-width: 20.5px 0 20.5px 24px;
+    border-color: transparent transparent transparent #fff;
+}
+.fp-prev {
+    left: 95px;
+}
+.fp-next{
+    right: 95px;
+}
 /* portfolio end */
 /* blog start */
 #blog{
@@ -225,6 +239,7 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin: 0;
         padding: 0;
     }
@@ -234,6 +249,27 @@ p{
         box-shadow: 1px 1px 5px black;
         transition: transform 0.3s ease; 
         cursor: pointer; 
+    }
+    .contents{
+        display: flex;
+        justify-content:center;
+        margin-top: 100px;
+    }
+    .content-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin: 0 30px 80px 30px;
+        padding: 0;
+    }
+    .content-items > h1{
+        padding: 0 0 0 0px;
+    }
+    #slide1 h1,
+    #slide2 h1{
+       text-align: center;
+       padding: 70px 0 0 0;
     }
     #portfolio img:hover{
         transform: scale(1.1); /* Scales up the image by 20% on hover */
