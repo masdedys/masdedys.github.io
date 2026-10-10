@@ -1,6 +1,26 @@
+/* fullpage */
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span{
+    background-color: white;
+}
 div.fp-watermark {
     display: none;
 }
+.fp-arrow.fp-prev {
+    border-width: 20.5px 24px 20.5px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.fp-arrow.fp-next {
+    border-width: 20.5px 0 20.5px 24px;
+    border-color: transparent transparent transparent #fff;
+}
+.fp-prev {
+    left: 95px;
+}
+.fp-next{
+    right: 95px;
+}
+/* fullpage end */
 h1{
     font-size: 42px;
     font-weight: 500;
@@ -84,25 +104,13 @@ p{
 #portfolio img:hover{
     transform: scale(1.1); /* Scales up the image by 20% on hover */
 }
-.fp-arrow.fp-prev {
-    border-width: 20.5px 24px 20.5px 0;
-    border-color: transparent #fff transparent transparent;
-}
-.fp-arrow.fp-next {
-    border-width: 20.5px 0 20.5px 24px;
-    border-color: transparent transparent transparent #fff;
-}
-.fp-prev {
-    left: 95px;
-}
-.fp-next{
-    right: 95px;
-}
+
 /* portfolio end */
 /* blog start */
 #blog{
     background: #242538;
 }
+/* blog end */
 /* contact start */
 #contact{
     background: #090979;
@@ -176,7 +184,8 @@ p{
 #footer ul >li > img{
     width: 20%;
 }
-/* Hidding sections under 960px width */
+/* footer end */
+/* on mobile device */
 @media screen and (max-width: 600px) {
     h1{
         font-size: 38px;
@@ -196,6 +205,7 @@ p{
         font-weight: 300;
         margin: 0 12px 0 12px;
     }
+    /* navbar start - on mobile device */
     .navbar .navbar-toggler-icon{
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
@@ -219,14 +229,14 @@ p{
     .navbar .nav-link:hover{
         padding: 10px;
     }
+    /* navbar end - on mobile device */
+    /* about start - on mobile device */
     #aboutme img{
         width: 80%;
         height: auto;
     }
-    #blog .col-md{
-        margin: 0 auto;
-        padding: 40px;
-    }
+    /* about end - on mobile device */
+    /* portfolio start - on mobile device */
     /* .fp-prev,.fp-next{
         display: none;
     } */
@@ -274,6 +284,14 @@ p{
     #portfolio img:hover{
         transform: scale(1.1); /* Scales up the image by 20% on hover */
     }
+    /* portfolio end - on mobile device */
+    /* about blog - on mobile device */
+    #blog .col-md{
+        margin: 0 auto;
+        padding: 40px;
+    }
+    /* blog end - on mobile device */
+    /* contact start - on mobile device */
     #contact{
         background: #090979;
         margin-top: 200px;
@@ -282,6 +300,8 @@ p{
         width: 90%;
         height: auto;
     }
+    /* contact end - on mobile device */
+    /* footer start - on mobile device */
     #footer ul >li{
         font-size: 20px;
     }
@@ -291,6 +311,8 @@ p{
     .copyright{
         font-size: 14px;
     }
+    /* footer end - on mobile device */
+    /* fullpage - on mobile */
     .hide-on-responsive{
         display: none;
     }
@@ -308,6 +330,8 @@ p{
     .fp-next{
         right: 42px;
     }
+    /* fullpage end - on mobile */
+    /* datatables - on mobile */
     table{
         margin-top: 30px;
     }
@@ -315,17 +339,15 @@ p{
         color: white;
         font-size: 12px;
     }
+    /* datatables end - on mobile */
     .image-list img{
         width: 50%;
         border-radius: 10px;
-       }
+    }
 }
 
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span{
-    background-color: white;
-}
-.actions{
+
+/* .actions{
     position: absolute;
     z-index: 999;
     top: 40px;
@@ -348,4 +370,4 @@ p{
 .actions button:hover {
     background: #fff;
     color: #35495e;
-}
+} */

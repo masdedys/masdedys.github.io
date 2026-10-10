@@ -29,7 +29,7 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script>
 $(".searchBtn").on("click", function () {
-     $.getJSON("js/listgaji.json", function (data) {
+     $.getJSON("../assets/js/listgaji.json", function (data) {
         //console.log(data);
         var searchBox = document.getElementById('searchBox');
         var results = document.getElementById('results');
@@ -38,7 +38,7 @@ $(".searchBtn").on("click", function () {
         let content = "";
 
         $.each(gaji, function (i, data) { 
-            if(data.nik==keyword){
+            if(data.nama==keyword){
                 content += 
                 '<table class="table table-striped-columns"><tr><th scope="row table-active">NIK</th><td>'+ 
                     data.nik +'</td></tr><tr><th scope="row">Nama</th><td>'+ 
@@ -99,7 +99,7 @@ inputOval.addEventListener('keydown', (event) => {
         let content = "";
 
         $.each(gaji, function (i, data) { 
-            if(data.nik==keyword){
+            if(data.nama==keyword){
                 content += 
                 '<table class="table table-striped-columns"><tr><th scope="row table-active">NIK</th><td>'+ 
                     data.nik +'</td></tr><tr><th scope="row">Nama</th><td>'+ 
