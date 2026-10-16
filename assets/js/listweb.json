@@ -1,0 +1,244 @@
+{
+  "web": [
+    {
+      "id": 39,
+      "name": "HTTP Request",
+      "tech": "https://beeceptor.com/",
+      "view": "https://beeceptor.com/"
+    },
+    {
+      "id": 38,
+      "name": "HTTP Request",
+      "tech": "https://pipedream.com/requestbin",
+      "view": "https://pipedream.com/requestbin"
+    },
+    {
+      "id": 37,
+      "name": "carousel web",
+      "tech": "https://kenwheeler.github.io/slick/",
+      "view": "https://kenwheeler.github.io/slick/"
+    },
+    {
+      "id": 36,
+      "name": "Whatsapp chatbot",
+      "tech": "https://fonnte.com/",
+      "view": "https://fonnte.com/"
+    },
+    {
+      "id": 35,
+      "name": "Optimize mobile site",
+      "tech": "https://business.google.com/en-all/think/future-of-marketing/mobile-tools-to-optimize-site-and-app/",
+      "view": "https://business.google.com/en-all/think/future-of-marketing/mobile-tools-to-optimize-site-and-app/"
+    },
+    {
+      "id": 34,
+      "name": "Check duplicated content",
+      "tech": "https://www.copyscape.com/",
+      "view": "https://www.copyscape.com/"
+    },
+    {
+      "id": 33,
+      "name": "Checking index google",
+      "tech": "https://indexchecking.com/",
+      "view": "https://indexchecking.com/"
+    },
+    {
+      "id": 32,
+      "name": "SEO rank",
+      "tech": "https://whatsmyserp.com/serp-check",
+      "view": "https://whatsmyserp.com/serp-check"
+    },
+    {
+      "id": 31,
+      "name": "SSL check",
+      "tech": "https://www.sslshopper.com/",
+      "view": "https://www.sslshopper.com/"
+    },
+    {
+      "id": 30,
+      "name": "Color tint shade",
+      "tech": "https://maketintsandshades.com",
+      "view": "https://maketintsandshades.com"
+    },
+    {
+      "id": 29,
+      "name": "Animated background",
+      "tech": "https://animatedbackgrounds.me/",
+      "view": "https://animatedbackgrounds.me/"
+    },
+    {
+      "id": 28,
+      "name": "Landingpage inspiration",
+      "tech": "https://www.landingfolio.com/inspiration/landing-page",
+      "view": "https://www.landingfolio.com/inspiration/landing-page"
+    },
+    {
+      "id": 27,
+      "name": "Motion design",
+      "tech": "https://jitter.video/",
+      "view": "https://jitter.video/"
+    },
+    {
+      "id": 26,
+      "name": "Short video assets",
+      "tech": "https://yarn.co/",
+      "view": "https://yarn.co/"
+    },
+    {
+      "id": 25,
+      "name": "Helper web dev",
+      "tech": "https://tiny-helpers.dev/",
+      "view": "https://tiny-helpers.dev/"
+    },
+    {
+      "id": 24,
+      "name": "Font review",
+      "tech": "https://wordmark.it/",
+      "view": "https://wordmark.it/"
+    },
+    {
+      "id": 23,
+      "name": "Animation vector assets",
+      "tech": "https://drawer.design/",
+      "view": "https://drawer.design/"
+    },
+    {
+      "id": 22,
+      "name": "Graphic assets",
+      "tech": "https://craftwork.design/",
+      "view": "https://craftwork.design/"
+    },
+    {
+      "id": 21,
+      "name": "Resize img",
+      "tech": "https://squoosh.app/",
+      "view": "https://squoosh.app/"
+    },
+    {
+      "id": 20,
+      "name": "Img assets",
+      "tech": "https://unsplash.com/",
+      "view": "https://unsplash.com/"
+    },
+    {
+      "id": 19,
+      "name": "Pattern img",
+      "tech": "https://patternpad.com/",
+      "view": "https://patternpad.com/"
+    },
+    {
+      "id": 18,
+      "name": "Color picker",
+      "tech": "https://colorpicker.me/",
+      "view": "https://colorpicker.me/"
+    },
+    {
+      "id": 17,
+      "name": "UI web assets",
+      "tech": "https://uiverse.io/",
+      "view": "https://uiverse.io/"
+    },
+    {
+      "id": 16,
+      "name": "Clip path css",
+      "tech": "https://www.cssportal.com/css-clip-path-generator/",
+      "view": "https://www.cssportal.com/css-clip-path-generator/"
+    },
+    {
+      "id": 15,
+      "name": "Glass css",
+      "tech": "https://css.glass/",
+      "view": "https://css.glass/"
+    },
+    {
+      "id": 14,
+      "name": "Box shadow css",
+      "tech": "https://neumorphism.io/#e0e0e0",
+      "view": "https://neumorphism.io/#e0e0e0"
+    },
+    {
+      "id": 13,
+      "name": "Gradient css",
+      "tech": "https://cssgradient.io/",
+      "view": "https://cssgradient.io/"
+    },
+    {
+      "id": 12,
+      "name": "Wave svg",
+      "tech": "https://getwaves.io/",
+      "view": "https://getwaves.io/"
+    },
+    {
+      "id": 11,
+      "name": "Wave img",
+      "tech": "https://app.haikei.app/",
+      "view": "https://app.haikei.app/"
+    },
+    {
+      "id": 10,
+      "name": "Tailwind plugin",
+      "tech": "https://daisyui.com/",
+      "view": "https://daisyui.com/"
+    },
+    {
+      "id": 9,
+      "name": "Display web fullpage",
+      "tech": "https://alvarotrigo.com/fullPage/",
+      "view": "https://alvarotrigo.com/fullPage/"
+    },
+    {
+      "id": 8,
+      "name": "Mobile Friendly",
+      "tech": "lighthouse",
+      "view": "https://developer.chrome.com/docs/lighthouse/overview?hl=id"
+    },
+    {
+      "id": 7,
+      "name": "Intro video",
+      "tech": "https://intromaker.com/",
+      "view": "https://intromaker.com/"
+    },
+    {
+      "id": 6,
+      "name": "Sounds effect",
+      "tech": "https://www.myinstants.com/en/index/id/",
+      "view": "https://www.myinstants.com/en/index/id/"
+    },
+    {
+      "id": 5,
+      "name": "Icon svg",
+      "tech": "https://www.svgrepo.com/",
+      "view": "https://www.svgrepo.com/"
+    },
+    {
+      "id": 4,
+      "name": "Tournament bracket",
+      "tech": "https://brackethq.com/maker/",
+      "view": "https://brackethq.com/maker/"
+    },
+    {
+      "id": 3,
+      "name": "Edit pdf",
+      "tech": "https://www.sejda.com/",
+      "view": "https://www.sejda.com/"
+    },
+    {
+      "id": 2,
+      "name": "Check your logo",
+      "tech": "https://brandmark.io/logo-rank/",
+      "view": "https://brandmark.io/logo-rank/"
+    },
+    {
+      "id": 1,
+      "name": "Mockup assets",
+      "tech": "https://www.ls.graphics/",
+      "view": "https://www.ls.graphics/search?query=phone"
+    },
+    {
+      "id": 0,
+      "name": "Gradient img",
+      "tech": "https://colorflow.ls.graphics/",
+      "view": "https://colorflow.ls.graphics/"
+    }
+  ]
+}
